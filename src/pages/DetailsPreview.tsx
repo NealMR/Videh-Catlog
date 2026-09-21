@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// Preview component for design testing
 
 const mockPerfume = {
   brand: 'AMOUAGE',

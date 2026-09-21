@@ -1,46 +1,5 @@
 // Printer crop marks in all four corners of the viewport
 export default function CropMarks() {
-  const size = 16;
-  const gap = 6;
-
-  const mark = (pos: string) => {
-    const isTop = pos.includes('top');
-    const isLeft = pos.includes('left');
-    return (
-      <div
-        className={`fixed z-[9997] pointer-events-none ${pos}`}
-        style={{
-          top: isTop ? gap : undefined,
-          bottom: !isTop ? gap : undefined,
-          left: isLeft ? gap : undefined,
-          right: !isLeft ? gap : undefined,
-        }}
-      >
-        {/* Horizontal arm */}
-        <div
-          className="absolute bg-[#CCCCCC]"
-          style={{
-            width: size,
-            height: 1,
-            top: 0,
-            left: isLeft ? 0 : undefined,
-            right: !isLeft ? 0 : undefined,
-          }}
-        />
-        {/* Vertical arm */}
-        <div
-          className="absolute bg-[#CCCCCC]"
-          style={{
-            height: size,
-            width: 1,
-            top: 0,
-            left: isLeft ? 0 : undefined,
-            right: !isLeft ? 0 : undefined,
-          }}
-        />
-      </div>
-    );
-  };
 
   return (
     <>

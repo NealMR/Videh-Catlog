@@ -1,10 +1,9 @@
 import { useParams, Link } from 'react-router-dom';
 import { perfumes } from '../data/perfumes';
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import FragranceCard from '../components/FragranceCard';
 import Marquee from '../components/Marquee';
 
 gsap.registerPlugin(ScrollTrigger);

@@ -1,7 +1,6 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import { useLocation, useNavigate, Link } from 'react-router-dom';
 import { perfumes } from '../data/perfumes';
-import type { Perfume } from '../data/perfumes';
 import FragranceCard from '../components/FragranceCard';
 import gsap from 'gsap';
 import { ArrowRight, LayoutGrid, List, Search, X, ChevronDown, SlidersHorizontal } from 'lucide-react';

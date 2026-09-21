@@ -9,7 +9,7 @@ interface MagneticButtonProps {
   strength?: number;
 }
 
-export default function MagneticButton({ children, className = '', onClick, strength = 30 }: MagneticButtonProps) {
+export default function MagneticButton({ children, className = '', onClick }: MagneticButtonProps) {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {

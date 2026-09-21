@@ -8,7 +8,7 @@ export default function CustomCursor() {
   const [label, setLabel] = useState('');
   const [visible, setVisible] = useState(false);
   const pos = useRef({ x: 0, y: 0 });
-  const dot = useRef({ x: 0, y: 0 });
+
 
   useEffect(() => {
     // Hide default cursor
