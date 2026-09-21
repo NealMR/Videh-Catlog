@@ -131,7 +131,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Violet Leaf",
-      "Sichuan\r Pepper",
+      "Sichuan Pepper",
       "Citruses"
     ],
     "baseNotes": [
@@ -318,7 +318,7 @@ export const perfumes: Perfume[] = [
       "Italian Orange"
     ],
     "heartNotes": [
-      "Agarwood\r (Oud)",
+      "Agarwood (Oud)",
       "Amyris",
       "Coriander"
     ],
@@ -568,7 +568,7 @@ export const perfumes: Perfume[] = [
       "Lemon"
     ],
     "heartNotes": [
-      "Fig\r Nectar",
+      "Fig Nectar",
       "Jasmine",
       "Pink Pepper"
     ],
@@ -614,7 +614,7 @@ export const perfumes: Perfume[] = [
       "Iris",
       "Juniper Berries",
       "Ambrette (Musk Mallow)",
-      "Star\r Anise"
+      "Star Anise"
     ],
     "heartNotes": [
       "Leather",
@@ -713,7 +713,7 @@ export const perfumes: Perfume[] = [
       "Lily-of-the-valley; jasmine; lotus"
     ],
     "baseNotes": [
-      "White musk;\r ambroxan; sandalwood"
+      "White musk; ambroxan; sandalwood"
     ],
     "seasons": [
       "Monsoon",
@@ -835,10 +835,10 @@ export const perfumes: Perfume[] = [
       "Citrus"
     ],
     "accords": [
+      "Balsamic",
       "Earthy",
-      "Fresh",
-      "Green",
-      "Herbal"
+      "Floral",
+      "Fresh"
     ]
   },
   {
@@ -854,7 +854,7 @@ export const perfumes: Perfume[] = [
       "elemi"
     ],
     "heartNotes": [
-      "Bourbon\r Vanilla",
+      "Bourbon Vanilla",
       "Benzoin"
     ],
     "baseNotes": [
@@ -941,7 +941,7 @@ export const perfumes: Perfume[] = [
       "Earthy",
       "Floral",
       "Leather",
-      "Smoky"
+      "Woody"
     ]
   },
   {
@@ -1160,7 +1160,7 @@ export const perfumes: Perfume[] = [
       "Jasmine",
       "Ylang-Ylang",
       "Cassia Bourbon",
-      "Orange\r Blossom"
+      "Orange Blossom"
     ],
     "baseNotes": [
       "Papyrus",
@@ -1236,13 +1236,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Floral",
-      "Woody"
+      "Leather"
     ],
     "accords": [
       "Balsamic",
       "Earthy",
       "Floral",
-      "Musky"
+      "Leather"
     ]
   },
   {
@@ -1289,13 +1289,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Floral",
-      "Woody"
+      "Leather"
     ],
     "accords": [
       "Balsamic",
       "Earthy",
       "Floral",
-      "Musky"
+      "Leather"
     ]
   },
   {
@@ -1521,7 +1521,7 @@ export const perfumes: Perfume[] = [
       "Agarwood (Oud)",
       "Sandalwood",
       "Patchouli",
-      "Cedar\r \r PAGE 4 / 118"
+      "Cedar  PAGE 4 / 118"
     ],
     "seasons": [
       "Monsoon",
@@ -1640,7 +1640,7 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Leather"
+      "Gourmand"
     ],
     "accords": [
       "Balsamic",
@@ -1704,10 +1704,10 @@ export const perfumes: Perfume[] = [
       "Floral"
     ],
     "accords": [
+      "Balsamic",
       "Earthy",
       "Floral",
-      "Fresh",
-      "Fruity"
+      "Fresh"
     ]
   },
   {
@@ -1744,10 +1744,12 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Floral",
+      "Leather",
       "Woody"
     ],
     "accords": [
       "Floral",
+      "Leather",
       "Powdery",
       "Woody"
     ]
@@ -1813,7 +1815,7 @@ export const perfumes: Perfume[] = [
       "Rose",
       "Angelica",
       "Ginger",
-      "Orange\r Blossom",
+      "Orange Blossom",
       "Saffron",
       "Nutmeg",
       "Galbanum"
@@ -1879,7 +1881,7 @@ export const perfumes: Perfume[] = [
       "Woodsy Notes",
       "Musk",
       "Patchouli",
-      "Tonka\r Bean",
+      "Tonka Bean",
       "Oakmoss",
       "Vanilla",
       "Vetiver"
@@ -2200,10 +2202,10 @@ export const perfumes: Perfume[] = [
       "Woody"
     ],
     "accords": [
+      "Balsamic",
       "Floral",
       "Sweet",
-      "Warm",
-      "Woody"
+      "Warm"
     ]
   },
   {
@@ -2246,8 +2248,8 @@ export const perfumes: Perfume[] = [
     "accords": [
       "Earthy",
       "Leather",
-      "Smoky",
-      "Sweet"
+      "Sweet",
+      "Warm"
     ]
   },
   {
@@ -2276,7 +2278,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Olibanum",
-      "Bourbon\r Vanilla",
+      "Bourbon Vanilla",
       "Myrrh",
       "Birch Tar",
       "Benzoin",
@@ -2350,13 +2352,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Leather"
+      "Fruity"
     ],
     "accords": [
       "Balsamic",
       "Earthy",
       "Fresh",
-      "Leather"
+      "Fruity"
     ]
   },
   {
@@ -2452,10 +2454,10 @@ export const perfumes: Perfume[] = [
       "Citrus"
     ],
     "accords": [
+      "Balsamic",
       "Earthy",
       "Floral",
-      "Fresh",
-      "Herbal"
+      "Fresh"
     ]
   },
   {
@@ -2629,15 +2631,15 @@ export const perfumes: Perfume[] = [
     ],
     "featured": false,
     "families": [
+      "Amber/Oriental",
       "Citrus",
-      "Spicy",
-      "Woody"
+      "Spicy"
     ],
     "accords": [
       "Earthy",
       "Fresh",
       "Spicy",
-      "Woody"
+      "Warm"
     ]
   },
   {
@@ -2685,8 +2687,8 @@ export const perfumes: Perfume[] = [
     "accords": [
       "Earthy",
       "Floral",
-      "Herbal",
-      "Sweet"
+      "Fruity",
+      "Herbal"
     ]
   },
   {
@@ -2744,7 +2746,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Damask Rose",
-      "Grasse\r Rose",
+      "Grasse Rose",
       "Orris"
     ],
     "baseNotes": [
@@ -2966,10 +2968,10 @@ export const perfumes: Perfume[] = [
       "Tangerine; pear; grapefruit; bergamot"
     ],
     "heartNotes": [
-      "Peony;\r orange blossom; lily; neroli"
+      "Peony; orange blossom; lily; neroli"
     ],
     "baseNotes": [
-      "Caramel; vanilla; musk;\r woods"
+      "Caramel; vanilla; musk; woods"
     ],
     "seasons": [
       "Spring",
@@ -3017,7 +3019,7 @@ export const perfumes: Perfume[] = [
       "Sage",
       "Jasmine",
       "Cardamom",
-      "Orris\r Root"
+      "Orris Root"
     ],
     "baseNotes": [
       "Leather",
@@ -3049,10 +3051,10 @@ export const perfumes: Perfume[] = [
       "Citrus"
     ],
     "accords": [
+      "Balsamic",
       "Earthy",
       "Floral",
-      "Fresh",
-      "Fruity"
+      "Fresh"
     ]
   },
   {
@@ -3074,7 +3076,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Musk",
-      "Woody\r Notes"
+      "Woody Notes"
     ],
     "seasons": [
       "Monsoon",
@@ -3501,20 +3503,20 @@ export const perfumes: Perfume[] = [
       "Asafoetida",
       "Lemon",
       "Neroli",
-      "Orange\r Blossom",
+      "Orange Blossom",
       "Bergamot",
       "Peach"
     ],
     "heartNotes": [
       "Galbanum",
       "Hiacynth",
-      "Lily-\r of-the-Valley",
+      "Lily- of-the-Valley",
       "Jasmine",
       "Marigold",
       "Rose",
       "Freesia",
       "Violet",
-      "Ylang-\r Ylang",
+      "Ylang- Ylang",
       "Spicy Notes"
     ],
     "baseNotes": [
@@ -3824,7 +3826,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Pink Peony",
-      "White\r Magnolia",
+      "White Magnolia",
       "Iris Petals"
     ],
     "baseNotes": [
@@ -3910,7 +3912,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Marshmallow",
-      "Dark\r Chocolate",
+      "Dark Chocolate",
       "Orchid",
       "Ginger flower"
     ],
@@ -3960,7 +3962,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Iris",
-      "Bourbon\r Vetiver"
+      "Bourbon Vetiver"
     ],
     "baseNotes": [
       "Sandalwood",
@@ -4053,12 +4055,12 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Iris",
-      "Bourbon\r Vetiver",
+      "Bourbon Vetiver",
       "Cistus Incanus"
     ],
     "baseNotes": [
       "Sandalwood",
-      "Madagascar\r Vanilla",
+      "Madagascar Vanilla",
       "Tonka Bean",
       "Cedar",
       "Indonesian Patchouli Leaf"
@@ -4100,7 +4102,7 @@ export const perfumes: Perfume[] = [
       "Bergamot"
     ],
     "heartNotes": [
-      "Black Vanilla\r Husk",
+      "Black Vanilla Husk",
       "Heliotrope",
       "Orange Blossom"
     ],
@@ -4201,7 +4203,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Rum",
-      "Woody\r Notes",
+      "Woody Notes",
       "Cinnamon",
       "Clary Sage",
       "African Geranium"
@@ -4251,10 +4253,10 @@ export const perfumes: Perfume[] = [
       "Sugar; red berries; mandarin orange"
     ],
     "heartNotes": [
-      "Vanilla;\r cacao; spicy notes; rose"
+      "Vanilla; cacao; spicy notes; rose"
     ],
     "baseNotes": [
-      "Tonka bean; amber; musk;\r woods"
+      "Tonka bean; amber; musk; woods"
     ],
     "seasons": [
       "Spring",
@@ -4305,7 +4307,7 @@ export const perfumes: Perfume[] = [
       "Cypriol Oil or Nagarmotha",
       "Cedar",
       "Moss",
-      "Cashmere\r Wood",
+      "Cashmere Wood",
       "Musk",
       "Amber",
       "Vanilla"
@@ -4387,7 +4389,7 @@ export const perfumes: Perfume[] = [
       "Earthy",
       "Floral",
       "Fresh",
-      "Musky"
+      "Fruity"
     ]
   },
   {
@@ -4676,11 +4678,13 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Citrus",
-      "Floral"
+      "Floral",
+      "Fruity"
     ],
     "accords": [
       "Floral",
       "Fresh",
+      "Fruity",
       "Musky"
     ]
   },
@@ -4718,13 +4722,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Citrus",
       "Floral",
-      "Woody"
+      "Fruity"
     ],
     "accords": [
       "Floral",
       "Fresh",
-      "Musky",
-      "Woody"
+      "Fruity",
+      "Musky"
     ]
   },
   {
@@ -4899,13 +4903,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Fruity"
+      "Floral"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Fruity",
-      "Sweet",
-      "Warm"
+      "Sweet"
     ]
   },
   {
@@ -4971,7 +4975,7 @@ export const perfumes: Perfume[] = [
       "Ginger"
     ],
     "heartNotes": [
-      "Vanilla\r Caviar"
+      "Vanilla Caviar"
     ],
     "baseNotes": [
       "Vanilla Absolute"
@@ -5010,7 +5014,7 @@ export const perfumes: Perfume[] = [
       "Raspberry",
       "Blackberry",
       "Sour Cherry",
-      "Black\r Currant",
+      "Black Currant",
       "Mandarin Orange",
       "Lemon"
     ],
@@ -5139,10 +5143,10 @@ export const perfumes: Perfume[] = [
       "Citrus"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Herbal",
-      "Leather",
-      "Spicy"
+      "Leather"
     ]
   },
   {
@@ -5213,15 +5217,15 @@ export const perfumes: Perfume[] = [
     ],
     "featured": false,
     "families": [
+      "Amber/Oriental",
       "Aquatic",
-      "Citrus",
-      "Woody"
+      "Citrus"
     ],
     "accords": [
       "Earthy",
       "Fresh",
       "Marine",
-      "Woody"
+      "Warm"
     ]
   },
   {
@@ -5293,7 +5297,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Virginia Cedar",
-      "Woodsy\r Notes",
+      "Woodsy Notes",
       "Patchouli",
       "Clary Sage",
       "Amber"
@@ -5343,7 +5347,7 @@ export const perfumes: Perfume[] = [
       "Rosemary"
     ],
     "baseNotes": [
-      "Virginia\r Cedar",
+      "Virginia Cedar",
       "Amber"
     ],
     "seasons": [
@@ -5611,7 +5615,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Musk",
-      "Woody\r Notes",
+      "Woody Notes",
       "Jasmine",
       "Amber",
       "Rose"
@@ -5782,12 +5786,14 @@ export const perfumes: Perfume[] = [
     ],
     "featured": false,
     "families": [
+      "Amber/Oriental",
       "Spicy",
       "Woody"
     ],
     "accords": [
       "Musky",
       "Spicy",
+      "Warm",
       "Woody"
     ]
   },
@@ -5887,11 +5893,13 @@ export const perfumes: Perfume[] = [
     ],
     "featured": false,
     "families": [
+      "Amber/Oriental",
       "Floral",
       "Woody"
     ],
     "accords": [
       "Floral",
+      "Warm",
       "Woody"
     ]
   },
@@ -5968,7 +5976,7 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Floral",
-      "Leather"
+      "Gourmand"
     ],
     "accords": [
       "Floral",
@@ -6102,14 +6110,14 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Citrus",
-      "Fruity",
-      "Woody"
+      "Floral",
+      "Fruity"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Fruity",
-      "Musky",
-      "Woody"
+      "Musky"
     ]
   },
   {
@@ -6251,13 +6259,13 @@ export const perfumes: Perfume[] = [
       "Bergamot",
       "Lavender",
       "Nutmeg Flower",
-      "Orange\r Blossom",
+      "Orange Blossom",
       "Mandarin Orange"
     ],
     "heartNotes": [
       "Pepper",
       "Iris",
-      "Guaiac\r Wood",
+      "Guaiac Wood",
       "Brazilian Rosewood",
       "Coriander",
       "Cyclamen",
@@ -6449,7 +6457,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Leather",
-      "Agarwood\r (Oud)",
+      "Agarwood (Oud)",
       "Clary Sage"
     ],
     "baseNotes": [
@@ -6539,7 +6547,7 @@ export const perfumes: Perfume[] = [
       "Tagetes",
       "Black Currant",
       "Bergamot",
-      "African\r Orange Flower"
+      "African Orange Flower"
     ],
     "heartNotes": [
       "Violet",
@@ -6577,7 +6585,7 @@ export const perfumes: Perfume[] = [
       "Earthy",
       "Floral",
       "Fresh",
-      "Musky"
+      "Fruity"
     ]
   },
   {
@@ -6790,11 +6798,13 @@ export const perfumes: Perfume[] = [
     ],
     "featured": false,
     "families": [
+      "Amber/Oriental",
       "Aromatic"
     ],
     "accords": [
       "Herbal",
-      "Musky"
+      "Musky",
+      "Warm"
     ]
   },
   {
@@ -6817,7 +6827,7 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Cashmere Wood",
       "Iso E Super",
-      "Tonka\r Bean",
+      "Tonka Bean",
       "Olibanum",
       "Labdanum"
     ],
@@ -6860,7 +6870,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Tuberose",
-      "Jasmine\r Sambac",
+      "Jasmine Sambac",
       "Green Notes",
       "Rose Petals"
     ],
@@ -6907,7 +6917,7 @@ export const perfumes: Perfume[] = [
       "Pepper"
     ],
     "heartNotes": [
-      "Pine\r needles",
+      "Pine needles",
       "Incense",
       "Orris Root"
     ],
@@ -6975,12 +6985,13 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Floral",
+      "Fruity",
       "Woody"
     ],
     "accords": [
       "Floral",
+      "Fruity",
       "Powdery",
-      "Smoky",
       "Woody"
     ]
   },
@@ -7107,7 +7118,7 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Floral",
-      "Spicy"
+      "Gourmand"
     ],
     "accords": [
       "Balsamic",
@@ -7129,7 +7140,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Fig",
-      "Red\r Apple",
+      "Red Apple",
       "Tiare Flower"
     ],
     "baseNotes": [
@@ -7150,14 +7161,14 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Citrus",
-      "Fruity",
-      "Gourmand"
+      "Floral",
+      "Fruity"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Fruity",
-      "Sweet",
-      "Woody"
+      "Sweet"
     ]
   },
   {
@@ -7198,13 +7209,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Floral",
-      "Spicy"
+      "Fruity"
     ],
     "accords": [
       "Balsamic",
       "Earthy",
       "Floral",
-      "Musky"
+      "Fruity"
     ]
   },
   {
@@ -7423,13 +7434,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Leather"
+      "Gourmand"
     ],
     "accords": [
       "Fresh",
       "Leather",
       "Spicy",
-      "Warm"
+      "Sweet"
     ]
   },
   {
@@ -7484,14 +7495,14 @@ export const perfumes: Perfume[] = [
       "Comorian ylang-ylang"
     ],
     "heartNotes": [
-      "Grasse\r jasmine",
+      "Grasse jasmine",
       "Bulgarian rose"
     ],
     "baseNotes": [
       "Moroccan oakmoss",
-      "Indonesian\r patchouli",
+      "Indonesian patchouli",
       "Bourbon vetiver",
-      "Tibetan musk\r \r Anais Anais\r \r for women\r \r NOTES"
+      "Tibetan musk  Anais Anais  for women  NOTES"
     ],
     "seasons": [
       "Monsoon",
@@ -7528,7 +7539,7 @@ export const perfumes: Perfume[] = [
       "Hiacynth",
       "Honeysuckle",
       "Galbanum",
-      "Orange\r Blossom",
+      "Orange Blossom",
       "Lavender",
       "Bergamot",
       "Black Currant",
@@ -7546,7 +7557,14 @@ export const perfumes: Perfume[] = [
       "Rose",
       "Orris Root"
     ],
-    "baseNotes": [],
+    "baseNotes": [
+      "Sandalwood",
+      "Cedarwood",
+      "Amber",
+      "Oakmoss",
+      "Vetiver",
+      "Incense"
+    ],
     "seasons": [
       "Monsoon",
       "Spring",
@@ -7560,15 +7578,15 @@ export const perfumes: Perfume[] = [
     ],
     "featured": false,
     "families": [
+      "Amber/Oriental",
       "Aromatic",
-      "Citrus",
-      "Floral"
+      "Citrus"
     ],
     "accords": [
+      "Balsamic",
+      "Earthy",
       "Floral",
-      "Fresh",
-      "Green",
-      "Herbal"
+      "Fresh"
     ]
   },
   {
@@ -7652,7 +7670,7 @@ export const perfumes: Perfume[] = [
       "Freesia"
     ],
     "baseNotes": [
-      "Green\r Accord",
+      "Green Accord",
       "Musk",
       "Cedar",
       "Sandalwood",
@@ -7756,7 +7774,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Frangipani",
-      "Tiare\r Flower",
+      "Tiare Flower",
       "Magnolia"
     ],
     "baseNotes": [
@@ -7956,7 +7974,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Jasmine",
-      "Orange\r Blossom"
+      "Orange Blossom"
     ],
     "baseNotes": [
       "Cedar",
@@ -8016,7 +8034,7 @@ export const perfumes: Perfume[] = [
       "Incense",
       "Vetiver",
       "Guaiac Wood",
-      "Labdanum\r \r 212 VIP Black\r \r for men\r \r NOTES"
+      "Labdanum  212 VIP Black  for men  NOTES"
     ],
     "seasons": [
       "Monsoon",
@@ -8560,13 +8578,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Floral",
-      "Woody"
+      "Fruity"
     ],
     "accords": [
       "Earthy",
       "Floral",
-      "Sweet",
-      "Warm"
+      "Fruity",
+      "Sweet"
     ]
   },
   {
@@ -8851,7 +8869,7 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "baseNotes": [
-      "Not separately listed\r \r for men\r \r NOTES"
+      "Not separately listed  for men  NOTES"
     ],
     "seasons": [
       "Monsoon",
@@ -8890,7 +8908,7 @@ export const perfumes: Perfume[] = [
     "heartNotes": [
       "Fir Resin",
       "Spices",
-      "Elemi\r resin"
+      "Elemi resin"
     ],
     "baseNotes": [
       "White Musk",
@@ -8995,7 +9013,7 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Vanilla",
       "Tonka Bean",
-      "White\r Musk",
+      "White Musk",
       "Amber",
       "Vetiver",
       "Elemi resin"
@@ -9038,7 +9056,7 @@ export const perfumes: Perfume[] = [
       "Coriander",
       "Bergamot",
       "Lime",
-      "Amalfi\r Lemon"
+      "Amalfi Lemon"
     ],
     "heartNotes": [
       "Rose",
@@ -9287,7 +9305,7 @@ export const perfumes: Perfume[] = [
       "Neroli",
       "Peach",
       "Bergamot",
-      "Mandarin\r Orange"
+      "Mandarin Orange"
     ],
     "heartNotes": [
       "Ylang-Ylang",
@@ -9348,7 +9366,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Geranium",
-      "Orange\r Blossom",
+      "Orange Blossom",
       "Rose"
     ],
     "baseNotes": [
@@ -9399,7 +9417,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Water Hyacinth",
-      "Pink\r Pepper",
+      "Pink Pepper",
       "Jasmine"
     ],
     "baseNotes": [
@@ -9588,7 +9606,7 @@ export const perfumes: Perfume[] = [
       "Coriander",
       "Peach",
       "Jasmine",
-      "Mandarin\r Orange"
+      "Mandarin Orange"
     ],
     "heartNotes": [
       "Rose",
@@ -9629,7 +9647,7 @@ export const perfumes: Perfume[] = [
       "Floral",
       "Fresh",
       "Fruity",
-      "Spicy"
+      "Leather"
     ]
   },
   {
@@ -9833,7 +9851,7 @@ export const perfumes: Perfume[] = [
       "Brazilian Rosewood",
       "Coriander",
       "Mahogany",
-      "Sicilian\r Mandarin"
+      "Sicilian Mandarin"
     ],
     "heartNotes": [
       "Cinnamon",
@@ -9846,7 +9864,7 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Leather",
       "Amber",
-      "Ambrette\r (Musk Mallow)"
+      "Ambrette (Musk Mallow)"
     ],
     "seasons": [
       "Ac Venues",
@@ -9944,7 +9962,7 @@ export const perfumes: Perfume[] = [
       "Tuberose",
       "Ylang-Ylang",
       "Jasmine",
-      "Orange\r Blossom",
+      "Orange Blossom",
       "Coconut"
     ],
     "baseNotes": [
@@ -9995,7 +10013,7 @@ export const perfumes: Perfume[] = [
       "Jasmine",
       "Ylang-Ylang",
       "Tuberose",
-      "Lily-of-the-\r Valley",
+      "Lily-of-the- Valley",
       "Pear",
       "Pink Pepper"
     ],
@@ -10184,7 +10202,7 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Violet",
       "Powdery Notes",
-      "Orris\r Root",
+      "Orris Root",
       "Leather",
       "Vanilla",
       "Tonka Bean",
@@ -10233,7 +10251,7 @@ export const perfumes: Perfume[] = [
       "Ylang-Ylang"
     ],
     "baseNotes": [
-      "oak\r moss",
+      "oak moss",
       "Vetiver",
       "Leather",
       "Sandalwood"
@@ -10373,7 +10391,7 @@ export const perfumes: Perfume[] = [
       "Earthy",
       "Floral",
       "Fresh",
-      "Musky"
+      "Leather"
     ]
   },
   {
@@ -10505,13 +10523,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Aromatic",
       "Citrus",
-      "Fruity"
+      "Floral"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Fruity",
-      "Herbal",
-      "Spicy"
+      "Herbal"
     ]
   },
   {
@@ -10570,7 +10588,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Dried Fruits",
-      "White\r Tobacco",
+      "White Tobacco",
       "Sandalwood",
       "Tuberose",
       "Saffron",
@@ -10604,10 +10622,10 @@ export const perfumes: Perfume[] = [
       "Floral"
     ],
     "accords": [
+      "Balsamic",
       "Floral",
       "Fresh",
-      "Spicy",
-      "Sweet"
+      "Spicy"
     ]
   },
   {
@@ -10877,7 +10895,7 @@ export const perfumes: Perfume[] = [
       "Cinnamon; cedar; iris; tobacco"
     ],
     "baseNotes": [
-      "Vanilla; musk;\r sandalwood; amber"
+      "Vanilla; musk; sandalwood; amber"
     ],
     "seasons": [
       "Monsoon",
@@ -11052,7 +11070,7 @@ export const perfumes: Perfume[] = [
       "Earthy",
       "Fresh",
       "Musky",
-      "Smoky"
+      "Spicy"
     ]
   },
   {
@@ -11234,7 +11252,7 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Floral",
-      "Spicy"
+      "Gourmand"
     ],
     "accords": [
       "Earthy",
@@ -11256,7 +11274,7 @@ export const perfumes: Perfume[] = [
       "Orris; heliotrope; orchid"
     ],
     "baseNotes": [
-      "Bourbon vanilla; tonka bean;\r leather; amberwood; patchouli"
+      "Bourbon vanilla; tonka bean; leather; amberwood; patchouli"
     ],
     "seasons": [
       "Monsoon",
@@ -11496,7 +11514,7 @@ export const perfumes: Perfume[] = [
       "Mandarin Orange"
     ],
     "heartNotes": [
-      "Haitian\r Vetiver",
+      "Haitian Vetiver",
       "Sandalwood",
       "Iris"
     ],
@@ -11550,7 +11568,7 @@ export const perfumes: Perfume[] = [
       "Agarwood (Oud)"
     ],
     "baseNotes": [
-      "Madagascar\r Vanilla",
+      "Madagascar Vanilla",
       "Ambroxan",
       "Myrrh",
       "Musk",
@@ -11574,13 +11592,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Floral",
-      "Spicy"
+      "Fruity"
     ],
     "accords": [
       "Balsamic",
       "Earthy",
       "Floral",
-      "Musky"
+      "Fruity"
     ]
   },
   {
@@ -11718,13 +11736,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Aromatic",
       "Citrus",
-      "Woody"
+      "Spicy"
     ],
     "accords": [
       "Fresh",
       "Herbal",
       "Musky",
-      "Woody"
+      "Spicy"
     ]
   },
   {
@@ -11739,7 +11757,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Green Tea",
-      "Black\r Currant"
+      "Black Currant"
     ],
     "baseNotes": [
       "Musk",
@@ -11763,13 +11781,14 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Citrus",
+      "Fruity",
       "Woody"
     ],
     "accords": [
       "Fresh",
+      "Fruity",
       "Green",
-      "Musky",
-      "Woody"
+      "Musky"
     ]
   },
   {
@@ -11905,7 +11924,7 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Leather"
+      "Gourmand"
     ],
     "accords": [
       "Earthy",
@@ -12568,7 +12587,7 @@ export const perfumes: Perfume[] = [
     "families": [
       "Citrus",
       "Floral",
-      "Leather"
+      "Gourmand"
     ],
     "accords": [
       "Floral",
@@ -12644,7 +12663,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Iso E Super",
-      "Haitian\r Vetiver",
+      "Haitian Vetiver",
       "White Musk"
     ],
     "seasons": [
@@ -12861,7 +12880,7 @@ export const perfumes: Perfume[] = [
       "Pear"
     ],
     "heartNotes": [
-      "Pink\r Pepper",
+      "Pink Pepper",
       "Nutmeg",
       "Geranium"
     ],
@@ -13270,7 +13289,7 @@ export const perfumes: Perfume[] = [
       "Carnation",
       "Honeysuckle",
       "Jasmine",
-      "Lily-of-\r the-Valley"
+      "Lily-of- the-Valley"
     ],
     "baseNotes": [
       "Leather",
@@ -13318,13 +13337,13 @@ export const perfumes: Perfume[] = [
       "Sicilian Mandarin"
     ],
     "heartNotes": [
-      "Violet\r Leaf",
+      "Violet Leaf",
       "Rum",
       "Coriander",
       "Cumin"
     ],
     "baseNotes": [
-      "Bourbon Vanilla\r \r PAGE 29 / 118"
+      "Bourbon Vanilla  PAGE 29 / 118"
     ],
     "seasons": [
       "Spring",
@@ -13376,7 +13395,7 @@ export const perfumes: Perfume[] = [
       "Carnation",
       "Honeysuckle",
       "Jasmine",
-      "Lily-of-\r the-Valley"
+      "Lily-of- the-Valley"
     ],
     "baseNotes": [
       "Leather",
@@ -13770,7 +13789,7 @@ export const perfumes: Perfume[] = [
       "Iris",
       "Carnation",
       "Orris Root",
-      "Lily-of-the-\r Valley",
+      "Lily-of-the- Valley",
       "Jasmine",
       "Rose",
       "Neroli"
@@ -14037,7 +14056,7 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Almond",
       "Tonka Bean",
-      "Tolu\r Balsam",
+      "Tolu Balsam",
       "Sandalwood",
       "Cashmeran",
       "Heliotrope"
@@ -14328,7 +14347,7 @@ export const perfumes: Perfume[] = [
     "heartNotes": [
       "Pink Pepper",
       "Cinnamon",
-      "Black\r Pepper",
+      "Black Pepper",
       "Cloves",
       "Nutmeg",
       "Coriander"
@@ -14498,7 +14517,7 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Musk",
       "Virginia Cedar",
-      "White\r Honey"
+      "White Honey"
     ],
     "seasons": [
       "Spring",
@@ -14518,13 +14537,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Citrus",
       "Floral",
-      "Gourmand"
+      "Fruity"
     ],
     "accords": [
       "Floral",
       "Fresh",
-      "Musky",
-      "Sweet"
+      "Fruity",
+      "Musky"
     ]
   },
   {
@@ -14949,7 +14968,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Pink Peony",
-      "Damask\r Rose",
+      "Damask Rose",
       "Magnolia",
       "Cyclamen"
     ],
@@ -15005,7 +15024,7 @@ export const perfumes: Perfume[] = [
       "Carnation",
       "Marigold",
       "Coriander",
-      "Orange\r Blossom",
+      "Orange Blossom",
       "Lily",
       "Jasmine",
       "Bulgarian Rose",
@@ -15151,7 +15170,7 @@ export const perfumes: Perfume[] = [
       "Green Apple"
     ],
     "heartNotes": [
-      "Orange\r Blossom",
+      "Orange Blossom",
       "White Flowers"
     ],
     "baseNotes": [
@@ -15176,14 +15195,14 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Citrus",
-      "Fruity",
-      "Woody"
+      "Floral",
+      "Fruity"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Fruity",
-      "Green",
-      "Musky"
+      "Green"
     ]
   },
   {
@@ -15197,7 +15216,7 @@ export const perfumes: Perfume[] = [
       "Granny Smith apple"
     ],
     "heartNotes": [
-      "Ambrette\r (Musk Mallow)",
+      "Ambrette (Musk Mallow)",
       "Jasmine Sambac",
       "White Rose"
     ],
@@ -15367,10 +15386,10 @@ export const perfumes: Perfume[] = [
       "Citrus"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Herbal",
-      "Spicy",
-      "Warm"
+      "Spicy"
     ]
   },
   {
@@ -15386,7 +15405,7 @@ export const perfumes: Perfume[] = [
       "Basil"
     ],
     "heartNotes": [
-      "Clary\r Sage",
+      "Clary Sage",
       "Lavender",
       "Geranium"
     ],
@@ -15437,7 +15456,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Rose",
-      "Lily-of-\r the-Valley",
+      "Lily-of- the-Valley",
       "Jasmine"
     ],
     "baseNotes": [
@@ -15741,7 +15760,7 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Musk",
       "Amber",
-      "Tonka\r Bean",
+      "Tonka Bean",
       "Cedar"
     ],
     "seasons": [
@@ -15791,7 +15810,7 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Vanilla",
       "Caramel",
-      "Cashmere\r Wood",
+      "Cashmere Wood",
       "Tonka Bean",
       "Musk",
       "Cedar",
@@ -16058,7 +16077,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Watermelon",
-      "Watery\r Notes",
+      "Watery Notes",
       "Strawberry",
       "Apple",
       "Sea Salt",
@@ -16494,7 +16513,7 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "baseNotes": [
-      "Not separately listed\r \r NOTES"
+      "Not separately listed  NOTES"
     ],
     "seasons": [
       "Monsoon",
@@ -16528,7 +16547,7 @@ export const perfumes: Perfume[] = [
       "Anise"
     ],
     "heartNotes": [
-      "Green\r Notes",
+      "Green Notes",
       "Cassis",
       "Rose",
       "Hedione"
@@ -16600,14 +16619,14 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Citrus",
-      "Fruity",
-      "Spicy"
+      "Floral",
+      "Fruity"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Fruity",
-      "Musky",
-      "Spicy"
+      "Musky"
     ]
   },
   {
@@ -16623,14 +16642,14 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Peony",
-      "Orange\r Blossom",
+      "Orange Blossom",
       "Jasmine",
       "Petalia"
     ],
     "baseNotes": [
       "Musk",
       "Moss",
-      "Woody\r Notes"
+      "Woody Notes"
     ],
     "seasons": [
       "Monsoon",
@@ -16766,8 +16785,8 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Incense",
       "Labdanum",
-      "Patchouli\r \r Oud Jaune Intense\r \r for women",
-      "men\r \r NOTES"
+      "Patchouli  Oud Jaune Intense  for women",
+      "men  NOTES"
     ],
     "seasons": [
       "Monsoon",
@@ -16806,13 +16825,13 @@ export const perfumes: Perfume[] = [
       "Tahitian Tiare Flower",
       "Fruity Notes",
       "Pineapple",
-      "Ylang-\r Ylang"
+      "Ylang- Ylang"
     ],
     "heartNotes": [
       "Jasmine",
       "White Flowers",
       "Orange Blossom",
-      "Amyl\r Salicylate"
+      "Amyl Salicylate"
     ],
     "baseNotes": [
       "Vanilla",
@@ -17031,9 +17050,11 @@ export const perfumes: Perfume[] = [
     ],
     "featured": false,
     "families": [
-      "Citrus"
+      "Citrus",
+      "Floral"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Musky"
     ]
@@ -17661,10 +17682,10 @@ export const perfumes: Perfume[] = [
       "Citrus"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Fruity",
-      "Green",
-      "Herbal"
+      "Green"
     ]
   },
   {
@@ -17797,7 +17818,7 @@ export const perfumes: Perfume[] = [
       "Black Currant"
     ],
     "heartNotes": [
-      "Lily-of-the-\r Valley",
+      "Lily-of-the- Valley",
       "Hyacinth",
       "Jasmine",
       "Ylang-Ylang",
@@ -17823,13 +17844,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Aromatic",
       "Floral",
-      "Gourmand"
+      "Fruity"
     ],
     "accords": [
       "Earthy",
       "Floral",
-      "Green",
-      "Herbal"
+      "Fruity",
+      "Green"
     ]
   },
   {
@@ -17845,13 +17866,13 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Turkish Rose",
-      "Red\r Berries",
+      "Red Berries",
       "Olibanum",
       "Red Currant",
       "Violet"
     ],
     "baseNotes": [
-      "Agarwood\r (Oud)",
+      "Agarwood (Oud)",
       "Leather",
       "Amber",
       "Patchouli",
@@ -18134,9 +18155,9 @@ export const perfumes: Perfume[] = [
     ],
     "featured": false,
     "families": [
+      "Amber/Oriental",
       "Aquatic",
-      "Aromatic",
-      "Citrus"
+      "Aromatic"
     ],
     "accords": [
       "Earthy",
@@ -18377,7 +18398,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Peony",
-      "Orange\r Blossom",
+      "Orange Blossom",
       "Ylang-Ylang"
     ],
     "baseNotes": [
@@ -18430,7 +18451,7 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Tonka Bean",
       "Suede",
-      "Woody\r Notes"
+      "Woody Notes"
     ],
     "seasons": [
       "Monsoon",
@@ -18450,13 +18471,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Fruity"
+      "Floral"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Fruity",
-      "Green",
-      "Leather"
+      "Green"
     ]
   },
   {
@@ -18471,7 +18492,7 @@ export const perfumes: Perfume[] = [
       "Pink Pepper"
     ],
     "heartNotes": [
-      "Orange\r Blossom",
+      "Orange Blossom",
       "Clary Sage",
       "Amyl Salicylate"
     ],
@@ -18502,10 +18523,10 @@ export const perfumes: Perfume[] = [
       "Citrus"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Herbal",
-      "Spicy",
-      "Sweet"
+      "Spicy"
     ]
   },
   {
@@ -18627,13 +18648,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Leather"
+      "Floral"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Leather",
-      "Spicy",
-      "Sweet"
+      "Spicy"
     ]
   },
   {
@@ -18677,10 +18698,10 @@ export const perfumes: Perfume[] = [
       "Citrus"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Fruity",
-      "Green",
-      "Herbal"
+      "Green"
     ]
   },
   {
@@ -18745,7 +18766,7 @@ export const perfumes: Perfume[] = [
       "Bergamot",
       "Lemon",
       "Pineapple",
-      "Mandarin\r Orange",
+      "Mandarin Orange",
       "Cardamom"
     ],
     "heartNotes": [
@@ -18832,10 +18853,10 @@ export const perfumes: Perfume[] = [
       "Gourmand"
     ],
     "accords": [
+      "Balsamic",
       "Fresh",
       "Spicy",
-      "Sweet",
-      "Warm"
+      "Sweet"
     ]
   },
   {
@@ -18858,7 +18879,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "White Musk",
-      "Guaiac\r Wood",
+      "Guaiac Wood",
       "Vanilla",
       "Iris"
     ],
@@ -18900,12 +18921,12 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Tuberose",
-      "Indian\r Jasmine"
+      "Indian Jasmine"
     ],
     "baseNotes": [
       "Madagascar Vanilla",
       "White Musk",
-      "Virginian\r Cedar"
+      "Virginian Cedar"
     ],
     "seasons": [
       "Spring",
@@ -19157,7 +19178,7 @@ export const perfumes: Perfume[] = [
       "Cardamom"
     ],
     "heartNotes": [
-      "Green\r Tea",
+      "Green Tea",
       "Black Tea",
       "Orange Blossom",
       "Jasmine"
@@ -19211,7 +19232,7 @@ export const perfumes: Perfume[] = [
       "Ylang-Ylang",
       "Benzoin",
       "Cashmeran",
-      "Orange\r Blossom"
+      "Orange Blossom"
     ],
     "baseNotes": [
       "Tuberose",
@@ -19262,7 +19283,7 @@ export const perfumes: Perfume[] = [
       "Ylang-Ylang",
       "Benzoin",
       "Cashmeran",
-      "Orange\r Blossom"
+      "Orange Blossom"
     ],
     "baseNotes": [
       "Tuberose",
@@ -19796,13 +19817,20 @@ export const perfumes: Perfume[] = [
       "Jasmine",
       "Black locust",
       "Carnation",
-      "Red\r Berries",
+      "Red Berries",
       "Black Currant",
       "Rose",
       "Cassia",
       "Orchid"
     ],
-    "baseNotes": [],
+    "baseNotes": [
+      "Sandalwood",
+      "Cedar",
+      "Amber",
+      "Musk",
+      "Tonka Bean",
+      "Vanilla"
+    ],
     "seasons": [
       "Spring",
       "Ac Venues",
@@ -19820,15 +19848,15 @@ export const perfumes: Perfume[] = [
     ],
     "featured": false,
     "families": [
+      "Amber/Oriental",
       "Citrus",
-      "Floral",
-      "Fruity"
+      "Floral"
     ],
     "accords": [
       "Floral",
       "Fresh",
       "Fruity",
-      "Powdery"
+      "Musky"
     ]
   },
   {
@@ -19943,7 +19971,7 @@ export const perfumes: Perfume[] = [
       "Gardenia",
       "Bergamot",
       "Peach",
-      "Mandarin\r Orange"
+      "Mandarin Orange"
     ],
     "heartNotes": [
       "Hiacynth",
@@ -19984,10 +20012,10 @@ export const perfumes: Perfume[] = [
       "Floral"
     ],
     "accords": [
+      "Balsamic",
       "Earthy",
       "Floral",
-      "Fresh",
-      "Fruity"
+      "Fresh"
     ]
   },
   {
@@ -20089,7 +20117,7 @@ export const perfumes: Perfume[] = [
       "Spices",
       "Peach",
       "Bergamot",
-      "Mandarin\r Orange"
+      "Mandarin Orange"
     ],
     "heartNotes": [
       "Iris",
@@ -20256,7 +20284,7 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Sandalwood",
       "Cedar",
-      "White\r Musk"
+      "White Musk"
     ],
     "seasons": [
       "Monsoon",
@@ -20676,10 +20704,10 @@ export const perfumes: Perfume[] = [
       "Floral"
     ],
     "accords": [
+      "Balsamic",
       "Floral",
       "Fresh",
-      "Musky",
-      "Powdery"
+      "Musky"
     ]
   },
   {
@@ -20723,10 +20751,10 @@ export const perfumes: Perfume[] = [
       "Floral"
     ],
     "accords": [
+      "Balsamic",
       "Floral",
       "Fresh",
-      "Musky",
-      "Powdery"
+      "Musky"
     ]
   },
   {
@@ -20789,7 +20817,7 @@ export const perfumes: Perfume[] = [
       "Patchouli"
     ],
     "baseNotes": [
-      "Woody\r Notes",
+      "Woody Notes",
       "Vetiver"
     ],
     "seasons": [
@@ -20836,7 +20864,7 @@ export const perfumes: Perfume[] = [
       "Vetiver"
     ],
     "baseNotes": [
-      "Indian\r Patchouli",
+      "Indian Patchouli",
       "Amber"
     ],
     "seasons": [
@@ -21251,14 +21279,22 @@ export const perfumes: Perfume[] = [
       "Balsam Fir",
       "Coriander",
       "Pepper",
-      "Pink\r Pepper",
+      "Pink Pepper",
       "Geranium",
       "Rose",
       "Jasmine",
       "Lily-of-the-Valley",
       "Cyclamen"
     ],
-    "baseNotes": [],
+    "baseNotes": [
+      "Amber",
+      "Sandalwood",
+      "Cedar",
+      "Oakmoss",
+      "Musk",
+      "Tonka Bean",
+      "Vetiver"
+    ],
     "seasons": [
       "Spring",
       "Summer",
@@ -21615,13 +21651,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Woody"
+      "Floral"
     ],
     "accords": [
+      "Balsamic",
       "Earthy",
-      "Fresh",
-      "Musky",
-      "Smoky"
+      "Floral",
+      "Fresh"
     ]
   },
   {
@@ -21699,8 +21735,8 @@ export const perfumes: Perfume[] = [
       "Opoponax",
       "Civet",
       "Sandalwood",
-      "Tonka\r Bean",
-      "Musk\r \r for women\r \r NOTES"
+      "Tonka Bean",
+      "Musk  for women  NOTES"
     ],
     "seasons": [
       "Monsoon",
@@ -21742,7 +21778,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Cedar",
-      "Ylang-\r Ylang",
+      "Ylang- Ylang",
       "Bulgarian Rose",
       "Jasmine"
     ],
@@ -21935,14 +21971,14 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Citrus",
-      "Spicy",
-      "Woody"
+      "Gourmand",
+      "Spicy"
     ],
     "accords": [
       "Earthy",
       "Fresh",
       "Spicy",
-      "Woody"
+      "Sweet"
     ]
   },
   {
@@ -21966,7 +22002,7 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Amber",
       "Suede",
-      "Peru\r Balsam"
+      "Peru Balsam"
     ],
     "seasons": [
       "Monsoon",
@@ -22117,13 +22153,15 @@ export const perfumes: Perfume[] = [
     ],
     "featured": false,
     "families": [
+      "Amber/Oriental",
       "Citrus",
-      "Woody"
+      "Gourmand"
     ],
     "accords": [
       "Earthy",
       "Fresh",
-      "Woody"
+      "Sweet",
+      "Warm"
     ]
   },
   {
@@ -22144,7 +22182,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Vanilla",
-      "Tonka\r Bean",
+      "Tonka Bean",
       "Patchouli"
     ],
     "seasons": [
@@ -23103,7 +23141,7 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "baseNotes": [
-      "Not separately listed\r \r NOTES"
+      "Not separately listed  NOTES"
     ],
     "seasons": [
       "Monsoon",
@@ -23255,8 +23293,8 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "baseNotes": [
-      "Not separately listed\r \r Eau de Neroli Dore\r \r for women",
-      "men\r \r NOTES"
+      "Not separately listed  Eau de Neroli Dore  for women",
+      "men  NOTES"
     ],
     "seasons": [
       "Spring",
@@ -23373,7 +23411,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Iris",
-      "Green\r Leaves"
+      "Green Leaves"
     ],
     "baseNotes": [
       "Precious Woods",
@@ -23455,7 +23493,7 @@ export const perfumes: Perfume[] = [
       "Lantana"
     ],
     "baseNotes": [
-      "White\r Musk"
+      "White Musk"
     ],
     "seasons": [
       "Spring",
@@ -23565,7 +23603,7 @@ export const perfumes: Perfume[] = [
       "Timur"
     ],
     "baseNotes": [
-      "Woody\r Notes",
+      "Woody Notes",
       "Mineral notes"
     ],
     "seasons": [
@@ -23739,7 +23777,7 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "baseNotes": [
-      "Not separately listed\r \r NOTES"
+      "Not separately listed  NOTES"
     ],
     "seasons": [
       "Monsoon",
@@ -23772,7 +23810,7 @@ export const perfumes: Perfume[] = [
       "Mandarin Orange"
     ],
     "heartNotes": [
-      "Orange\r Blossom",
+      "Orange Blossom",
       "White Nerium Oleander"
     ],
     "baseNotes": [
@@ -23800,14 +23838,14 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Citrus",
-      "Fruity",
-      "Woody"
+      "Floral",
+      "Fruity"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Fruity",
-      "Musky",
-      "Woody"
+      "Musky"
     ]
   },
   {
@@ -23898,7 +23936,7 @@ export const perfumes: Perfume[] = [
       "Balsamic",
       "Floral",
       "Fresh",
-      "Green"
+      "Fruity"
     ]
   },
   {
@@ -23985,8 +24023,8 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "baseNotes": [
-      "Not separately listed\r \r Voyage d Hermes\r \r for women",
-      "men\r \r NOTES"
+      "Not separately listed  Voyage d Hermes  for women",
+      "men  NOTES"
     ],
     "seasons": [
       "Monsoon",
@@ -24167,7 +24205,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Cinnamon",
-      "Cashmere\r Wood"
+      "Cashmere Wood"
     ],
     "baseNotes": [
       "Olive Tree",
@@ -24415,7 +24453,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Bulgarian Rose",
-      "Turkish\r Rose",
+      "Turkish Rose",
       "Egyptian Jasmine"
     ],
     "baseNotes": [
@@ -24727,10 +24765,10 @@ export const perfumes: Perfume[] = [
       "Floral"
     ],
     "accords": [
+      "Balsamic",
       "Floral",
       "Fresh",
-      "Warm",
-      "Woody"
+      "Warm"
     ]
   },
   {
@@ -24830,7 +24868,7 @@ export const perfumes: Perfume[] = [
     "heartNotes": [
       "Coconut",
       "Mint",
-      "Mineral\r notes",
+      "Mineral notes",
       "Lavender",
       "Solar Notes"
     ],
@@ -24941,7 +24979,7 @@ export const perfumes: Perfume[] = [
       "Sage"
     ],
     "heartNotes": [
-      "Blue\r Lotus",
+      "Blue Lotus",
       "Nutmeg",
       "Lily-of-the-Valley",
       "Bourbon Geranium",
@@ -24997,7 +25035,7 @@ export const perfumes: Perfume[] = [
       "Sage"
     ],
     "heartNotes": [
-      "Blue\r Lotus",
+      "Blue Lotus",
       "Nutmeg",
       "Lily-of-the-Valley",
       "Bourbon Geranium",
@@ -25596,7 +25634,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Vanilla",
-      "Tonka\r Bean",
+      "Tonka Bean",
       "Amber",
       "Sandalwood",
       "Cedar"
@@ -25623,10 +25661,10 @@ export const perfumes: Perfume[] = [
       "Citrus"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Herbal",
-      "Spicy",
-      "Sweet"
+      "Spicy"
     ]
   },
   {
@@ -25691,7 +25729,7 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Vanilla",
       "Tonka Bean",
-      "Sandalwood\r \r Scandal\r \r for women\r \r NOTES"
+      "Sandalwood  Scandal  for women  NOTES"
     ],
     "seasons": [
       "Monsoon",
@@ -26523,7 +26561,7 @@ export const perfumes: Perfume[] = [
       "Earthy",
       "Floral",
       "Fresh",
-      "Musky"
+      "Leather"
     ]
   },
   {
@@ -27091,7 +27129,7 @@ export const perfumes: Perfume[] = [
       "Amber"
     ],
     "baseNotes": [
-      "Guaiac\r Wood",
+      "Guaiac Wood",
       "Sandalwood",
       "Cedar",
       "Benzoin",
@@ -27115,13 +27153,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Spicy"
+      "Floral"
     ],
     "accords": [
       "Earthy",
+      "Floral",
       "Fresh",
-      "Spicy",
-      "Warm"
+      "Spicy"
     ]
   },
   {
@@ -27150,7 +27188,7 @@ export const perfumes: Perfume[] = [
       "Orris Root"
     ],
     "baseNotes": [
-      "Balsam\r Fir",
+      "Balsam Fir",
       "Sandalwood",
       "Cedar",
       "Musk",
@@ -27584,10 +27622,11 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Citrus",
-      "Fruity",
-      "Woody"
+      "Floral",
+      "Fruity"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Fruity",
       "Woody"
@@ -27687,13 +27726,13 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Rum",
-      "Jasmine\r Sambac",
+      "Jasmine Sambac",
       "Davana"
     ],
     "baseNotes": [
       "Leather",
       "Vetiver",
-      "Cypriol Oil or\r Nagarmotha",
+      "Cypriol Oil or Nagarmotha",
       "Cedar",
       "Patchouli"
     ],
@@ -28044,8 +28083,8 @@ export const perfumes: Perfume[] = [
     "accords": [
       "Floral",
       "Fresh",
-      "Musky",
-      "Powdery"
+      "Leather",
+      "Musky"
     ]
   },
   {
@@ -28113,7 +28152,7 @@ export const perfumes: Perfume[] = [
       "Cinnamon"
     ],
     "heartNotes": [
-      "Tincture of\r Rose",
+      "Tincture of Rose",
       "Litchi"
     ],
     "baseNotes": [
@@ -28216,7 +28255,7 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Fruity",
-      "Spicy"
+      "Gourmand"
     ],
     "accords": [
       "Fruity",
@@ -28258,7 +28297,7 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Fruity",
-      "Spicy"
+      "Gourmand"
     ],
     "accords": [
       "Fruity",
@@ -28326,7 +28365,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Rhubarb",
-      "Lily-\r of-the-Valley",
+      "Lily- of-the-Valley",
       "Pink Rose"
     ],
     "baseNotes": [
@@ -28376,7 +28415,7 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Cedar",
       "Green Sap",
-      "Cashmere\r Wood"
+      "Cashmere Wood"
     ],
     "seasons": [
       "Monsoon",
@@ -28420,12 +28459,12 @@ export const perfumes: Perfume[] = [
     "heartNotes": [
       "Comorian ylang-ylang",
       "Jasmine sambac absolute",
-      "Turkish\r rose absolute"
+      "Turkish rose absolute"
     ],
     "baseNotes": [
       "Amber",
       "Australian sandalwood",
-      "Haitian\r vetiver",
+      "Haitian vetiver",
       "Musk"
     ],
     "seasons": [
@@ -28469,7 +28508,7 @@ export const perfumes: Perfume[] = [
     "heartNotes": [
       "Peony",
       "Jasmine",
-      "Lily-of-\r the-Valley"
+      "Lily-of- the-Valley"
     ],
     "baseNotes": [
       "Vetiver",
@@ -28561,7 +28600,7 @@ export const perfumes: Perfume[] = [
       "Mandarin Orange"
     ],
     "heartNotes": [
-      "Night\r Blooming Jasmine",
+      "Night Blooming Jasmine",
       "Raspberry",
       "Gardenia"
     ],
@@ -28808,7 +28847,7 @@ export const perfumes: Perfume[] = [
       "Bergamot"
     ],
     "heartNotes": [
-      "Black\r Tea",
+      "Black Tea",
       "Saffron",
       "Bay Leaf"
     ],
@@ -28856,7 +28895,7 @@ export const perfumes: Perfume[] = [
       "Bergamot"
     ],
     "heartNotes": [
-      "Haitian\r Vetiver",
+      "Haitian Vetiver",
       "Vetiver",
       "Incense",
       "Orris"
@@ -28957,7 +28996,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Strawberry",
-      "Vanilla\r Orchid",
+      "Vanilla Orchid",
       "Black Rose",
       "Passionfruit"
     ],
@@ -29012,7 +29051,7 @@ export const perfumes: Perfume[] = [
     "heartNotes": [
       "Iris",
       "Jasmine",
-      "Orange\r Blossom"
+      "Orange Blossom"
     ],
     "baseNotes": [
       "Praline",
@@ -29060,7 +29099,7 @@ export const perfumes: Perfume[] = [
     "heartNotes": [
       "Iris",
       "Jasmine",
-      "Orange\r Blossom"
+      "Orange Blossom"
     ],
     "baseNotes": [
       "Praline",
@@ -29108,7 +29147,7 @@ export const perfumes: Perfume[] = [
     "heartNotes": [
       "Iris",
       "Jasmine",
-      "Orange\r Blossom"
+      "Orange Blossom"
     ],
     "baseNotes": [
       "Praline",
@@ -29258,13 +29297,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Leather"
+      "Floral"
     ],
     "accords": [
       "Earthy",
+      "Floral",
       "Fresh",
-      "Leather",
-      "Smoky"
+      "Leather"
     ]
   },
   {
@@ -29279,7 +29318,7 @@ export const perfumes: Perfume[] = [
       "Apricot Blossom",
       "Lilac",
       "Pineapple",
-      "Lily-of-\r the-Valley",
+      "Lily-of- the-Valley",
       "Bergamot"
     ],
     "heartNotes": [
@@ -29623,14 +29662,14 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Amber/Oriental",
-      "Spicy",
-      "Woody"
+      "Fruity",
+      "Spicy"
     ],
     "accords": [
       "Balsamic",
       "Earthy",
-      "Spicy",
-      "Warm"
+      "Fruity",
+      "Spicy"
     ]
   },
   {
@@ -29695,7 +29734,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Turkish Rose",
-      "Bulgarian\r Rose",
+      "Bulgarian Rose",
       "Jasmine"
     ],
     "baseNotes": [
@@ -29831,7 +29870,7 @@ export const perfumes: Perfume[] = [
     "heartNotes": [
       "Suede",
       "Leather",
-      "Tonka\r Bean"
+      "Tonka Bean"
     ],
     "baseNotes": [
       "Vanilla",
@@ -29960,10 +29999,10 @@ export const perfumes: Perfume[] = [
       "Floral"
     ],
     "accords": [
+      "Balsamic",
       "Floral",
       "Fresh",
-      "Spicy",
-      "Sweet"
+      "Spicy"
     ]
   },
   {
@@ -30224,9 +30263,9 @@ export const perfumes: Perfume[] = [
     ],
     "accords": [
       "Earthy",
-      "Smoky",
       "Sweet",
-      "Warm"
+      "Warm",
+      "Woody"
     ]
   },
   {
@@ -30267,13 +30306,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Floral",
-      "Woody"
+      "Spicy"
     ],
     "accords": [
       "Earthy",
       "Floral",
       "Musky",
-      "Warm"
+      "Spicy"
     ]
   },
   {
@@ -30450,7 +30489,7 @@ export const perfumes: Perfume[] = [
     "families": [
       "Citrus",
       "Fruity",
-      "Woody"
+      "Gourmand"
     ],
     "accords": [
       "Earthy",
@@ -30786,7 +30825,7 @@ export const perfumes: Perfume[] = [
       "Petitgrain"
     ],
     "heartNotes": [
-      "Pine Tree\r Needles",
+      "Pine Tree Needles",
       "Basil",
       "Clary Sage",
       "Nutmeg",
@@ -30824,8 +30863,8 @@ export const perfumes: Perfume[] = [
     "accords": [
       "Floral",
       "Fresh",
-      "Green",
-      "Herbal"
+      "Fruity",
+      "Green"
     ]
   },
   {
@@ -30842,7 +30881,7 @@ export const perfumes: Perfume[] = [
       "Incense",
       "Neroli",
       "Rose",
-      "Lily-\r of-the-Valley"
+      "Lily- of-the-Valley"
     ],
     "baseNotes": [
       "Cedar",
@@ -30958,7 +30997,7 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Vanilla",
       "Praline",
-      "Tonka\r Bean",
+      "Tonka Bean",
       "White Musk",
       "Vetiver"
     ],
@@ -31008,7 +31047,7 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Vanilla",
       "Praline",
-      "Tonka\r Bean",
+      "Tonka Bean",
       "White Musk",
       "Vetiver"
     ],
@@ -31498,12 +31537,12 @@ export const perfumes: Perfume[] = [
     "heartNotes": [
       "Jasmine",
       "Rose",
-      "Orange\r Blossom"
+      "Orange Blossom"
     ],
     "baseNotes": [
       "Agarwood (Oud)",
       "Ambroxan",
-      "Ambrette (Musk\r Mallow)"
+      "Ambrette (Musk Mallow)"
     ],
     "seasons": [
       "Spring",
@@ -31651,13 +31690,14 @@ export const perfumes: Perfume[] = [
     ],
     "featured": false,
     "families": [
+      "Amber/Oriental",
       "Citrus",
-      "Spicy",
-      "Woody"
+      "Spicy"
     ],
     "accords": [
       "Fresh",
       "Spicy",
+      "Warm",
       "Woody"
     ]
   },
@@ -32432,13 +32472,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Floral",
-      "Leather"
+      "Fruity"
     ],
     "accords": [
       "Earthy",
       "Floral",
-      "Leather",
-      "Spicy"
+      "Fruity",
+      "Leather"
     ]
   },
   {
@@ -32526,13 +32566,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Spicy"
+      "Floral"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Spicy",
-      "Sweet",
-      "Warm"
+      "Sweet"
     ]
   },
   {
@@ -32548,7 +32588,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Rum",
-      "Java vetiver\r oil",
+      "Java vetiver oil",
       "Clary Sage"
     ],
     "baseNotes": [
@@ -32594,7 +32634,7 @@ export const perfumes: Perfume[] = [
       "Pink Pepper"
     ],
     "heartNotes": [
-      "Watery\r Notes",
+      "Watery Notes",
       "Rain Notes",
       "Turkish Rose",
       "Jasmine"
@@ -32679,12 +32719,12 @@ export const perfumes: Perfume[] = [
       "Pepper"
     ],
     "heartNotes": [
-      "Bulgarian\r Rose",
+      "Bulgarian Rose",
       "Indonesian Patchouli Leaf",
       "Violet"
     ],
     "baseNotes": [
-      "Agarwood\r (Oud)",
+      "Agarwood (Oud)",
       "Oriental notes"
     ],
     "seasons": [
@@ -32868,7 +32908,7 @@ export const perfumes: Perfume[] = [
       "Earthy",
       "Floral",
       "Fresh",
-      "Leather"
+      "Fruity"
     ]
   },
   {
@@ -32884,13 +32924,13 @@ export const perfumes: Perfume[] = [
       "Labdanum"
     ],
     "heartNotes": [
-      "Woody\r Notes",
+      "Woody Notes",
       "Patchouli Leaf"
     ],
     "baseNotes": [
       "Amber",
       "Guaiac Wood",
-      "Vanilla\r Pod",
+      "Vanilla Pod",
       "White Musk"
     ],
     "seasons": [
@@ -32981,7 +33021,7 @@ export const perfumes: Perfume[] = [
       "Amberwood",
       "Moroccan Rose",
       "Egyptian Jasmine",
-      "Indonesian\r Patchouli Leaf"
+      "Indonesian Patchouli Leaf"
     ],
     "baseNotes": [
       "Madagascar Vanilla",
@@ -33029,7 +33069,7 @@ export const perfumes: Perfume[] = [
       "Incense",
       "Saffron",
       "Nutmeg",
-      "Green\r Apple",
+      "Green Apple",
       "White Pear"
     ],
     "heartNotes": [
@@ -33090,7 +33130,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Vanilla",
-      "White\r Musk",
+      "White Musk",
       "Cedar"
     ],
     "seasons": [
@@ -33132,7 +33172,7 @@ export const perfumes: Perfume[] = [
       "Basil"
     ],
     "heartNotes": [
-      "White\r Honey",
+      "White Honey",
       "Carnation",
       "Juniper Berries",
       "Rose",
@@ -33869,7 +33909,7 @@ export const perfumes: Perfume[] = [
       "Calabrian bergamot"
     ],
     "heartNotes": [
-      "Egyptian\r Jasmine",
+      "Egyptian Jasmine",
       "Mock Orange",
       "Sweet Pea"
     ],
@@ -33924,7 +33964,7 @@ export const perfumes: Perfume[] = [
       "White Flowers",
       "Musk",
       "Vanilla",
-      "Woody\r Notes"
+      "Woody Notes"
     ],
     "seasons": [
       "Spring",
@@ -34581,12 +34621,12 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Vanilla",
-      "Ambrette (Musk\r Mallow)",
+      "Ambrette (Musk Mallow)",
       "Atlas Cedar"
     ],
     "baseNotes": [
       "Laotian Oud",
-      "Indonesian\r Patchouli Leaf"
+      "Indonesian Patchouli Leaf"
     ],
     "seasons": [
       "Ac Venues",
@@ -34627,8 +34667,8 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "baseNotes": [
-      "Not separately listed\r \r Oud Satin Mood\r \r for women",
-      "men\r \r NOTES"
+      "Not separately listed  Oud Satin Mood  for women",
+      "men  NOTES"
     ],
     "seasons": [
       "Winter"
@@ -34693,7 +34733,7 @@ export const perfumes: Perfume[] = [
       "Bergamot"
     ],
     "heartNotes": [
-      "Guaiac\r Wood",
+      "Guaiac Wood",
       "Hedione"
     ],
     "baseNotes": [
@@ -34775,7 +34815,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Lily",
-      "Clary\r Sage",
+      "Clary Sage",
       "Cypress"
     ],
     "baseNotes": [
@@ -34823,10 +34863,10 @@ export const perfumes: Perfume[] = [
       "Pistachio; pear; bergamot"
     ],
     "heartNotes": [
-      "Almond milk; orange;\r magnolia; rose"
+      "Almond milk; orange; magnolia; rose"
     ],
     "baseNotes": [
-      "Tonka bean; vanilla; amber; patchouli;\r sandalwood; musk"
+      "Tonka bean; vanilla; amber; patchouli; sandalwood; musk"
     ],
     "seasons": [
       "Monsoon",
@@ -34867,13 +34907,13 @@ export const perfumes: Perfume[] = [
       "Clary Sage"
     ],
     "heartNotes": [
-      "Haitian\r Vetiver",
+      "Haitian Vetiver",
       "Leather"
     ],
     "baseNotes": [
       "Ambroxan",
       "Akigalawood",
-      "Indonesian\r Patchouli Leaf",
+      "Indonesian Patchouli Leaf",
       "Cacao Pod"
     ],
     "seasons": [
@@ -35093,7 +35133,7 @@ export const perfumes: Perfume[] = [
       "Tonka Bean",
       "Sugar Cane",
       "Amber",
-      "White\r Musk",
+      "White Musk",
       "Oakmoss"
     ],
     "seasons": [
@@ -35313,13 +35353,13 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Agarwood (Oud)",
-      "Orange\r Blossom",
+      "Orange Blossom",
       "Incense"
     ],
     "baseNotes": [
       "Tobacco",
       "Tonka Bean",
-      "Agarwood\r (Oud)"
+      "Agarwood (Oud)"
     ],
     "seasons": [
       "Spring",
@@ -35338,13 +35378,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Woody"
+      "Floral"
     ],
     "accords": [
       "Balsamic",
+      "Floral",
       "Fresh",
-      "Sweet",
-      "Warm"
+      "Spicy"
     ]
   },
   {
@@ -35358,7 +35398,7 @@ export const perfumes: Perfume[] = [
       "Fig",
       "Pear",
       "Sicilian Orange",
-      "Sicilian\r Bergamot"
+      "Sicilian Bergamot"
     ],
     "heartNotes": [
       "Patchouli Leaf",
@@ -35445,7 +35485,7 @@ export const perfumes: Perfume[] = [
       "Red Currant"
     ],
     "heartNotes": [
-      "Sugar\r Cane",
+      "Sugar Cane",
       "Bulrush",
       "Lily-of-the-Valley",
       "Tea Rose",
@@ -35473,13 +35513,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Citrus",
       "Floral",
-      "Gourmand"
+      "Fruity"
     ],
     "accords": [
       "Floral",
       "Fresh",
-      "Musky",
-      "Spicy"
+      "Fruity",
+      "Musky"
     ]
   },
   {
@@ -35547,7 +35587,7 @@ export const perfumes: Perfume[] = [
       "Magnolia"
     ],
     "heartNotes": [
-      "White\r Currant",
+      "White Currant",
       "Peony",
       "Jasmine"
     ],
@@ -35647,7 +35687,7 @@ export const perfumes: Perfume[] = [
       "Fruity",
       "Spicy Notes",
       "Coriander",
-      "Green\r Notes",
+      "Green Notes",
       "Bergamot"
     ],
     "heartNotes": [
@@ -35975,13 +36015,13 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Green Notes",
-      "Orange\r Blossom",
+      "Orange Blossom",
       "Ylang-Ylang",
       "Pear"
     ],
     "baseNotes": [
       "Bourbon Vanilla",
-      "Woody\r Notes",
+      "Woody Notes",
       "Amberwood",
       "Sandalwood",
       "Coumarin"
@@ -36122,7 +36162,7 @@ export const perfumes: Perfume[] = [
       "Petitgrain"
     ],
     "heartNotes": [
-      "African Orange\r Flower"
+      "African Orange Flower"
     ],
     "baseNotes": [
       "Musk"
@@ -36310,7 +36350,7 @@ export const perfumes: Perfume[] = [
       "Musk"
     ],
     "baseNotes": [
-      "White\r Cedar Extract",
+      "White Cedar Extract",
       "Cedar",
       "Vetiver"
     ],
@@ -36868,7 +36908,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Patchouli",
-      "Ceylon\r Cinnamon",
+      "Ceylon Cinnamon",
       "Rose"
     ],
     "baseNotes": [
@@ -37058,7 +37098,7 @@ export const perfumes: Perfume[] = [
       "Earthy",
       "Floral",
       "Fresh",
-      "Green"
+      "Fruity"
     ]
   },
   {
@@ -37112,7 +37152,7 @@ export const perfumes: Perfume[] = [
       "Earthy",
       "Floral",
       "Fresh",
-      "Green"
+      "Fruity"
     ]
   },
   {
@@ -37151,9 +37191,9 @@ export const perfumes: Perfume[] = [
     ],
     "featured": false,
     "families": [
+      "Amber/Oriental",
       "Aromatic",
-      "Citrus",
-      "Floral"
+      "Citrus"
     ],
     "accords": [
       "Floral",
@@ -37194,7 +37234,7 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Fruity",
-      "Woody"
+      "Gourmand"
     ],
     "accords": [
       "Fruity",
@@ -37270,7 +37310,7 @@ export const perfumes: Perfume[] = [
       "Geranium"
     ],
     "baseNotes": [
-      "Agarwood\r (Oud)",
+      "Agarwood (Oud)",
       "Whiskey",
       "Vanilla",
       "Leather",
@@ -37555,7 +37595,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Benzoin",
-      "Madagascar\r Vanilla",
+      "Madagascar Vanilla",
       "Atlas Cedar"
     ],
     "seasons": [
@@ -38019,7 +38059,7 @@ export const perfumes: Perfume[] = [
       "Earthy",
       "Fruity",
       "Musky",
-      "Smoky"
+      "Sweet"
     ]
   },
   {
@@ -38096,7 +38136,7 @@ export const perfumes: Perfume[] = [
       "Caramel",
       "Amber",
       "Woody Notes",
-      "White\r Musk",
+      "White Musk",
       "Patchouli"
     ],
     "seasons": [
@@ -38167,8 +38207,8 @@ export const perfumes: Perfume[] = [
     "accords": [
       "Floral",
       "Fresh",
-      "Sweet",
-      "Warm"
+      "Fruity",
+      "Sweet"
     ]
   },
   {
@@ -38231,7 +38271,7 @@ export const perfumes: Perfume[] = [
       "Mandarin Orange"
     ],
     "heartNotes": [
-      "Bay\r Leaf",
+      "Bay Leaf",
       "Jasmine"
     ],
     "baseNotes": [
@@ -38326,7 +38366,7 @@ export const perfumes: Perfume[] = [
       "Mandarin Orange"
     ],
     "heartNotes": [
-      "Bay\r Leaf",
+      "Bay Leaf",
       "Jasmine"
     ],
     "baseNotes": [
@@ -38494,13 +38534,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Fruity"
+      "Floral"
     ],
     "accords": [
       "Earthy",
+      "Floral",
       "Fresh",
-      "Fruity",
-      "Sweet"
+      "Fruity"
     ]
   },
   {
@@ -38620,7 +38660,7 @@ export const perfumes: Perfume[] = [
       "Salt",
       "Vanilla",
       "Ambergris",
-      "Cashmere\r Wood",
+      "Cashmere Wood",
       "Sandalwood",
       "Benzoin"
     ],
@@ -39169,13 +39209,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Spicy"
+      "Gourmand"
     ],
     "accords": [
+      "Balsamic",
       "Earthy",
       "Fresh",
-      "Spicy",
-      "Sweet"
+      "Spicy"
     ]
   },
   {
@@ -39375,10 +39415,10 @@ export const perfumes: Perfume[] = [
       "Citrus"
     ],
     "accords": [
+      "Balsamic",
       "Earthy",
       "Fresh",
-      "Fruity",
-      "Green"
+      "Fruity"
     ]
   },
   {
@@ -39435,13 +39475,13 @@ export const perfumes: Perfume[] = [
       "Mint",
       "Lemon",
       "Tarragon",
-      "Mandarin\r Orange"
+      "Mandarin Orange"
     ],
     "heartNotes": [
       "Juniper",
       "Brazilian Rosewood",
       "Sage",
-      "Bourbon\r Geranium",
+      "Bourbon Geranium",
       "Coriander"
     ],
     "baseNotes": [
@@ -39519,13 +39559,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Gourmand"
+      "Floral"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Musky",
-      "Spicy",
-      "Sweet"
+      "Spicy"
     ]
   },
   {
@@ -39728,7 +39768,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Turkish Rose",
-      "Agarwood\r (Oud)",
+      "Agarwood (Oud)",
       "Incense"
     ],
     "baseNotes": [
@@ -39775,7 +39815,7 @@ export const perfumes: Perfume[] = [
       "Nutmeg"
     ],
     "heartNotes": [
-      "Turkish\r Rose",
+      "Turkish Rose",
       "Peony",
       "Musk",
       "Petalia",
@@ -40093,7 +40133,7 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Floral",
-      "Spicy"
+      "Gourmand"
     ],
     "accords": [
       "Balsamic",
@@ -40120,7 +40160,7 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Woody Notes",
       "Moss",
-      "White\r Sandalwood",
+      "White Sandalwood",
       "Tonka Bean",
       "Amber"
     ],
@@ -40144,10 +40184,10 @@ export const perfumes: Perfume[] = [
       "Citrus"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Herbal",
-      "Spicy",
-      "Sweet"
+      "Spicy"
     ]
   },
   {
@@ -40255,7 +40295,7 @@ export const perfumes: Perfume[] = [
       "Earthy",
       "Floral",
       "Fresh",
-      "Marine"
+      "Leather"
     ]
   },
   {
@@ -40353,13 +40393,14 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Amber/Oriental",
-      "Floral"
+      "Floral",
+      "Fruity"
     ],
     "accords": [
       "Floral",
+      "Fruity",
       "Musky",
-      "Sweet",
-      "Warm"
+      "Sweet"
     ]
   },
   {
@@ -40474,7 +40515,7 @@ export const perfumes: Perfume[] = [
       "Grapefruit"
     ],
     "heartNotes": [
-      "Orange\r Blossom",
+      "Orange Blossom",
       "Raspberry",
       "Black Currant"
     ],
@@ -40497,9 +40538,11 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Citrus",
+      "Floral",
       "Fruity"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Fruity",
       "Musky"
@@ -40515,7 +40558,7 @@ export const perfumes: Perfume[] = [
       "Pear; bergamot; mandarin; peach"
     ],
     "heartNotes": [
-      "Violet; floral\r bouquet; lavender"
+      "Violet; floral bouquet; lavender"
     ],
     "baseNotes": [
       "Musk; sandalwood; vanilla; patchouli"
@@ -40644,7 +40687,7 @@ export const perfumes: Perfume[] = [
       "Floral",
       "Fresh",
       "Herbal",
-      "Sweet"
+      "Spicy"
     ]
   },
   {
@@ -40745,7 +40788,7 @@ export const perfumes: Perfume[] = [
       "Earthy",
       "Floral",
       "Fresh",
-      "Green"
+      "Fruity"
     ]
   },
   {
@@ -40886,9 +40929,9 @@ export const perfumes: Perfume[] = [
     ],
     "featured": false,
     "families": [
+      "Amber/Oriental",
       "Aromatic",
-      "Citrus",
-      "Floral"
+      "Citrus"
     ],
     "accords": [
       "Earthy",
@@ -41168,7 +41211,7 @@ export const perfumes: Perfume[] = [
       "Leather",
       "Sandalwood",
       "Amber",
-      "Tonka\r Bean",
+      "Tonka Bean",
       "Vanilla",
       "Musk"
     ],
@@ -41211,7 +41254,7 @@ export const perfumes: Perfume[] = [
       "Lavender",
       "Bergamot",
       "Citruses",
-      "Green\r Notes"
+      "Green Notes"
     ],
     "heartNotes": [
       "Nutmeg",
@@ -41379,8 +41422,8 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Amber/Oriental",
-      "Spicy",
-      "Woody"
+      "Gourmand",
+      "Spicy"
     ],
     "accords": [
       "Earthy",
@@ -41482,7 +41525,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Orris",
-      "Black\r Pepper",
+      "Black Pepper",
       "Geranium"
     ],
     "baseNotes": [
@@ -42375,7 +42418,7 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Sea Notes",
       "Ambroxan",
-      "Fir\r Resin",
+      "Fir Resin",
       "Musk",
       "Patchouli"
     ],
@@ -42516,7 +42559,7 @@ export const perfumes: Perfume[] = [
       "Aldehydes",
       "Coriander",
       "Artemisia",
-      "Green\r Notes",
+      "Green Notes",
       "Neroli",
       "Lemon"
     ],
@@ -42710,7 +42753,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Tuberose",
-      "Orange\r Blossom",
+      "Orange Blossom",
       "Turkish Rose"
     ],
     "baseNotes": [
@@ -42764,7 +42807,7 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Orris Root",
       "Jasmine",
-      "Virginia\r Cedar"
+      "Virginia Cedar"
     ],
     "baseNotes": [
       "oak moss",
@@ -42853,7 +42896,7 @@ export const perfumes: Perfume[] = [
       "Orange Blossom",
       "Hiacynth",
       "Green Leaves",
-      "Mandarin\r Orange",
+      "Mandarin Orange",
       "Bergamot"
     ],
     "heartNotes": [
@@ -42957,7 +43000,7 @@ export const perfumes: Perfume[] = [
     "heartNotes": [
       "Coriander",
       "Jasmine",
-      "Lily-of-the-\r Valley",
+      "Lily-of-the- Valley",
       "Freesia",
       "Carnation",
       "Violet",
@@ -43243,7 +43286,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Cypress",
-      "Balsam\r Fir",
+      "Balsam Fir",
       "Oakmoss",
       "Leather",
       "Patchouli",
@@ -43431,7 +43474,7 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Vanilla",
       "Orris Root",
-      "Tonka\r Bean",
+      "Tonka Bean",
       "Cloves",
       "Musk",
       "Patchouli"
@@ -43489,7 +43532,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Musk",
-      "Pink\r Pepper",
+      "Pink Pepper",
       "Sandalwood",
       "Cedarwood",
       "Vanilla"
@@ -43606,7 +43649,7 @@ export const perfumes: Perfume[] = [
       "Pink Pepper",
       "Cedar",
       "Cypriol Oil or Nagarmotha",
-      "Lily-of-\r the-Valley",
+      "Lily-of- the-Valley",
       "Rose",
       "Jasmine"
     ],
@@ -43881,7 +43924,7 @@ export const perfumes: Perfume[] = [
       "Ginger",
       "Musk",
       "Benzoin",
-      "Pink\r Pepper",
+      "Pink Pepper",
       "Pine",
       "Cedar",
       "Vetiver",
@@ -44218,12 +44261,12 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Agarwood (Oud)",
       "Cardamom",
-      "Gurjan\r balsam",
+      "Gurjan balsam",
       "Amyris",
       "Olibanum",
       "Frankincense",
       "Labdanum",
-      "Spanish\r Labdanum",
+      "Spanish Labdanum",
       "Guaiac Wood",
       "Juniper",
       "Patchouli",
@@ -44332,9 +44375,11 @@ export const perfumes: Perfume[] = [
     ],
     "featured": false,
     "families": [
-      "Citrus"
+      "Citrus",
+      "Floral"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Green",
       "Musky"
@@ -44921,13 +44966,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Citrus",
       "Floral",
-      "Gourmand"
+      "Fruity"
     ],
     "accords": [
       "Floral",
       "Fresh",
-      "Musky",
-      "Sweet"
+      "Fruity",
+      "Musky"
     ]
   },
   {
@@ -45137,7 +45182,7 @@ export const perfumes: Perfume[] = [
       "Fruity Notes",
       "Saffron",
       "Nutmeg",
-      "Star\r Anise",
+      "Star Anise",
       "Coffee",
       "Bergamot",
       "Cinnamon",
@@ -45151,7 +45196,20 @@ export const perfumes: Perfume[] = [
       "Resin",
       "Olibanum"
     ],
-    "baseNotes": [],
+    "baseNotes": [
+      "Oud",
+      "Guaiac Wood",
+      "Sandalwood",
+      "Patchouli",
+      "Vetiver",
+      "Labdanum",
+      "Castoreum",
+      "Musk",
+      "Amber",
+      "Vanilla",
+      "Tonka Bean",
+      "Tobacco"
+    ],
     "seasons": [
       "Monsoon",
       "Spring",
@@ -45192,14 +45250,14 @@ export const perfumes: Perfume[] = [
       "Red Berries"
     ],
     "heartNotes": [
-      "Woody\r Notes",
+      "Woody Notes",
       "Coumarin",
       "Jasmine"
     ],
     "baseNotes": [
       "Musk",
       "Amber",
-      "Agarwood\r (Oud)",
+      "Agarwood (Oud)",
       "Cypriol Oil or Nagarmotha"
     ],
     "seasons": [
@@ -45224,8 +45282,8 @@ export const perfumes: Perfume[] = [
     "accords": [
       "Floral",
       "Fresh",
-      "Musky",
-      "Spicy"
+      "Fruity",
+      "Musky"
     ]
   },
   {
@@ -45396,13 +45454,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Aromatic",
-      "Floral"
+      "Citrus"
     ],
     "accords": [
       "Earthy",
       "Floral",
-      "Herbal",
-      "Smoky"
+      "Fresh",
+      "Herbal"
     ]
   },
   {
@@ -45496,10 +45554,10 @@ export const perfumes: Perfume[] = [
       "Floral"
     ],
     "accords": [
+      "Balsamic",
       "Earthy",
       "Floral",
-      "Herbal",
-      "Leather"
+      "Herbal"
     ]
   },
   {
@@ -45577,7 +45635,7 @@ export const perfumes: Perfume[] = [
       "Cypriol Oil or Nagarmotha",
       "Amber",
       "Musk",
-      "Virginia\r Cedar"
+      "Virginia Cedar"
     ],
     "seasons": [
       "Spring",
@@ -45618,7 +45676,7 @@ export const perfumes: Perfume[] = [
       "Bitter Orange Blossom"
     ],
     "heartNotes": [
-      "Aromatic\r Spices"
+      "Aromatic Spices"
     ],
     "baseNotes": [
       "Musk",
@@ -45646,10 +45704,10 @@ export const perfumes: Perfume[] = [
       "Citrus"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Herbal",
-      "Musky",
-      "Warm"
+      "Musky"
     ]
   },
   {
@@ -45751,8 +45809,8 @@ export const perfumes: Perfume[] = [
     "accords": [
       "Floral",
       "Fresh",
-      "Musky",
-      "Sweet"
+      "Fruity",
+      "Musky"
     ]
   },
   {
@@ -46204,8 +46262,8 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Amber/Oriental",
-      "Leather",
-      "Spicy"
+      "Gourmand",
+      "Leather"
     ],
     "accords": [
       "Balsamic",
@@ -46240,7 +46298,7 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Musk",
       "Amber",
-      "Princess Tree or\r Paulownia",
+      "Princess Tree or Paulownia",
       "Allspice"
     ],
     "seasons": [
@@ -46476,7 +46534,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Vanilla",
-      "Indonesian\r Patchouli Leaf",
+      "Indonesian Patchouli Leaf",
       "Tonka Bean",
       "Sandalwood",
       "Benzoin",
@@ -46820,13 +46878,13 @@ export const perfumes: Perfume[] = [
     "heartNotes": [
       "Leather",
       "Olive",
-      "Chinese\r Osmanthus",
+      "Chinese Osmanthus",
       "Apricot"
     ],
     "baseNotes": [
       "Smoke",
       "Woody Notes",
-      "Cypriol\r Oil or Nagarmotha"
+      "Cypriol Oil or Nagarmotha"
     ],
     "seasons": [
       "Spring",
@@ -46863,7 +46921,7 @@ export const perfumes: Perfume[] = [
       "Seaweed",
       "Agarwood (Oud)",
       "Celery Seeds",
-      "Ambrette\r (Musk Mallow)",
+      "Ambrette (Musk Mallow)",
       "Cardamom"
     ],
     "heartNotes": [
@@ -46973,7 +47031,7 @@ export const perfumes: Perfume[] = [
       "Jasmine Sambac"
     ],
     "baseNotes": [
-      "Pink\r Pepper",
+      "Pink Pepper",
       "Ambrettolide",
       "Musk"
     ],
@@ -47094,9 +47152,9 @@ export const perfumes: Perfume[] = [
     ],
     "accords": [
       "Earthy",
+      "Floral",
       "Fresh",
-      "Herbal",
-      "Spicy"
+      "Herbal"
     ]
   },
   {
@@ -47196,21 +47254,21 @@ export const perfumes: Perfume[] = [
       "Bergamot",
       "Cardamom",
       "Pepper",
-      "Mandarin\r Orange"
+      "Mandarin Orange"
     ],
     "heartNotes": [
       "Jasmine",
       "Ylang-Ylang",
       "Neroli",
       "Broom",
-      "Clary\r Sage"
+      "Clary Sage"
     ],
     "baseNotes": [
       "Amber",
       "Vanille",
       "Woodsy Notes",
       "Leather",
-      "French\r labdanum"
+      "French labdanum"
     ],
     "seasons": [
       "Spring",
@@ -47326,7 +47384,7 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Labdanum",
       "Civet",
-      "Amber\r \r NOTES"
+      "Amber  NOTES"
     ],
     "seasons": [
       "Monsoon",
@@ -47352,7 +47410,7 @@ export const perfumes: Perfume[] = [
       "Earthy",
       "Floral",
       "Fresh",
-      "Herbal"
+      "Fruity"
     ]
   },
   {
@@ -47373,7 +47431,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Vanilla",
-      "Ambrette\r (Musk Mallow)",
+      "Ambrette (Musk Mallow)",
       "Peru Balsam",
       "Sandalwood"
     ],
@@ -47453,7 +47511,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Neroli",
-      "Orange\r Blossom"
+      "Orange Blossom"
     ],
     "baseNotes": [
       "Amberwood",
@@ -47477,13 +47535,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Woody"
+      "Floral"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Musky",
-      "Warm",
-      "Woody"
+      "Warm"
     ]
   },
   {
@@ -47510,7 +47568,7 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Amber",
       "Angelica",
-      "Ambrette\r (Musk Mallow)"
+      "Ambrette (Musk Mallow)"
     ],
     "seasons": [
       "Spring",
@@ -47781,14 +47839,14 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Floral",
-      "Leather",
-      "Woody"
+      "Gourmand",
+      "Leather"
     ],
     "accords": [
       "Floral",
       "Leather",
       "Powdery",
-      "Woody"
+      "Sweet"
     ]
   },
   {
@@ -47824,14 +47882,14 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Floral",
-      "Leather",
-      "Woody"
+      "Gourmand",
+      "Leather"
     ],
     "accords": [
       "Floral",
       "Leather",
       "Powdery",
-      "Woody"
+      "Sweet"
     ]
   },
   {
@@ -48138,7 +48196,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Japanese Plum",
-      "Plum\r Blossom",
+      "Plum Blossom",
       "Immortelle",
       "Liquor",
       "Cypress",
@@ -48169,14 +48227,14 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Amber/Oriental",
-      "Fruity",
-      "Spicy"
+      "Floral",
+      "Fruity"
     ],
     "accords": [
+      "Floral",
       "Fruity",
       "Spicy",
-      "Sweet",
-      "Warm"
+      "Sweet"
     ]
   },
   {
@@ -48191,7 +48249,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "May Rose",
-      "Bulgarian\r Rose",
+      "Bulgarian Rose",
       "Turkish Rose"
     ],
     "baseNotes": [
@@ -48289,7 +48347,7 @@ export const perfumes: Perfume[] = [
       "Cinnamon",
       "Papyrus",
       "Moroccan Rose",
-      "Egyptian\r Jasmine"
+      "Egyptian Jasmine"
     ],
     "baseNotes": [
       "Egyptian balsam",
@@ -48485,7 +48543,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "White Flowers",
-      "Orange\r Blossom",
+      "Orange Blossom",
       "Jasmine",
       "Rose",
       "Turkish Rose"
@@ -48558,8 +48616,8 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Amber/Oriental",
-      "Spicy",
-      "Woody"
+      "Gourmand",
+      "Spicy"
     ],
     "accords": [
       "Balsamic",
@@ -48586,7 +48644,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Dried Fruits",
-      "Woody\r Notes"
+      "Woody Notes"
     ],
     "seasons": [
       "Winter"
@@ -48600,10 +48658,11 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Amber/Oriental",
-      "Gourmand",
-      "Woody"
+      "Floral",
+      "Gourmand"
     ],
     "accords": [
+      "Floral",
       "Sweet",
       "Warm",
       "Woody"
@@ -48627,7 +48686,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Dried Fruits",
-      "Woody\r Notes"
+      "Woody Notes"
     ],
     "seasons": [
       "Winter"
@@ -48641,10 +48700,11 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Amber/Oriental",
-      "Gourmand",
-      "Woody"
+      "Floral",
+      "Gourmand"
     ],
     "accords": [
+      "Floral",
       "Sweet",
       "Warm",
       "Woody"
@@ -48793,10 +48853,10 @@ export const perfumes: Perfume[] = [
       "Citrus"
     ],
     "accords": [
+      "Balsamic",
       "Earthy",
       "Floral",
-      "Fresh",
-      "Fruity"
+      "Fresh"
     ]
   },
   {
@@ -48812,7 +48872,7 @@ export const perfumes: Perfume[] = [
       "Bergamot"
     ],
     "heartNotes": [
-      "Black\r Orchid",
+      "Black Orchid",
       "Orchid",
       "Jasmine",
       "Heliotrope",
@@ -48850,10 +48910,10 @@ export const perfumes: Perfume[] = [
       "Floral"
     ],
     "accords": [
+      "Balsamic",
       "Floral",
       "Fresh",
-      "Leather",
-      "Sweet"
+      "Leather"
     ]
   },
   {
@@ -48961,7 +49021,7 @@ export const perfumes: Perfume[] = [
       "Apple Tree Blossom",
       "Mandarin Orange",
       "Camelia",
-      "Black\r Currant"
+      "Black Currant"
     ],
     "heartNotes": [
       "Lemon",
@@ -49084,8 +49144,8 @@ export const perfumes: Perfume[] = [
     "accords": [
       "Floral",
       "Fresh",
-      "Musky",
-      "Spicy"
+      "Fruity",
+      "Musky"
     ]
   },
   {
@@ -49172,8 +49232,8 @@ export const perfumes: Perfume[] = [
     "accords": [
       "Floral",
       "Fresh",
-      "Spicy",
-      "Sweet"
+      "Fruity",
+      "Spicy"
     ]
   },
   {
@@ -49240,7 +49300,7 @@ export const perfumes: Perfume[] = [
       "Narcissus",
       "Hiacynth",
       "Jasmine",
-      "Lily-of-\r the-Valley",
+      "Lily-of- the-Valley",
       "Carnation",
       "Ylang-Ylang",
       "Orris Root",
@@ -49276,7 +49336,7 @@ export const perfumes: Perfume[] = [
       "Floral",
       "Fresh",
       "Fruity",
-      "Sweet"
+      "Leather"
     ]
   },
   {
@@ -49411,7 +49471,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Pine Tree",
-      "Juniper\r Berries",
+      "Juniper Berries",
       "Carnation",
       "Tarragon",
       "Geranium",
@@ -49748,9 +49808,9 @@ export const perfumes: Perfume[] = [
     ],
     "featured": false,
     "families": [
+      "Amber/Oriental",
       "Citrus",
-      "Leather",
-      "Spicy"
+      "Leather"
     ],
     "accords": [
       "Earthy",
@@ -49854,7 +49914,7 @@ export const perfumes: Perfume[] = [
       "Floral",
       "Herbal",
       "Powdery",
-      "Warm"
+      "Sweet"
     ]
   },
   {
@@ -49970,7 +50030,7 @@ export const perfumes: Perfume[] = [
       "Grapefruit",
       "Pineapple",
       "Tangerine",
-      "Big\r Strawberry"
+      "Big Strawberry"
     ],
     "heartNotes": [
       "Peony",
@@ -50277,8 +50337,8 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Citrus",
-      "Leather",
-      "Spicy"
+      "Gourmand",
+      "Leather"
     ],
     "accords": [
       "Earthy",
@@ -50385,7 +50445,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Musk",
-      "Virginia\r Cedar",
+      "Virginia Cedar",
       "Amber",
       "Patchouli"
     ],
@@ -50471,7 +50531,7 @@ export const perfumes: Perfume[] = [
       "Lily-of-the-Valley"
     ],
     "baseNotes": [
-      "Agarwood\r (Oud)",
+      "Agarwood (Oud)",
       "Sandalwood",
       "Amber",
       "Vanilla",
@@ -50519,7 +50579,7 @@ export const perfumes: Perfume[] = [
       "Lily-of-the-Valley"
     ],
     "baseNotes": [
-      "Laotian\r Oud",
+      "Laotian Oud",
       "Thailand Oud",
       "Sandalwood",
       "Musk",
@@ -50564,7 +50624,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Myrrh",
-      "Guaiac\r Wood",
+      "Guaiac Wood",
       "Gurjan balsam"
     ],
     "baseNotes": [
@@ -50593,10 +50653,10 @@ export const perfumes: Perfume[] = [
       "Woody"
     ],
     "accords": [
+      "Balsamic",
       "Floral",
       "Sweet",
-      "Warm",
-      "Woody"
+      "Warm"
     ]
   },
   {
@@ -50656,7 +50716,7 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Vanille",
       "Coumarin",
-      "Tobacco\r Blossom",
+      "Tobacco Blossom",
       "French labdanum",
       "Musk"
     ],
@@ -50672,14 +50732,14 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Amber/Oriental",
-      "Spicy",
-      "Woody"
+      "Floral",
+      "Gourmand"
     ],
     "accords": [
+      "Floral",
       "Musky",
       "Spicy",
-      "Warm",
-      "Woody"
+      "Sweet"
     ]
   },
   {
@@ -50849,13 +50909,13 @@ export const perfumes: Perfume[] = [
       "Pear",
       "Green Apple",
       "Cinnamon",
-      "Guatemalan\r Cardamom",
+      "Guatemalan Cardamom",
       "Cloves"
     ],
     "baseNotes": [
       "White Musk",
       "Amber",
-      "Madagascar\r Vanilla",
+      "Madagascar Vanilla",
       "Woody Notes"
     ],
     "seasons": [
@@ -51187,6 +51247,7 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Amber/Oriental",
+      "Gourmand",
       "Woody"
     ],
     "accords": [
@@ -51335,10 +51396,10 @@ export const perfumes: Perfume[] = [
       "Lavender; bergamot; lemon"
     ],
     "heartNotes": [
-      "Honey; cinnamon;\r cashmeran; jasmine sambac"
+      "Honey; cinnamon; cashmeran; jasmine sambac"
     ],
     "baseNotes": [
-      "Tobacco leaf; vanilla; tonka\r bean"
+      "Tobacco leaf; vanilla; tonka bean"
     ],
     "seasons": [
       "Monsoon",
@@ -51380,7 +51441,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Cardamom",
-      "Pink\r Pepper",
+      "Pink Pepper",
       "Jasmine",
       "Nutmeg"
     ],
@@ -51438,7 +51499,7 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Patchouli",
       "Musk",
-      "Virginia\r Cedar",
+      "Virginia Cedar",
       "Haitian Vetiver"
     ],
     "seasons": [
@@ -51481,7 +51542,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Cinnamon",
-      "Ylang-\r Ylang",
+      "Ylang- Ylang",
       "Indian Jasmine",
       "Bulgarian Rose"
     ],
@@ -51617,7 +51678,7 @@ export const perfumes: Perfume[] = [
       "Earthy",
       "Floral",
       "Fresh",
-      "Musky"
+      "Fruity"
     ]
   },
   {
@@ -51818,7 +51879,7 @@ export const perfumes: Perfume[] = [
       "Earthy",
       "Floral",
       "Fresh",
-      "Leather"
+      "Fruity"
     ]
   },
   {
@@ -51866,8 +51927,8 @@ export const perfumes: Perfume[] = [
     "accords": [
       "Floral",
       "Fresh",
-      "Herbal",
-      "Musky"
+      "Fruity",
+      "Herbal"
     ]
   },
   {
@@ -51883,7 +51944,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Mate",
-      "Clary\r Sage",
+      "Clary Sage",
       "Guaiac Wood"
     ],
     "baseNotes": [
@@ -52076,7 +52137,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Dark Chocolate",
-      "Red\r Berries",
+      "Red Berries",
       "Moroccan Rose",
       "Rose",
       "Patchouli"
@@ -52280,7 +52341,7 @@ export const perfumes: Perfume[] = [
       "Vanilla Absolute",
       "Coffee",
       "Patchouli",
-      "Vanilla\r Orchid"
+      "Vanilla Orchid"
     ],
     "seasons": [
       "Spring",
@@ -52322,7 +52383,7 @@ export const perfumes: Perfume[] = [
     ],
     "heartNotes": [
       "Chinese Cedar",
-      "Clary\r Sage"
+      "Clary Sage"
     ],
     "baseNotes": [
       "Benzoin"
@@ -52647,7 +52708,7 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Musk",
       "Vanille",
-      "Tonka\r Bean"
+      "Tonka Bean"
     ],
     "seasons": [
       "Spring",
@@ -52738,7 +52799,7 @@ export const perfumes: Perfume[] = [
       "Sage"
     ],
     "baseNotes": [
-      "Tonka\r Bean",
+      "Tonka Bean",
       "Patchouli"
     ],
     "seasons": [
@@ -52830,7 +52891,7 @@ export const perfumes: Perfume[] = [
       "Bergamot"
     ],
     "heartNotes": [
-      "Agarwood\r (Oud)",
+      "Agarwood (Oud)",
       "Vetiver"
     ],
     "baseNotes": [
@@ -52877,7 +52938,7 @@ export const perfumes: Perfume[] = [
       "Patchouli"
     ],
     "baseNotes": [
-      "Agarwood\r (Oud)",
+      "Agarwood (Oud)",
       "Myrhh",
       "French labdanum"
     ],
@@ -52920,18 +52981,18 @@ export const perfumes: Perfume[] = [
       "Pear",
       "Orange",
       "Tangerine",
-      "Calabrian\r bergamot",
+      "Calabrian bergamot",
       "Calone"
     ],
     "heartNotes": [
       "Peony",
       "Jasmine Sambac",
-      "Chinese\r Jasmine",
+      "Chinese Jasmine",
       "Datura",
       "Orange Blossom"
     ],
     "baseNotes": [
-      "Indonesian\r Patchouli Leaf",
+      "Indonesian Patchouli Leaf",
       "Patchouli",
       "White Musk",
       "Vanila",
@@ -52998,10 +53059,12 @@ export const perfumes: Perfume[] = [
     "featured": false,
     "families": [
       "Citrus",
+      "Floral",
       "Woody"
     ],
     "accords": [
       "Earthy",
+      "Floral",
       "Fresh",
       "Woody"
     ]
@@ -53063,13 +53126,13 @@ export const perfumes: Perfume[] = [
     "name": "Women",
     "gender": "Unisex",
     "topNotes": [
-      "Mimosa; orange blossom; green notes; rose; cassia;\r hawthorn; bergamot; violet leaf"
+      "Mimosa; orange blossom; green notes; rose; cassia; hawthorn; bergamot; violet leaf"
     ],
     "heartNotes": [
-      "Rose; violet; lily;\r lime blossom; ylang-ylang; jasmine; iris"
+      "Rose; violet; lily; lime blossom; ylang-ylang; jasmine; iris"
     ],
     "baseNotes": [
-      "Iris; musk;\r heliotrope; sandalwood; amber; cedar"
+      "Iris; musk; heliotrope; sandalwood; amber; cedar"
     ],
     "seasons": [
       "Spring",
@@ -53117,7 +53180,7 @@ export const perfumes: Perfume[] = [
       "Iris",
       "Geranium",
       "Ylang-Ylang",
-      "Lily-of-the-\r Valley",
+      "Lily-of-the- Valley",
       "Jasmine",
       "Magnolia",
       "Gardenia"
@@ -53220,7 +53283,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Agarwood (Oud)",
-      "Cypriol Oil or\r Nagarmotha",
+      "Cypriol Oil or Nagarmotha",
       "Cedar"
     ],
     "seasons": [
@@ -53317,10 +53380,10 @@ export const perfumes: Perfume[] = [
       "Apple; ginger; bergamot"
     ],
     "heartNotes": [
-      "Sage; juniper berries;\r geranium"
+      "Sage; juniper berries; geranium"
     ],
     "baseNotes": [
-      "Amberwood; tonka bean; cedar; vetiver;\r olibanum"
+      "Amberwood; tonka bean; cedar; vetiver; olibanum"
     ],
     "seasons": [
       "Spring",
@@ -53672,9 +53735,10 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Gourmand"
+      "Floral"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Sweet",
       "Warm"
@@ -53895,7 +53959,7 @@ export const perfumes: Perfume[] = [
       "Amber"
     ],
     "baseNotes": [
-      "Vanila\r \r for men\r \r NOTES"
+      "Vanila  for men  NOTES"
     ],
     "seasons": [
       "Spring",
@@ -54019,7 +54083,7 @@ export const perfumes: Perfume[] = [
       "Cyclamen",
       "Rose",
       "Jasmine",
-      "Lily-\r of-the-Valley"
+      "Lily- of-the-Valley"
     ],
     "baseNotes": [
       "Musk",
@@ -54067,7 +54131,7 @@ export const perfumes: Perfume[] = [
       "Fruity Notes"
     ],
     "heartNotes": [
-      "Tropical\r Fruits",
+      "Tropical Fruits",
       "Fig",
       "Green Notes",
       "Resins",
@@ -54124,7 +54188,7 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Vanilla",
       "Benzoin",
-      "Tonka\r Bean",
+      "Tonka Bean",
       "Sandalwood",
       "Labdanum",
       "Musk"
@@ -54146,13 +54210,13 @@ export const perfumes: Perfume[] = [
     "families": [
       "Amber/Oriental",
       "Citrus",
-      "Spicy"
+      "Floral"
     ],
     "accords": [
+      "Floral",
       "Fresh",
       "Musky",
-      "Spicy",
-      "Sweet"
+      "Spicy"
     ]
   },
   {
@@ -54252,9 +54316,9 @@ export const perfumes: Perfume[] = [
     ],
     "featured": false,
     "families": [
+      "Amber/Oriental",
       "Citrus",
-      "Floral",
-      "Fruity"
+      "Floral"
     ],
     "accords": [
       "Floral",
