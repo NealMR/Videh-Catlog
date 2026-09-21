@@ -45,10 +45,18 @@ export const perfumes: Perfume[] = [
       "Brazilian Rosewood",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aquatic",
@@ -221,10 +229,20 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -262,10 +280,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -501,18 +529,18 @@ export const perfumes: Perfume[] = [
       "Ambergris"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -600,10 +628,18 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -640,16 +676,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -679,10 +715,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "White musk;\r ambroxan; sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aquatic",
@@ -724,18 +767,18 @@ export const perfumes: Perfume[] = [
       "Oakmoss"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -771,10 +814,20 @@ export const perfumes: Perfume[] = [
       "Myrrh",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -816,18 +869,18 @@ export const perfumes: Perfume[] = [
       "Oakmoss"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -965,10 +1018,18 @@ export const perfumes: Perfume[] = [
       "Leather",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -1009,10 +1070,18 @@ export const perfumes: Perfume[] = [
       "Orris",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -1047,10 +1116,20 @@ export const perfumes: Perfume[] = [
       "Labdanum",
       "Guaiac Wood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -1089,10 +1168,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Incense"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -1131,10 +1220,18 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -1176,10 +1273,18 @@ export const perfumes: Perfume[] = [
       "Ambergris",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -1217,10 +1322,17 @@ export const perfumes: Perfume[] = [
       "Ambergris",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -1308,10 +1420,18 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Castoreum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -1403,10 +1523,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Cedar\r \r PAGE 4 / 118"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -1443,10 +1573,20 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -1590,10 +1730,17 @@ export const perfumes: Perfume[] = [
       "Woodsy Notes",
       "Civetta"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -1628,16 +1775,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Monsoon Evenings"
+      "Monsoon Evenings",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
       "Celebrations",
-      "Receptions",
       "Dinner Dates",
-      "Formal Events"
+      "Formal Events",
+      "Receptions"
     ],
     "featured": false,
     "families": [
@@ -1785,10 +1932,18 @@ export const perfumes: Perfume[] = [
       "Agarwood (Oud)",
       "Osmanthus"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -1829,10 +1984,18 @@ export const perfumes: Perfume[] = [
       "Vanille",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": true,
     "families": [
       "Amber/Oriental",
@@ -1875,10 +2038,19 @@ export const perfumes: Perfume[] = [
       "oak moss",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -1913,10 +2085,18 @@ export const perfumes: Perfume[] = [
       "Leather",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -1957,10 +2137,17 @@ export const perfumes: Perfume[] = [
       "Costus",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -1995,10 +2182,17 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -2033,10 +2227,16 @@ export const perfumes: Perfume[] = [
       "Guaiac Wood",
       "Ambrarome"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -2083,10 +2283,20 @@ export const perfumes: Perfume[] = [
       "Agarwood (Oud)",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -2122,10 +2332,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -2156,16 +2376,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -2308,10 +2528,19 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -2342,10 +2571,17 @@ export const perfumes: Perfume[] = [
       "Cade oil",
       "Rose"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -2378,18 +2614,18 @@ export const perfumes: Perfume[] = [
       "Guaiac Wood"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -2471,10 +2707,17 @@ export const perfumes: Perfume[] = [
       "Talc",
       "Oakmoss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -2512,10 +2755,19 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Tolu Balsam"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -2548,10 +2800,19 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -2587,18 +2848,18 @@ export const perfumes: Perfume[] = [
       "Musk"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "2-3",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -2631,10 +2892,20 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Oakmoss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": true,
     "families": [
       "Aromatic",
@@ -2664,18 +2935,18 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -2700,10 +2971,19 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Caramel; vanilla; musk;\r woods"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -2748,10 +3028,20 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Coconut"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -2786,10 +3076,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Woody\r Notes"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -2821,10 +3121,17 @@ export const perfumes: Perfume[] = [
       "Macarons",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring"
+    ],
+    "time": "Day / Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -2904,10 +3211,19 @@ export const perfumes: Perfume[] = [
       "Agarwood (Oud)",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -2998,16 +3314,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Monsoon Evenings"
+      "Monsoon Evenings",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
       "Celebrations",
-      "Receptions",
       "Dinner Dates",
-      "Formal Events"
+      "Formal Events",
+      "Receptions"
     ],
     "featured": false,
     "families": [
@@ -3049,10 +3365,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -3198,18 +3524,18 @@ export const perfumes: Perfume[] = [
       "Sage"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -3345,10 +3671,19 @@ export const perfumes: Perfume[] = [
       "Vetyver",
       "French labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -3425,10 +3760,15 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "No separate base notes listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Spicy"
@@ -3452,10 +3792,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -3716,10 +4063,18 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Indonesian Patchouli Leaf"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -3901,10 +4256,19 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Tonka bean; amber; musk;\r woods"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -4107,10 +4471,20 @@ export const perfumes: Perfume[] = [
       "Sandalowood",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -4190,10 +4564,18 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Caramel"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -4319,10 +4701,19 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Virginia Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -4394,10 +4785,19 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -4482,10 +4882,19 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Australian Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -4567,10 +4976,16 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Vanilla Absolute"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -4612,10 +5027,20 @@ export const perfumes: Perfume[] = [
       "Oakmoss",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -4647,10 +5072,19 @@ export const perfumes: Perfume[] = [
       "Virginian Cedar",
       "Himalayan Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -4726,10 +5160,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -4807,10 +5248,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -4848,18 +5299,18 @@ export const perfumes: Perfume[] = [
       "Amber"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -4896,18 +5347,18 @@ export const perfumes: Perfume[] = [
       "Amber"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -4991,10 +5442,19 @@ export const perfumes: Perfume[] = [
       "Black locust",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -5064,10 +5524,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -5150,18 +5617,18 @@ export const perfumes: Perfume[] = [
       "Rose"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -5339,10 +5806,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -5366,10 +5840,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -5393,10 +5874,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Agarwood (Oud)"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -5423,10 +5911,15 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -5460,10 +5953,17 @@ export const perfumes: Perfume[] = [
       "Guaiac Wood",
       "Benzoin"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -5497,16 +5997,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -5540,10 +6040,20 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Benzoin"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -5576,18 +6086,18 @@ export const perfumes: Perfume[] = [
       "White Woods"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -5621,10 +6131,16 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Virginia Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aquatic",
@@ -5654,18 +6170,18 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -5697,10 +6213,19 @@ export const perfumes: Perfume[] = [
       "Iris",
       "White Peach"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -5746,10 +6271,18 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Oakmoss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -5784,10 +6317,20 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -5821,18 +6364,18 @@ export const perfumes: Perfume[] = [
       "Patchouli"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -5866,10 +6409,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -5904,18 +6457,18 @@ export const perfumes: Perfume[] = [
       "Musk"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "2-3",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -5949,10 +6502,19 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Tobacco Leaf"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -6039,10 +6601,16 @@ export const perfumes: Perfume[] = [
       "Papyrus",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -6076,10 +6644,18 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -6113,10 +6689,18 @@ export const perfumes: Perfume[] = [
       "Cashmeran",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -6151,10 +6735,16 @@ export const perfumes: Perfume[] = [
       "Woodsy Notes",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -6187,10 +6777,17 @@ export const perfumes: Perfume[] = [
       "Olibanum",
       "Ambroxan"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon"
+    ],
+    "time": "Day / Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -6224,10 +6821,19 @@ export const perfumes: Perfume[] = [
       "Olibanum",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -6262,10 +6868,19 @@ export const perfumes: Perfume[] = [
       "Suede",
       "Ambergris"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -6346,10 +6961,17 @@ export const perfumes: Perfume[] = [
       "Birch",
       "Papyrus"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -6381,10 +7003,17 @@ export const perfumes: Perfume[] = [
       "Ambergris",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -6416,18 +7045,18 @@ export const perfumes: Perfume[] = [
       "Palo Santo"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -6508,10 +7137,16 @@ export const perfumes: Perfume[] = [
       "Peach Blossom",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -6590,10 +7225,17 @@ export const perfumes: Perfume[] = [
       "Papyrus",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -6629,10 +7271,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Papyrus"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -6666,10 +7318,18 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Incense"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -6703,16 +7363,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -6746,10 +7406,19 @@ export const perfumes: Perfume[] = [
       "Agarwood (Oud)",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -6781,10 +7450,16 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -6818,10 +7493,18 @@ export const perfumes: Perfume[] = [
       "Bourbon vetiver",
       "Tibetan musk\r \r Anais Anais\r \r for women\r \r NOTES"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -6864,10 +7547,17 @@ export const perfumes: Perfume[] = [
       "Orris Root"
     ],
     "baseNotes": [],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -7031,10 +7721,16 @@ export const perfumes: Perfume[] = [
       "Oakmoss",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -7170,10 +7866,19 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -7313,10 +8018,20 @@ export const perfumes: Perfume[] = [
       "Guaiac Wood",
       "Labdanum\r \r 212 VIP Black\r \r for men\r \r NOTES"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -7348,10 +8063,16 @@ export const perfumes: Perfume[] = [
       "Black Vanilla Husk",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -7483,10 +8204,19 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -7529,10 +8259,20 @@ export const perfumes: Perfume[] = [
       "Oakmoss",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -7761,10 +8501,18 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -7839,10 +8587,15 @@ export const perfumes: Perfume[] = [
       "Leather",
       "Guaiac Wood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Leather",
@@ -7921,10 +8674,16 @@ export const perfumes: Perfume[] = [
       "Green Lily",
       "Green Notes"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -7996,10 +8755,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Tonka Bean"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -8046,10 +8815,16 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -8078,10 +8853,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed\r \r for men\r \r NOTES"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -8117,10 +8899,20 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Tonka Bean"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -8260,10 +9052,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "French labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -8340,10 +9142,20 @@ export const perfumes: Perfume[] = [
       "Labdanum",
       "White Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -8384,10 +9196,20 @@ export const perfumes: Perfume[] = [
       "Labdanum",
       "White Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -8426,10 +9248,20 @@ export const perfumes: Perfume[] = [
       "Iso E Super",
       "Tonka Bean"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -8476,10 +9308,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -8518,18 +9360,18 @@ export const perfumes: Perfume[] = [
       "Coumarin"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -8616,18 +9458,18 @@ export const perfumes: Perfume[] = [
       "Amber"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -8714,18 +9556,18 @@ export const perfumes: Perfume[] = [
       "NA"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -8816,10 +9658,20 @@ export const perfumes: Perfume[] = [
       "Tonka Bean",
       "Opoponax"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -8861,10 +9713,20 @@ export const perfumes: Perfume[] = [
       "Cloves",
       "Benzoin"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -8900,10 +9762,20 @@ export const perfumes: Perfume[] = [
       "Olibanum",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -8932,10 +9804,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -8971,16 +9850,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -9178,10 +10057,20 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -9210,10 +10099,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -9242,10 +10138,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -9284,10 +10190,17 @@ export const perfumes: Perfume[] = [
       "Tonka Bean",
       "Benzoin"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -9325,10 +10238,20 @@ export const perfumes: Perfume[] = [
       "Leather",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -9369,18 +10292,18 @@ export const perfumes: Perfume[] = [
       "Patchouli"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -9521,10 +10444,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -9599,10 +10529,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Atlas Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -9647,10 +10584,19 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -9683,18 +10629,18 @@ export const perfumes: Perfume[] = [
       "Amber"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -9847,10 +10793,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -9884,10 +10837,20 @@ export const perfumes: Perfume[] = [
       "Leather",
       "Olibanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -9916,10 +10879,20 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Vanilla; musk;\r sandalwood; amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -10008,10 +10981,18 @@ export const perfumes: Perfume[] = [
       "Ambroxan",
       "Cedarwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -10047,10 +11028,20 @@ export const perfumes: Perfume[] = [
       "Tonka Bean",
       "Styrax"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -10185,10 +11176,17 @@ export const perfumes: Perfume[] = [
       "Myrhh",
       "Frankincense"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -10260,10 +11258,18 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Bourbon vanilla; tonka bean;\r leather; amberwood; patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -10310,16 +11316,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -10351,10 +11357,19 @@ export const perfumes: Perfume[] = [
       "Ambergris",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -10390,18 +11405,18 @@ export const perfumes: Perfume[] = [
       "Woody Notes"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -10442,10 +11457,20 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Oakmoss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -10722,10 +11747,19 @@ export const perfumes: Perfume[] = [
       "Petitgrain",
       "Galbanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -10807,10 +11841,19 @@ export const perfumes: Perfume[] = [
       "Tonka Bean",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -10844,10 +11887,20 @@ export const perfumes: Perfume[] = [
       "Leather",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -10890,18 +11943,18 @@ export const perfumes: Perfume[] = [
       "Tonka Bean"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -10981,10 +12034,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -11008,10 +12068,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Reliable exact-page data not found in indexed sources"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -11048,10 +12115,20 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Ambergris"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -11087,10 +12164,20 @@ export const perfumes: Perfume[] = [
       "Cinnamon",
       "oak moss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -11122,10 +12209,20 @@ export const perfumes: Perfume[] = [
       "Oriental Woodsy notes",
       "Oakmoss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -11289,10 +12386,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -11328,10 +12432,19 @@ export const perfumes: Perfume[] = [
       "Labdanum",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -11360,10 +12473,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -11387,10 +12507,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -11424,10 +12551,19 @@ export const perfumes: Perfume[] = [
       "Violet",
       "Cade oil"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -11463,10 +12599,20 @@ export const perfumes: Perfume[] = [
       "Tahitian Vetiver",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -11502,18 +12648,18 @@ export const perfumes: Perfume[] = [
       "White Musk"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -11591,10 +12737,18 @@ export const perfumes: Perfume[] = [
       "Virginia Cedar",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring"
+    ],
+    "time": "Day / Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -11623,10 +12777,18 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -11660,10 +12822,19 @@ export const perfumes: Perfume[] = [
       "Agarwood (Oud)",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -11700,16 +12871,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Monsoon Evenings"
+      "Monsoon Evenings",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
       "Celebrations",
-      "Receptions",
       "Dinner Dates",
-      "Formal Events"
+      "Formal Events",
+      "Receptions"
     ],
     "featured": false,
     "families": [
@@ -11746,10 +12917,20 @@ export const perfumes: Perfume[] = [
       "Rosemary",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -11791,18 +12972,18 @@ export const perfumes: Perfume[] = [
       "Musk"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -11934,10 +13115,19 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Coconut"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -11972,18 +13162,18 @@ export const perfumes: Perfume[] = [
       "Vetiver"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -12029,10 +13219,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -12126,10 +13326,19 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Bourbon Vanilla\r \r PAGE 29 / 118"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -12176,10 +13385,20 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -12413,10 +13632,16 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Peach"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aquatic",
@@ -12607,10 +13832,17 @@ export const perfumes: Perfume[] = [
       "Benzoin",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -12643,10 +13875,18 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -12692,10 +13932,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -12741,10 +13991,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -12782,10 +14042,19 @@ export const perfumes: Perfume[] = [
       "Cashmeran",
       "Heliotrope"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -12823,10 +14092,20 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -12864,10 +14143,20 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -12905,10 +14194,20 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -12944,10 +14243,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Haitian Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -12980,10 +14289,19 @@ export const perfumes: Perfume[] = [
       "Tonka Bean",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": true,
     "families": [
       "Amber/Oriental",
@@ -13019,10 +14337,15 @@ export const perfumes: Perfume[] = [
       "Bay Leaf",
       "Woodsy Notes"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Spicy",
@@ -13092,10 +14415,20 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -13262,10 +14595,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -13326,10 +14666,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -13359,16 +14706,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Monsoon Evenings"
+      "Monsoon Evenings",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
       "Celebrations",
-      "Receptions",
       "Dinner Dates",
-      "Formal Events"
+      "Formal Events",
+      "Receptions"
     ],
     "featured": false,
     "families": [
@@ -13396,10 +14743,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -13557,10 +14911,19 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Neroli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -13597,18 +14960,18 @@ export const perfumes: Perfume[] = [
       "Smoke"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -13750,18 +15113,18 @@ export const perfumes: Perfume[] = [
       "Amberwood"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -13844,10 +15207,19 @@ export const perfumes: Perfume[] = [
       "Virginia Cedar",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -13877,18 +15249,18 @@ export const perfumes: Perfume[] = [
       "Amberwood"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -13926,10 +15298,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -13964,10 +15346,20 @@ export const perfumes: Perfume[] = [
       "Tobacco",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -14102,10 +15494,18 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Olibanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -14139,10 +15539,19 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -14175,10 +15584,16 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -14221,10 +15636,20 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Oakmoss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -14264,10 +15689,18 @@ export const perfumes: Perfume[] = [
       "Leather",
       "Agarwood (Oud)"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -14311,10 +15744,20 @@ export const perfumes: Perfume[] = [
       "Tonka\r Bean",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -14354,10 +15797,19 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Agarwood (Oud)"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -14390,10 +15842,16 @@ export const perfumes: Perfume[] = [
       "Vanilla Pod",
       "Tonka Bean"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -14518,10 +15976,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -14554,10 +16019,19 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Oak"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -14677,10 +16151,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -14717,10 +16198,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -14749,10 +16240,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -14776,10 +16274,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -14819,10 +16324,18 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -14859,18 +16372,18 @@ export const perfumes: Perfume[] = [
       "Patchouli"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -14909,10 +16422,18 @@ export const perfumes: Perfume[] = [
       "Ambroxan",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -14941,10 +16462,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -14968,10 +16496,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed\r \r NOTES"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -15002,18 +16537,18 @@ export const perfumes: Perfume[] = [
       "White Musk"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -15049,10 +16584,19 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Akigalawood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -15089,18 +16633,18 @@ export const perfumes: Perfume[] = [
       "Woody\r Notes"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -15133,10 +16677,16 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Cashmeran"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -15219,10 +16769,20 @@ export const perfumes: Perfume[] = [
       "Patchouli\r \r Oud Jaune Intense\r \r for women",
       "men\r \r NOTES"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -15259,10 +16819,19 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Agarwood (Oud)"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -15291,10 +16860,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -15358,10 +16934,19 @@ export const perfumes: Perfume[] = [
       "Hay",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -15596,10 +17181,17 @@ export const perfumes: Perfume[] = [
       "Oakmoss",
       "White Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -15634,10 +17226,18 @@ export const perfumes: Perfume[] = [
       "Styrax",
       "Benzoin"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -15681,10 +17281,20 @@ export const perfumes: Perfume[] = [
       "Amber",
       "ebony tree"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -15713,10 +17323,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Reliable exact-page data not found in indexed sources"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -15744,10 +17361,18 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -15777,18 +17402,18 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -15818,10 +17443,19 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -15856,18 +17490,18 @@ export const perfumes: Perfume[] = [
       "Vanilla"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "2-3",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -16006,10 +17640,20 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -16047,18 +17691,18 @@ export const perfumes: Perfume[] = [
       "Amber"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "2-3",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -16088,10 +17732,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Reliable exact-page data not found in indexed sources"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -16115,10 +17766,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -16149,10 +17807,18 @@ export const perfumes: Perfume[] = [
       "Oakmoss",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring"
+    ],
+    "time": "Day / Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -16236,10 +17902,17 @@ export const perfumes: Perfume[] = [
       "Incense",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -16270,16 +17943,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Monsoon Evenings"
+      "Monsoon Evenings",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
       "Celebrations",
-      "Receptions",
       "Dinner Dates",
-      "Formal Events"
+      "Formal Events",
+      "Receptions"
     ],
     "featured": false,
     "families": [
@@ -16304,10 +17977,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -16339,18 +18019,18 @@ export const perfumes: Perfume[] = [
       "Musk"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -16439,18 +18119,18 @@ export const perfumes: Perfume[] = [
       "Patchouli"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -16611,10 +18291,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -16696,10 +18386,18 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Cashmere Wood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aquatic",
@@ -16735,18 +18433,18 @@ export const perfumes: Perfume[] = [
       "Woody\r Notes"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -16873,10 +18571,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -17157,10 +18862,19 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Iris"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -17283,10 +18997,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -17362,10 +19083,19 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -17587,10 +19317,16 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Ambroxan"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -17623,10 +19359,19 @@ export const perfumes: Perfume[] = [
       "Benzoin",
       "Brazilian Rosewood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -17659,10 +19404,18 @@ export const perfumes: Perfume[] = [
       "Woody Notes",
       "Ambroxan"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -17700,10 +19453,20 @@ export const perfumes: Perfume[] = [
       "Amberwood",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -17738,10 +19501,20 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -17821,10 +19594,19 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Benzoin"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -17911,10 +19693,20 @@ export const perfumes: Perfume[] = [
       "Teak Wood",
       "Moss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -17954,10 +19746,20 @@ export const perfumes: Perfume[] = [
       "Teak Wood",
       "Moss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -18104,18 +19906,18 @@ export const perfumes: Perfume[] = [
       "Sandalwood"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -18206,10 +20008,17 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Virginia Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -18242,18 +20051,18 @@ export const perfumes: Perfume[] = [
       "Virginia Cedar"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -18300,10 +20109,20 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Tonka Bean"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -18342,10 +20161,20 @@ export const perfumes: Perfume[] = [
       "Benzoin",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -18381,10 +20210,20 @@ export const perfumes: Perfume[] = [
       "Vanillin",
       "Cosmone"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -18420,18 +20259,18 @@ export const perfumes: Perfume[] = [
       "White\r Musk"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -18635,10 +20474,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Rangoon Creeper"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring"
+    ],
+    "time": "Day / Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Floral"
@@ -18668,10 +20514,18 @@ export const perfumes: Perfume[] = [
       "Osmanthus",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -18705,10 +20559,18 @@ export const perfumes: Perfume[] = [
       "Brown sugar",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -18794,10 +20656,19 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Olive Tree"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -18832,10 +20703,19 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Olive Tree"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -18870,10 +20750,18 @@ export const perfumes: Perfume[] = [
       "Natural Vanilla",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -19134,10 +21022,17 @@ export const perfumes: Perfume[] = [
       "Angelica",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -19171,16 +21066,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Monsoon Evenings"
+      "Monsoon Evenings",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
       "Celebrations",
-      "Receptions",
       "Dinner Dates",
-      "Formal Events"
+      "Formal Events",
+      "Receptions"
     ],
     "featured": false,
     "families": [
@@ -19214,10 +21109,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -19250,18 +21155,18 @@ export const perfumes: Perfume[] = [
       "Leather"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "2-3",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -19298,16 +21203,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Monsoon Evenings"
+      "Monsoon Evenings",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "2-3",
     "occasions": [
       "Celebrations",
-      "Receptions",
       "Dinner Dates",
-      "Formal Events"
+      "Formal Events",
+      "Receptions"
     ],
     "featured": false,
     "families": [
@@ -19490,10 +21395,19 @@ export const perfumes: Perfume[] = [
       "Tonka",
       "Benzoin"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -19576,10 +21490,20 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -19621,16 +21545,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -19778,10 +21702,20 @@ export const perfumes: Perfume[] = [
       "Tonka\r Bean",
       "Musk\r \r for women\r \r NOTES"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -19816,10 +21750,19 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Benzoin"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -19854,10 +21797,15 @@ export const perfumes: Perfume[] = [
       "Agarwood (Oud)",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -19892,10 +21840,20 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Pine"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -19924,10 +21882,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -19956,16 +21921,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -20003,10 +21968,16 @@ export const perfumes: Perfume[] = [
       "Suede",
       "Peru\r Balsam"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -20054,10 +22025,18 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -20086,10 +22065,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Reliable exact-page data not found in indexed sources"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -20115,10 +22101,20 @@ export const perfumes: Perfume[] = [
       "Tobacco Leaf",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -20151,10 +22147,20 @@ export const perfumes: Perfume[] = [
       "Tonka\r Bean",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -20234,10 +22240,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -20393,10 +22406,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -20460,10 +22480,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -20525,10 +22552,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -20556,16 +22590,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Monsoon Evenings"
+      "Monsoon Evenings",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
       "Celebrations",
-      "Receptions",
       "Dinner Dates",
-      "Formal Events"
+      "Formal Events",
+      "Receptions"
     ],
     "featured": false,
     "families": [
@@ -20595,10 +22629,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -20749,10 +22790,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -20817,10 +22865,17 @@ export const perfumes: Perfume[] = [
       "Leather",
       "White Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -20849,10 +22904,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -20876,10 +22938,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Physcool\u00ae"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring"
+    ],
+    "time": "Day / Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Fruity"
@@ -20954,10 +23023,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -21029,10 +23105,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed\r \r NOTES"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -21057,18 +23140,18 @@ export const perfumes: Perfume[] = [
       "Tonka Bean"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "2-3",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -21099,10 +23182,16 @@ export const perfumes: Perfume[] = [
       "Animal notes",
       "White Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -21169,10 +23258,16 @@ export const perfumes: Perfume[] = [
       "Not separately listed\r \r Eau de Neroli Dore\r \r for women",
       "men\r \r NOTES"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": true,
     "families": [
       "Citrus"
@@ -21240,18 +23335,18 @@ export const perfumes: Perfume[] = [
       "Leather"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -21327,10 +23422,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -21393,10 +23495,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -21459,10 +23568,15 @@ export const perfumes: Perfume[] = [
       "Woody\r Notes",
       "Mineral notes"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Woody"
@@ -21491,18 +23605,18 @@ export const perfumes: Perfume[] = [
       "Patchouli"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -21538,10 +23652,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Benzoin"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -21576,18 +23700,18 @@ export const perfumes: Perfume[] = [
       "Vanilla"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -21617,10 +23741,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed\r \r NOTES"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -21653,18 +23784,18 @@ export const perfumes: Perfume[] = [
       "Musk"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -21785,10 +23916,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -21813,18 +23951,18 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -21850,10 +23988,17 @@ export const perfumes: Perfume[] = [
       "Not separately listed\r \r Voyage d Hermes\r \r for women",
       "men\r \r NOTES"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -21886,16 +24031,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -22031,10 +24176,19 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Dry Wood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -22071,18 +24225,18 @@ export const perfumes: Perfume[] = [
       "Vetiver"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -22113,10 +24267,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Cacao"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring"
+    ],
+    "time": "Day / Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -22189,10 +24350,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -22216,10 +24384,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -22247,10 +24422,19 @@ export const perfumes: Perfume[] = [
       "Madagascar Vanilla",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -22279,10 +24463,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -22306,10 +24497,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -22334,18 +24532,18 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -22373,10 +24571,16 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -22410,10 +24614,19 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Herbal Notes"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -22447,10 +24660,20 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Agarwood (Oud)"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -22530,10 +24753,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Guaiac Wood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -22606,18 +24839,18 @@ export const perfumes: Perfume[] = [
       "Patchouli"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -22720,10 +24953,18 @@ export const perfumes: Perfume[] = [
       "Tahitian Vetiver",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aquatic",
@@ -22768,10 +25009,18 @@ export const perfumes: Perfume[] = [
       "Tahitian Vetiver",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aquatic",
@@ -22816,18 +25065,18 @@ export const perfumes: Perfume[] = [
       "Amber"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -22917,10 +25166,18 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -22960,18 +25217,18 @@ export const perfumes: Perfume[] = [
       "Virginia Cedar"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -23010,18 +25267,18 @@ export const perfumes: Perfume[] = [
       "Patchouli"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -23091,10 +25348,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -23122,16 +25386,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Monsoon Evenings"
+      "Monsoon Evenings",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
       "Celebrations",
-      "Receptions",
       "Dinner Dates",
-      "Formal Events"
+      "Formal Events",
+      "Receptions"
     ],
     "featured": false,
     "families": [
@@ -23162,10 +25426,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -23235,10 +25506,18 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Woodsy Notes"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -23272,18 +25551,18 @@ export const perfumes: Perfume[] = [
       "Tobacco"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "2-3",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -23414,10 +25693,20 @@ export const perfumes: Perfume[] = [
       "Tonka Bean",
       "Sandalwood\r \r Scandal\r \r for women\r \r NOTES"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -23454,10 +25743,18 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Licorice"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -23495,10 +25792,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -23538,10 +25845,20 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -23576,10 +25893,18 @@ export const perfumes: Perfume[] = [
       "Oakmoss",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -23612,18 +25937,18 @@ export const perfumes: Perfume[] = [
       "Vanilla"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -23657,10 +25982,18 @@ export const perfumes: Perfume[] = [
       "Rhuburb",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -23738,10 +26071,18 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -23774,18 +26115,18 @@ export const perfumes: Perfume[] = [
       "Vetiver"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -23816,10 +26157,17 @@ export const perfumes: Perfume[] = [
       "Agarwood (Oud)",
       "Nougat"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -23850,10 +26198,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Suede"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -23986,10 +26341,16 @@ export const perfumes: Perfume[] = [
       "Heliotrope",
       "Barley"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -24053,10 +26414,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -24081,18 +26449,18 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -24231,10 +26599,17 @@ export const perfumes: Perfume[] = [
       "Iso E Super",
       "Ambrette (Musk Mallow)"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -24415,10 +26790,20 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -24454,10 +26839,20 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -24497,10 +26892,20 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -24537,18 +26942,18 @@ export const perfumes: Perfume[] = [
       "Vanilla"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -24596,10 +27001,20 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -24628,10 +27043,20 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aquatic",
@@ -24733,10 +27158,20 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -24847,10 +27282,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -24915,10 +27357,15 @@ export const perfumes: Perfume[] = [
       "Praline",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -24947,10 +27394,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -24981,10 +27435,19 @@ export const perfumes: Perfume[] = [
       "Ambroxan",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -25056,18 +27519,18 @@ export const perfumes: Perfume[] = [
       "Amberwood"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -25145,10 +27608,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -25227,10 +27697,20 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -25312,10 +27792,17 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -25347,10 +27834,15 @@ export const perfumes: Perfume[] = [
       "Caramel",
       "Mocha"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -25672,10 +28164,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -25703,10 +28202,16 @@ export const perfumes: Perfume[] = [
       "Bourbon Vanilla",
       "Orcanox\u2122"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -25739,10 +28244,16 @@ export const perfumes: Perfume[] = [
       "Bourbon Vanilla",
       "Orcanox\u2122"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -25777,10 +28288,18 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -25815,10 +28334,17 @@ export const perfumes: Perfume[] = [
       "oak moss",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -25853,18 +28379,18 @@ export const perfumes: Perfume[] = [
       "Cashmere\r Wood"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -25999,10 +28525,17 @@ export const perfumes: Perfume[] = [
       "Musk",
       "White Woods"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -26097,16 +28630,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "2-3",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -26193,18 +28726,18 @@ export const perfumes: Perfume[] = [
       "Suede"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -26284,10 +28817,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Ambergris"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -26324,18 +28867,18 @@ export const perfumes: Perfume[] = [
       "Patchouli"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -26477,10 +29020,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Tonka Bean"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -26515,10 +29068,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Tonka Bean"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -26553,10 +29116,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Tonka Bean"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -26621,10 +29194,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -26660,10 +29240,20 @@ export const perfumes: Perfume[] = [
       "Birch",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -26801,10 +29391,17 @@ export const perfumes: Perfume[] = [
       "White Musk",
       "White Woods"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -26876,10 +29473,17 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Oakmoss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -26909,18 +29513,18 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -26953,10 +29557,19 @@ export const perfumes: Perfume[] = [
       "Leather",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -27046,10 +29659,17 @@ export const perfumes: Perfume[] = [
       "Rose",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring"
+    ],
+    "time": "Day / Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -27129,10 +29749,16 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -27314,10 +29940,19 @@ export const perfumes: Perfume[] = [
       "Benzoin",
       "Akigalawood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -27461,10 +30096,20 @@ export const perfumes: Perfume[] = [
       "Tonka",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -27493,10 +30138,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -27520,10 +30172,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -27548,10 +30207,16 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -27586,10 +30251,18 @@ export const perfumes: Perfume[] = [
       "Olibanum",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -27618,10 +30291,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -27645,10 +30325,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -27672,10 +30359,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -27699,10 +30393,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -27732,18 +30433,18 @@ export const perfumes: Perfume[] = [
       "Hay"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -27957,10 +30658,16 @@ export const perfumes: Perfume[] = [
       "Heliotrope",
       "White Cedar Extract"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -27993,18 +30700,18 @@ export const perfumes: Perfume[] = [
       "Rose"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -28142,10 +30849,20 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -28193,10 +30910,20 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -28235,10 +30962,18 @@ export const perfumes: Perfume[] = [
       "White Musk",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -28277,10 +31012,18 @@ export const perfumes: Perfume[] = [
       "White Musk",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -28309,10 +31052,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -28426,18 +31176,18 @@ export const perfumes: Perfume[] = [
       "Patchouli"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -28477,10 +31227,16 @@ export const perfumes: Perfume[] = [
       "Cashmeran",
       "Ambrette (Musk Mallow)"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -28510,18 +31266,18 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -28546,10 +31302,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -28626,10 +31389,18 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Moss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aquatic",
@@ -28659,18 +31430,18 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -28695,10 +31466,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -28727,10 +31505,19 @@ export const perfumes: Perfume[] = [
       "Ambroxan",
       "Ambrette (Musk\r Mallow)"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -28807,10 +31594,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -28889,10 +31683,20 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -29022,10 +31826,20 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Java vetiver oil"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -29059,18 +31873,18 @@ export const perfumes: Perfume[] = [
       "Cacao"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -29100,10 +31914,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -29127,10 +31948,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -29154,10 +31982,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -29188,16 +32023,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -29233,10 +32068,18 @@ export const perfumes: Perfume[] = [
       "Iso E Super",
       "White Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -29276,18 +32119,18 @@ export const perfumes: Perfume[] = [
       "Ambrette"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -29407,10 +32250,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -29447,18 +32297,18 @@ export const perfumes: Perfume[] = [
       "White Musk"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -29488,10 +32338,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Reliable exact-page data not found in indexed sources"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -29515,10 +32372,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -29597,10 +32461,18 @@ export const perfumes: Perfume[] = [
       "White Musk",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -29732,10 +32604,18 @@ export const perfumes: Perfume[] = [
       "Moss",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aquatic",
@@ -29807,10 +32687,18 @@ export const perfumes: Perfume[] = [
       "Agarwood\r (Oud)",
       "Oriental notes"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -29904,10 +32792,20 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -29946,10 +32844,20 @@ export const perfumes: Perfume[] = [
       "White Musk",
       "Moss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -30031,18 +32939,18 @@ export const perfumes: Perfume[] = [
       "White Musk"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -30185,10 +33093,19 @@ export const perfumes: Perfume[] = [
       "White\r Musk",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -30231,10 +33148,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -30272,10 +33199,18 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Oakmoss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -30304,10 +33239,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -30425,10 +33367,19 @@ export const perfumes: Perfume[] = [
       "White Woods",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -30563,10 +33514,17 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Rancid Oil"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring"
+    ],
+    "time": "Day / Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -30692,10 +33650,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -30775,10 +33740,18 @@ export const perfumes: Perfume[] = [
       "Tobacco Leaf",
       "Precious Woods"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -30815,16 +33788,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -30860,10 +33833,18 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Moss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -30897,18 +33878,18 @@ export const perfumes: Perfume[] = [
       "Sandalwood"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -31025,10 +34006,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -31058,10 +34046,20 @@ export const perfumes: Perfume[] = [
       "Tonka Bean",
       "Agarwood (Oud)"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -31090,10 +34088,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Reliable exact-page data not found in indexed sources"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -31117,10 +34122,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -31148,10 +34160,19 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Woodsy Notes"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -31183,18 +34204,18 @@ export const perfumes: Perfume[] = [
       "Woodsy Notes"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -31315,10 +34336,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -31342,10 +34370,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -31369,10 +34404,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -31434,10 +34476,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -31581,10 +34630,15 @@ export const perfumes: Perfume[] = [
       "Not separately listed\r \r Oud Satin Mood\r \r for women",
       "men\r \r NOTES"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Woody"
@@ -31608,10 +34662,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -31639,10 +34700,19 @@ export const perfumes: Perfume[] = [
       "Agarwood (Oud)",
       "Papyrus"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -31716,10 +34786,20 @@ export const perfumes: Perfume[] = [
       "Tonka Bean",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -31748,10 +34828,20 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Tonka bean; vanilla; amber; patchouli;\r sandalwood; musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -31786,10 +34876,18 @@ export const perfumes: Perfume[] = [
       "Indonesian\r Patchouli Leaf",
       "Cacao Pod"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -31822,10 +34920,17 @@ export const perfumes: Perfume[] = [
       "White Musk",
       "Benzoin"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -31860,10 +34965,19 @@ export const perfumes: Perfume[] = [
       "Nutmeg",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -31935,18 +35049,18 @@ export const perfumes: Perfume[] = [
       "Moss"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -32023,10 +35137,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -32050,10 +35171,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -32077,10 +35205,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -32107,10 +35242,17 @@ export const perfumes: Perfume[] = [
       "White Musk",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -32139,10 +35281,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -32172,10 +35321,19 @@ export const perfumes: Perfume[] = [
       "Tonka Bean",
       "Agarwood\r (Oud)"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -32213,10 +35371,20 @@ export const perfumes: Perfume[] = [
       "Leather",
       "White Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -32245,10 +35413,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -32281,10 +35456,19 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Thanaka Wood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -32325,18 +35509,18 @@ export const perfumes: Perfume[] = [
       "Patchouli"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -32372,10 +35556,19 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Amberwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -32416,18 +35609,18 @@ export const perfumes: Perfume[] = [
       "Amber"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -32559,10 +35752,16 @@ export const perfumes: Perfume[] = [
       "French labdanum",
       "Styrax"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -32635,18 +35834,18 @@ export const perfumes: Perfume[] = [
       "Driftwood"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -32839,10 +36038,20 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -32956,10 +36165,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -32983,10 +36199,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -33010,10 +36233,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -33041,10 +36271,18 @@ export const perfumes: Perfume[] = [
       "Violet",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -33076,10 +36314,18 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -33107,10 +36353,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -33172,10 +36425,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -33247,10 +36507,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -33274,10 +36541,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -33301,10 +36575,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -33366,10 +36647,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -33393,10 +36681,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -33424,10 +36719,17 @@ export const perfumes: Perfume[] = [
       "Agarwood (Oud)",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -33878,10 +37180,16 @@ export const perfumes: Perfume[] = [
       "Chinese Cedar",
       "Oakmoss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -33917,16 +37225,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Monsoon Evenings"
+      "Monsoon Evenings",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
       "Celebrations",
-      "Receptions",
       "Dinner Dates",
-      "Formal Events"
+      "Formal Events",
+      "Receptions"
     ],
     "featured": false,
     "families": [
@@ -34020,10 +37328,20 @@ export const perfumes: Perfume[] = [
       "Leather",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -34149,10 +37467,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "NA"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -34184,10 +37509,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Praline"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -34223,10 +37558,19 @@ export const perfumes: Perfume[] = [
       "Madagascar\r Vanilla",
       "Atlas Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -34270,10 +37614,20 @@ export const perfumes: Perfume[] = [
       "Moss",
       "Tonka Bean"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -34416,10 +37770,18 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Sugar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -34503,10 +37865,19 @@ export const perfumes: Perfume[] = [
       "Ambroxan",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aquatic",
@@ -34579,10 +37950,17 @@ export const perfumes: Perfume[] = [
       "Heliotrope",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -34620,10 +37998,17 @@ export const perfumes: Perfume[] = [
       "Moss",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -34760,10 +38145,19 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -34846,10 +38240,20 @@ export const perfumes: Perfume[] = [
       "Oakmoss",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -34884,18 +38288,18 @@ export const perfumes: Perfume[] = [
       "Guaiac Wood"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -34931,10 +38335,20 @@ export const perfumes: Perfume[] = [
       "Oakmoss",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -34967,18 +38381,18 @@ export const perfumes: Perfume[] = [
       "Patchouli"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -35108,10 +38522,17 @@ export const perfumes: Perfume[] = [
       "Moss",
       "Benzoin"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35148,10 +38569,20 @@ export const perfumes: Perfume[] = [
       "Cedarwood",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35193,10 +38624,19 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Benzoin"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35231,10 +38671,20 @@ export const perfumes: Perfume[] = [
       "Cashmeran",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35363,10 +38813,19 @@ export const perfumes: Perfume[] = [
       "Cashmere Wood",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35401,10 +38860,19 @@ export const perfumes: Perfume[] = [
       "Ylang-Ylang",
       "Benzoin"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35438,10 +38906,18 @@ export const perfumes: Perfume[] = [
       "Tonka Bean",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35477,10 +38953,20 @@ export const perfumes: Perfume[] = [
       "Woody Notes",
       "Indian Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35516,10 +39002,20 @@ export const perfumes: Perfume[] = [
       "Woody Notes",
       "Indian Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35610,10 +39106,20 @@ export const perfumes: Perfume[] = [
       "Oakmoss",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35646,18 +39152,18 @@ export const perfumes: Perfume[] = [
       "Patchouli"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -35693,10 +39199,20 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35733,10 +39249,20 @@ export const perfumes: Perfume[] = [
       "Lavender",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35773,10 +39299,20 @@ export const perfumes: Perfume[] = [
       "Lavender",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35818,10 +39354,20 @@ export const perfumes: Perfume[] = [
       "Cashmeran",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35854,10 +39400,16 @@ export const perfumes: Perfume[] = [
       "Oakmoss",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35901,10 +39453,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Ambergris"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35940,10 +39502,19 @@ export const perfumes: Perfume[] = [
       "Ambroxan",
       "Guaiac Wood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -35973,10 +39544,19 @@ export const perfumes: Perfume[] = [
       "White Musk",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -36008,10 +39588,20 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Resin"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -36047,10 +39637,18 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Opoponax"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -36289,10 +39887,18 @@ export const perfumes: Perfume[] = [
       "Virginia Cedar",
       "Vanille"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -36377,10 +39983,17 @@ export const perfumes: Perfume[] = [
       "Caramel",
       "Ambergris"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -36413,10 +40026,20 @@ export const perfumes: Perfume[] = [
       "Agarwood (Oud)",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -36454,10 +40077,18 @@ export const perfumes: Perfume[] = [
       "Cypriol Oil or Nagarmotha",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -36545,18 +40176,18 @@ export const perfumes: Perfume[] = [
       "Patchouli"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -36756,10 +40387,20 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -36796,10 +40437,18 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -36835,10 +40484,16 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Ambrette (Musk Mallow)"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -36917,10 +40572,20 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -36955,10 +40620,20 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -36998,10 +40673,20 @@ export const perfumes: Perfume[] = [
       "Balsam Fir",
       "Clearwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -37037,18 +40722,18 @@ export const perfumes: Perfume[] = [
       "Cashmere Wood"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -37083,10 +40768,19 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -37124,10 +40818,20 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -37168,10 +40872,18 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -37261,10 +40973,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -37301,16 +41023,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -37347,10 +41069,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -37385,10 +41117,19 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -37431,10 +41172,20 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -37477,10 +41228,20 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -37516,10 +41277,20 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -37595,10 +41366,16 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -37627,10 +41404,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -37658,10 +41442,20 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Ambroxan"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -37696,10 +41490,18 @@ export const perfumes: Perfume[] = [
       "Sesame",
       "Oak"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -37728,10 +41530,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -37793,10 +41602,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -37822,10 +41638,15 @@ export const perfumes: Perfume[] = [
       "Benzoin",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -37946,10 +41767,20 @@ export const perfumes: Perfume[] = [
       "Olibanum",
       "Benzoin"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -38030,10 +41861,19 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Woody Notes"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -38070,10 +41910,20 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -38105,10 +41955,18 @@ export const perfumes: Perfume[] = [
       "Leather",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -38233,10 +42091,18 @@ export const perfumes: Perfume[] = [
       "Ambroxan",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aquatic",
@@ -38350,10 +42216,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -38377,10 +42250,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -38406,10 +42286,16 @@ export const perfumes: Perfume[] = [
       "Guaiac Wood",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Spicy",
@@ -38493,10 +42379,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -38543,10 +42439,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -38770,10 +42676,16 @@ export const perfumes: Perfume[] = [
       "Guaiac Wood",
       "Vetiver"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Spicy",
@@ -38861,10 +42773,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -38896,10 +42818,17 @@ export const perfumes: Perfume[] = [
       "White Musk",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -38944,10 +42873,16 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -39262,10 +43197,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Oakmoss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -39312,10 +43257,20 @@ export const perfumes: Perfume[] = [
       "Galbanum",
       "Elemi"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -39362,10 +43317,20 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -39530,18 +43495,18 @@ export const perfumes: Perfume[] = [
       "Vanilla"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -39701,10 +43666,20 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -39740,10 +43715,20 @@ export const perfumes: Perfume[] = [
       "Benzoin",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -39787,10 +43772,19 @@ export const perfumes: Perfume[] = [
       "Olibanum",
       "Ambergris"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -39834,10 +43828,19 @@ export const perfumes: Perfume[] = [
       "Olibanum",
       "Ambergris"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -40001,10 +44004,19 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Nutmeg"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -40054,16 +44066,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -40164,16 +44176,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -40218,10 +44230,20 @@ export const perfumes: Perfume[] = [
       "Cumin",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -40254,10 +44276,17 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -40333,10 +44362,20 @@ export const perfumes: Perfume[] = [
       "Benzoin",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -40403,10 +44442,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -40430,10 +44476,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -40494,10 +44547,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -40521,10 +44581,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -40548,10 +44615,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -40575,10 +44649,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -40602,10 +44683,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -40632,10 +44720,18 @@ export const perfumes: Perfume[] = [
       "Moss",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -40664,10 +44760,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -40691,10 +44794,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -40718,10 +44828,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -40975,10 +45092,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Orris Root"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -41026,18 +45153,18 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -41075,10 +45202,19 @@ export const perfumes: Perfume[] = [
       "Agarwood\r (Oud)",
       "Cypriol Oil or Nagarmotha"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -41163,10 +45299,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Reliable exact-page data not found in indexed sources"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -41190,10 +45333,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -41531,10 +45681,19 @@ export const perfumes: Perfume[] = [
       "Coconut",
       "Sugar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -41570,10 +45729,19 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -41612,10 +45780,19 @@ export const perfumes: Perfume[] = [
       "Birch",
       "Agarwood (Oud)"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -41655,10 +45832,20 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Tonka Bean"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -41696,10 +45883,18 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Heliotrope"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -41740,10 +45935,20 @@ export const perfumes: Perfume[] = [
       "Oakmoss",
       "Singapore Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -41782,10 +45987,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -41825,16 +46040,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -41873,10 +46088,20 @@ export const perfumes: Perfume[] = [
       "Woody Notes",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -42061,10 +46286,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -42088,10 +46320,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -42115,10 +46354,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -42143,18 +46389,18 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -42185,10 +46431,18 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -42232,18 +46486,18 @@ export const perfumes: Perfume[] = [
       "Vetiver"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -42290,10 +46544,20 @@ export const perfumes: Perfume[] = [
       "Incense",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -42339,10 +46603,20 @@ export const perfumes: Perfume[] = [
       "Incense",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -42374,10 +46648,19 @@ export const perfumes: Perfume[] = [
       "oak moss",
       "Woodsy Notes"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -42450,10 +46733,18 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -42490,10 +46781,19 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -42528,10 +46828,17 @@ export const perfumes: Perfume[] = [
       "Woody Notes",
       "Cypriol\r Oil or Nagarmotha"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -42575,10 +46882,20 @@ export const perfumes: Perfume[] = [
       "Incense",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -42711,10 +47028,16 @@ export const perfumes: Perfume[] = [
       "White Woods",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -42752,16 +47075,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -43005,10 +47328,20 @@ export const perfumes: Perfume[] = [
       "Civet",
       "Amber\r \r NOTES"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -43044,10 +47377,19 @@ export const perfumes: Perfume[] = [
       "Peru Balsam",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -43118,18 +47460,18 @@ export const perfumes: Perfume[] = [
       "White Musk"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -43270,10 +47612,18 @@ export const perfumes: Perfume[] = [
       "Agarwood (Oud)",
       "Oakmoss"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -43417,10 +47767,17 @@ export const perfumes: Perfume[] = [
       "Woody Notes",
       "Tobacco"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -43453,10 +47810,17 @@ export const perfumes: Perfume[] = [
       "Woody Notes",
       "Tobacco"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Floral",
@@ -43571,10 +47935,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -43598,10 +47969,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -43625,10 +48003,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -43652,10 +48037,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -43679,10 +48071,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -43952,10 +48351,17 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Agarwood (Oud)"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -44041,10 +48447,19 @@ export const perfumes: Perfume[] = [
       "Tonka Bean",
       "Benzoin"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -44080,10 +48495,19 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -44121,10 +48545,16 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -44158,10 +48588,15 @@ export const perfumes: Perfume[] = [
       "Dried Fruits",
       "Woody\r Notes"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -44194,10 +48629,15 @@ export const perfumes: Perfume[] = [
       "Dried Fruits",
       "Woody\r Notes"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -44231,10 +48671,18 @@ export const perfumes: Perfume[] = [
       "Woody Notes",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -44267,10 +48715,17 @@ export const perfumes: Perfume[] = [
       "Tonka Bean",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -44317,10 +48772,20 @@ export const perfumes: Perfume[] = [
       "Oakmoss",
       "Violet"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -44365,10 +48830,19 @@ export const perfumes: Perfume[] = [
       "Peru Balsam",
       "Labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -44403,10 +48877,18 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Tonka Bean"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -44443,18 +48925,18 @@ export const perfumes: Perfume[] = [
       "Incense"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -44539,10 +49021,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -44573,10 +49062,19 @@ export const perfumes: Perfume[] = [
       "Tonka Bean",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -44608,16 +49106,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Monsoon Evenings"
+      "Monsoon Evenings",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "2-3",
     "occasions": [
       "Celebrations",
-      "Receptions",
       "Dinner Dates",
-      "Formal Events"
+      "Formal Events",
+      "Receptions"
     ],
     "featured": false,
     "families": [
@@ -44698,18 +49196,18 @@ export const perfumes: Perfume[] = [
       "Cedar"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -45234,10 +49732,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Leatherwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -45477,18 +49985,18 @@ export const perfumes: Perfume[] = [
       "Oakmoss"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -45597,10 +50105,17 @@ export const perfumes: Perfume[] = [
       "Whipped Cream",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -45696,10 +50211,20 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -45777,10 +50302,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -45810,10 +50342,17 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -45850,10 +50389,20 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -45883,18 +50432,18 @@ export const perfumes: Perfume[] = [
       "Not separately listed"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "3-4",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -45928,10 +50477,18 @@ export const perfumes: Perfume[] = [
       "Vanilla",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -45969,10 +50526,18 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -46095,10 +50660,15 @@ export const perfumes: Perfume[] = [
       "French labdanum",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -46288,10 +50858,19 @@ export const perfumes: Perfume[] = [
       "Madagascar\r Vanilla",
       "Woody Notes"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -46324,10 +50903,19 @@ export const perfumes: Perfume[] = [
       "Madagascar Vanilla",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -46363,18 +50951,18 @@ export const perfumes: Perfume[] = [
       "Amber"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -46456,10 +51044,15 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -46624,10 +51217,17 @@ export const perfumes: Perfume[] = [
       "Vanille",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -46706,10 +51306,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -46733,10 +51340,20 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Tobacco leaf; vanilla; tonka\r bean"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -46774,10 +51391,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Amber"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -46865,10 +51492,19 @@ export const perfumes: Perfume[] = [
       "Cashmere Wood",
       "Incense"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -46908,10 +51544,20 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Patchouli"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -46947,10 +51593,20 @@ export const perfumes: Perfume[] = [
       "Labdanum",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -46987,10 +51643,20 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Leather"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -47030,10 +51696,20 @@ export const perfumes: Perfume[] = [
       "Opoponax",
       "Sandalwood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -47068,16 +51744,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Monsoon Evenings"
+      "Monsoon Evenings",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
       "Celebrations",
-      "Receptions",
       "Dinner Dates",
-      "Formal Events"
+      "Formal Events",
+      "Receptions"
     ],
     "featured": false,
     "families": [
@@ -47121,16 +51797,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -47214,10 +51890,20 @@ export const perfumes: Perfume[] = [
       "Dry Wood",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic",
@@ -47257,18 +51943,18 @@ export const perfumes: Perfume[] = [
       "Patchouli"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -47302,10 +51988,20 @@ export const perfumes: Perfume[] = [
       "Haitian Vetiver",
       "Caramel"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -47342,10 +52038,19 @@ export const perfumes: Perfume[] = [
       "Musk",
       "Ambergris"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -47481,10 +52186,15 @@ export const perfumes: Perfume[] = [
       "Suede",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -47521,10 +52231,20 @@ export const perfumes: Perfume[] = [
       "Cashmere Wood",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -47653,10 +52373,19 @@ export const perfumes: Perfume[] = [
       "Labdanum",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -47692,10 +52421,18 @@ export const perfumes: Perfume[] = [
       "Ambergris",
       "Agarwood (Oud)"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -47819,18 +52556,18 @@ export const perfumes: Perfume[] = [
       "Vetiver"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -48100,10 +52837,20 @@ export const perfumes: Perfume[] = [
       "Amber",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -48134,10 +52881,20 @@ export const perfumes: Perfume[] = [
       "Myrhh",
       "French labdanum"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -48422,10 +53179,18 @@ export const perfumes: Perfume[] = [
       "Patchouli",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -48515,10 +53280,20 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -48639,10 +53414,17 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Cashmere Wood"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -48671,10 +53453,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -48705,10 +53494,16 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Cedar"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Citrus",
@@ -48743,18 +53538,18 @@ export const perfumes: Perfume[] = [
       "Tonka Bean"
     ],
     "seasons": [
+      "Monsoon",
       "Spring",
-      "Summer",
-      "Monsoon"
+      "Summer"
     ],
     "time": "Day",
-    "sprays": "",
+    "sprays": "2-3",
     "occasions": [
-      "Travel",
+      "Brunch",
       "Casual Daytime Events",
       "College",
       "Office",
-      "Brunch"
+      "Travel"
     ],
     "featured": false,
     "families": [
@@ -48783,10 +53578,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Tonka Bean"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -48815,10 +53617,19 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Evernyl"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -48844,10 +53655,19 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -48877,10 +53697,20 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Vanilla"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -48992,10 +53822,19 @@ export const perfumes: Perfume[] = [
       "Moss",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -49024,10 +53863,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Not separately listed"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer"
+    ],
+    "time": "Day",
+    "sprays": "3-4",
+    "occasions": [
+      "Casual",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Aromatic"
@@ -49051,10 +53897,17 @@ export const perfumes: Perfume[] = [
     "baseNotes": [
       "Vanila\r \r for men\r \r NOTES"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -49084,16 +53937,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Monsoon Evenings"
+      "Monsoon Evenings",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
       "Celebrations",
-      "Receptions",
       "Dinner Dates",
-      "Formal Events"
+      "Formal Events",
+      "Receptions"
     ],
     "featured": false,
     "families": [
@@ -49125,16 +53978,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Monsoon Evenings"
+      "Monsoon Evenings",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "2-3",
     "occasions": [
       "Celebrations",
-      "Receptions",
       "Dinner Dates",
-      "Formal Events"
+      "Formal Events",
+      "Receptions"
     ],
     "featured": false,
     "families": [
@@ -49227,10 +54080,17 @@ export const perfumes: Perfume[] = [
       "Sandalwood",
       "Tonka Bean"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Winter"
+    ],
+    "time": "Evening",
+    "sprays": "2-3",
+    "occasions": [
+      "Date Night",
+      "Formal"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -49269,10 +54129,19 @@ export const perfumes: Perfume[] = [
       "Labdanum",
       "Musk"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -49316,10 +54185,20 @@ export const perfumes: Perfume[] = [
       "Vetiver",
       "Tonka Bean"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Monsoon",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -49360,16 +54239,16 @@ export const perfumes: Perfume[] = [
     ],
     "seasons": [
       "Ac Venues",
-      "Winter",
-      "Cool Nights"
+      "Cool Nights",
+      "Winter"
     ],
     "time": "Evening",
-    "sprays": "",
+    "sprays": "4-6",
     "occasions": [
-      "Receptions",
-      "Winter Weddings",
       "Festive Evenings",
-      "Formal Dinners"
+      "Formal Dinners",
+      "Receptions",
+      "Winter Weddings"
     ],
     "featured": false,
     "families": [
@@ -49417,10 +54296,19 @@ export const perfumes: Perfume[] = [
       "Ambergris",
       "Cypriol Oil or Nagarmotha"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
@@ -49464,10 +54352,19 @@ export const perfumes: Perfume[] = [
       "Cedar",
       "Cade oil"
     ],
-    "seasons": [],
-    "time": "",
-    "sprays": "",
-    "occasions": [],
+    "seasons": [
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "time": "Day / Evening",
+    "sprays": "4-6",
+    "occasions": [
+      "Casual",
+      "Date Night",
+      "Formal",
+      "Office"
+    ],
     "featured": false,
     "families": [
       "Amber/Oriental",
