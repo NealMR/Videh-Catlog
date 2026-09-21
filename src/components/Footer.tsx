@@ -44,8 +44,13 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-[#E5E5E5] px-8 lg:px-16 py-5 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p className="text-sm uppercase tracking-[0.4em] text-[#AAAAAA]">© 2026 VIDEH — DIGITAL FRAGRANCE ARCHIVE</p>
-        <p className="text-sm uppercase tracking-[0.4em] text-[#AAAAAA]">CATALOG ONLY — NOT FOR COMMERCIAL USE</p>
+        <p className="text-[11px] uppercase tracking-[0.4em] text-[#AAAAAA]">© 2026 VIDEH — DIGITAL FRAGRANCE ARCHIVE</p>
+        <div className="flex flex-col md:flex-row gap-4 md:gap-8 items-center text-center">
+          <p className="text-[11px] uppercase tracking-[0.4em] text-[#AAAAAA]">
+            MADE BY <a href="https://www.linkedin.com/in/nealmr/" target="_blank" rel="noopener noreferrer" className="text-[#666666] hover:text-[#C8102E] transition-colors">NEAL</a>
+          </p>
+          <p className="text-[11px] uppercase tracking-[0.4em] text-[#AAAAAA]">CATALOG ONLY — NOT FOR COMMERCIAL USE</p>
+        </div>
       </div>
     </footer>
   );
