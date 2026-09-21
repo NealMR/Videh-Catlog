@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #111111;
+  --color-secondary: #666666;
+  --color-muted: #999999;
+  --color-border: #E5E5E5;
+  --color-surface: #FAF9F6;
+  --color-background: #FDFCF8;
+  --color-accent: #C8102E;
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+}
+
+/* ── Base ───────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  border-radius: 0 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #111111;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: auto;
+  /* Warm parchment base — wave canvas sits above this at z-0 */
+  background-color: #F5F2EC;
+}
+
+/* ── Headings ───────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+/* ── Selection ──────────────────────────────── */
+::selection {
+  background: #111111;
+  color: #FDFCF8;
+}
+
+/* ── Custom Scrollbar ───────────────────────── */
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #C8102E; }
+
+/* ── Marquee ────────────────────────────────── */
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes scroll-down {
+  0% { transform: translateY(-100%); }
+  50% { transform: translateY(100%); }
+  100% { transform: translateY(100%); }
+}
+
+.marquee-inner {
+  animation: marquee 40s linear infinite;
+  display: inline-flex;
+}
+
+.marquee-inner:hover {
+  animation-play-state: paused;
+}
+
+/* ── Page transition ────────────────────────── */
+.page-enter {
+  opacity: 0;
+  transform: translateY(12px);
+}
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* ── Text reveal clip ───────────────────────── */
+.clip-text {
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* ── Catalog ledger view ─────────────────────── */
+.ledger-row {
+  position: relative;
+  transition: background 0.2s ease;
+}
+.ledger-row:hover {
+  background: rgba(200, 16, 46, 0.03);
+}
+.ledger-row::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #111111;
+  transition: width 0.4s ease;
+}
+.ledger-row:hover::after {
+  width: 100%;
+}
+
+/* ── Magnetic button ────────────────────────── */
+.magnetic {
+  transition: none;
+  will-change: transform;
+}
+
+/* ── Noise grain overlay ─────────────────────── */
+.grain {
+  position: fixed;
+  inset: 0;
+  z-index: 9996;
+  pointer-events: none;
+  opacity: 0.045;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 256px 256px;
+}
+
+
+/* ── Focus states ───────────────────────────── */
+:focus-visible {
+  outline: 1px solid #111111;
+  outline-offset: 2px;
+}
+
+/* ── Reduced motion ─────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  .marquee-inner {
+    animation: none;
+  }
+}
+
+/* ── Custom Scrollbar ───────────────────────── */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #EBEBEB;
+  border-radius: 4px;
+}
+.custom-scrollbar:hover::-webkit-scrollbar-thumb {
+  background: #CCCCCC;
+}
+
+/* ── Ultra Smooth View Transitions ──────────── */
+::view-transition-old(*),
+::view-transition-new(*) {
+  animation-duration: 0.45s;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+::view-transition-group(*) {
+  animation-duration: 0.45s;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
