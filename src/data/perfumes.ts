@@ -12,6 +12,8 @@ export interface Perfume {
   sprays: string;
   occasions: string[];
   featured?: boolean;
+  families: string[];
+  accords: string[];
 }
 
 export const perfumes: Perfume[] = [
@@ -47,7 +49,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "2",
@@ -84,7 +97,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "3",
@@ -121,7 +145,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Leather",
+      "Marine"
+    ]
   },
   {
     "id": "4",
@@ -153,7 +188,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": true
+    "featured": true,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "5",
@@ -179,7 +225,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Gourmand"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Fresh",
+      "Spicy"
+    ]
   },
   {
     "id": "6",
@@ -209,7 +266,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Herbal",
+      "Leather"
+    ]
   },
   {
     "id": "7",
@@ -248,7 +316,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Leather",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Leather",
+      "Musky"
+    ]
   },
   {
     "id": "8",
@@ -286,7 +365,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "9",
@@ -325,7 +415,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": true
+    "featured": true,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Sweet"
+    ]
   },
   {
     "id": "10",
@@ -364,7 +465,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Spicy"
+    ]
   },
   {
     "id": "11",
@@ -402,7 +514,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "12",
@@ -440,7 +563,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Spicy"
+    ]
   },
   {
     "id": "13",
@@ -470,7 +604,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Leather"
+    ]
   },
   {
     "id": "14",
@@ -506,7 +651,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Sweet"
+    ]
   },
   {
     "id": "15",
@@ -527,7 +683,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Marine"
+    ]
   },
   {
     "id": "16",
@@ -570,7 +737,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "17",
@@ -597,7 +775,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Green",
+      "Herbal"
+    ]
   },
   {
     "id": "18",
@@ -640,7 +829,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Gourmand"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Fresh",
+      "Spicy"
+    ]
   },
   {
     "id": "19",
@@ -678,7 +878,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Leather",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Leather",
+      "Smoky"
+    ]
   },
   {
     "id": "20",
@@ -718,7 +929,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "21",
@@ -747,7 +969,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Herbal",
+      "Leather"
+    ]
   },
   {
     "id": "22",
@@ -780,7 +1013,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "23",
@@ -807,7 +1051,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Spicy"
+    ]
   },
   {
     "id": "24",
@@ -838,7 +1093,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "25",
@@ -869,7 +1135,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Musky"
+    ]
   },
   {
     "id": "26",
@@ -903,7 +1180,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Musky"
+    ]
   },
   {
     "id": "27",
@@ -933,7 +1221,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "28",
@@ -973,7 +1272,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Leather",
+      "Spicy"
+    ]
   },
   {
     "id": "29",
@@ -1002,7 +1312,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Leather",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Leather",
+      "Powdery"
+    ]
   },
   {
     "id": "30",
@@ -1043,7 +1364,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Leather"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Fresh",
+      "Leather"
+    ]
   },
   {
     "id": "31",
@@ -1075,7 +1407,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "32",
@@ -1104,7 +1447,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Leather"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Fresh",
+      "Leather"
+    ]
   },
   {
     "id": "33",
@@ -1142,7 +1496,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Leather"
+    ],
+    "accords": [
+      "Balsamic",
+      "Fresh",
+      "Leather",
+      "Musky"
+    ]
   },
   {
     "id": "34",
@@ -1192,7 +1557,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "35",
@@ -1218,7 +1594,16 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Powdery",
+      "Woody"
+    ]
   },
   {
     "id": "36",
@@ -1254,7 +1639,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Marine",
+      "Powdery"
+    ]
   },
   {
     "id": "37",
@@ -1297,7 +1693,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "38",
@@ -1343,7 +1750,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "39",
@@ -1371,7 +1789,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Sweet"
+    ]
   },
   {
     "id": "40",
@@ -1404,7 +1833,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": true
+    "featured": true,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Herbal"
+    ]
   },
   {
     "id": "41",
@@ -1439,7 +1879,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Fresh",
+      "Leather"
+    ]
   },
   {
     "id": "42",
@@ -1466,7 +1917,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Leather",
+      "Warm"
+    ]
   },
   {
     "id": "43",
@@ -1499,7 +1961,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Leather",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Green",
+      "Leather",
+      "Musky"
+    ]
   },
   {
     "id": "44",
@@ -1526,7 +1999,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Sweet",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "45",
@@ -1553,7 +2037,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Leather",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Leather",
+      "Smoky",
+      "Sweet"
+    ]
   },
   {
     "id": "46",
@@ -1592,7 +2087,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "47",
@@ -1620,7 +2126,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Leather"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Fresh",
+      "Leather"
+    ]
   },
   {
     "id": "48",
@@ -1650,7 +2167,17 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Powdery",
+      "Woody"
+    ]
   },
   {
     "id": "49",
@@ -1698,7 +2225,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "50",
@@ -1737,7 +2275,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "51",
@@ -1763,7 +2312,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Green",
+      "Marine",
+      "Powdery"
+    ]
   },
   {
     "id": "52",
@@ -1786,7 +2346,15 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Spicy"
+    ]
   },
   {
     "id": "53",
@@ -1823,7 +2391,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "54",
@@ -1861,7 +2440,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Herbal",
+      "Sweet"
+    ]
   },
   {
     "id": "55",
@@ -1885,7 +2475,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "56",
@@ -1915,7 +2516,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "57",
@@ -1940,7 +2552,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Warm"
+    ]
   },
   {
     "id": "58",
@@ -1977,7 +2600,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Fruity",
+      "Leather"
+    ],
+    "accords": [
+      "Fruity",
+      "Green",
+      "Herbal",
+      "Leather"
+    ]
   },
   {
     "id": "59",
@@ -2001,7 +2635,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": true
+    "featured": true,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "60",
@@ -2032,7 +2677,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "61",
@@ -2053,7 +2704,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "62",
@@ -2090,7 +2752,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "63",
@@ -2117,7 +2790,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "64",
@@ -2141,7 +2825,16 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "65",
@@ -2180,7 +2873,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "66",
@@ -2204,7 +2908,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Leather",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Leather",
+      "Woody"
+    ]
   },
   {
     "id": "67",
@@ -2248,7 +2962,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "68",
@@ -2284,7 +3009,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "69",
@@ -2317,7 +3053,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Leather"
+    ]
   },
   {
     "id": "70",
@@ -2354,7 +3101,7 @@ export const perfumes: Perfume[] = [
       "Monsoon Evenings"
     ],
     "time": "Day / Evening",
-    "sprays": "2-3 sprays Top: Lemon, Rosemary, Bergamot, Neroli and Pineapple â€¢ Heart: Jasmine, Oakmoss, Cyclamen and Coriander â€¢ Base: Musk, Oakmoss, Cedar, Sandalwood, Cardamom, Brazilian Rosewood and Tonka Bean",
+    "sprays": "2-3 sprays Top: Lemon, Rosemary, Bergamot, Neroli and Pineapple \u00e2\u20ac\u00a2 Heart: Jasmine, Oakmoss, Cyclamen and Coriander \u00e2\u20ac\u00a2 Base: Musk, Oakmoss, Cedar, Sandalwood, Cardamom, Brazilian Rosewood and Tonka Bean",
     "occasions": [
       "Lunches",
       "Smart Casuals",
@@ -2362,7 +3109,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "71",
@@ -2392,7 +3150,17 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Spicy",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "72",
@@ -2443,7 +3211,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "73",
@@ -2491,7 +3270,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "74",
@@ -2522,7 +3312,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "75",
@@ -2553,7 +3349,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "76",
@@ -2590,7 +3397,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "77",
@@ -2611,7 +3429,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Spicy"
+    ],
+    "accords": [
+      "Spicy"
+    ]
   },
   {
     "id": "78",
@@ -2632,7 +3456,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "79",
@@ -2671,7 +3501,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "80",
@@ -2702,7 +3543,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": true
+    "featured": true,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "81",
@@ -2740,7 +3587,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Marine",
+      "Spicy"
+    ]
   },
   {
     "id": "82",
@@ -2776,7 +3634,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Powdery"
+    ]
   },
   {
     "id": "83",
@@ -2811,7 +3680,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "84",
@@ -2840,7 +3720,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Powdery"
+    ]
   },
   {
     "id": "85",
@@ -2879,7 +3770,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "86",
@@ -2918,7 +3820,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "87",
@@ -2960,7 +3873,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "88",
@@ -2981,7 +3905,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "89",
@@ -3026,7 +3961,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "90",
@@ -3067,7 +4013,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "91",
@@ -3110,7 +4067,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Leather",
+      "Powdery"
+    ]
   },
   {
     "id": "92",
@@ -3143,7 +4111,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "93",
@@ -3177,7 +4156,14 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Woody"
+    ]
   },
   {
     "id": "94",
@@ -3208,7 +4194,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "95",
@@ -3248,7 +4245,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Marine",
+      "Musky"
+    ]
   },
   {
     "id": "96",
@@ -3283,7 +4291,16 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "97",
@@ -3306,7 +4323,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Woody"
+    ]
   },
   {
     "id": "98",
@@ -3337,7 +4365,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "99",
@@ -3364,7 +4398,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "100",
@@ -3402,7 +4447,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": true
+    "featured": true,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "101",
@@ -3430,7 +4486,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "102",
@@ -3469,7 +4536,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Leather"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Herbal",
+      "Leather"
+    ]
   },
   {
     "id": "103",
@@ -3493,7 +4571,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Gourmand"
+    ],
+    "accords": [
+      "Herbal",
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "104",
@@ -3527,7 +4616,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "105",
@@ -3551,7 +4651,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "106",
@@ -3588,7 +4698,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal",
+      "Leather",
+      "Spicy"
+    ]
   },
   {
     "id": "107",
@@ -3609,7 +4730,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "108",
@@ -3643,7 +4770,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Marine",
+      "Woody"
+    ]
   },
   {
     "id": "109",
@@ -3673,7 +4811,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Aromatic"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "110",
@@ -3712,7 +4861,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Aromatic"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Herbal",
+      "Marine"
+    ]
   },
   {
     "id": "111",
@@ -3749,7 +4909,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Aromatic"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Marine"
+    ]
   },
   {
     "id": "112",
@@ -3787,7 +4958,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Leather"
+    ]
   },
   {
     "id": "113",
@@ -3813,7 +4995,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Fresh",
+      "Musky",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "114",
@@ -3847,7 +5040,14 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Woody"
+    ]
   },
   {
     "id": "115",
@@ -3868,7 +5068,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "116",
@@ -3905,7 +5111,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Balsamic",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "117",
@@ -3946,7 +5163,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "118",
@@ -3984,7 +5212,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Spicy"
+    ]
   },
   {
     "id": "119",
@@ -4027,7 +5266,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Musky"
+    ]
   },
   {
     "id": "120",
@@ -4063,7 +5313,16 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Musky",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "121",
@@ -4084,7 +5343,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "122",
@@ -4105,7 +5370,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "123",
@@ -4126,7 +5397,15 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Woody"
+    ]
   },
   {
     "id": "124",
@@ -4148,7 +5427,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Spicy",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "125",
@@ -4175,7 +5464,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Floral",
+      "Leather",
+      "Powdery",
+      "Sweet"
+    ]
   },
   {
     "id": "126",
@@ -4208,7 +5508,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Green",
+      "Musky",
+      "Warm"
+    ]
   },
   {
     "id": "127",
@@ -4233,7 +5544,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Gourmand"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "128",
@@ -4267,7 +5589,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Fruity",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Musky",
+      "Woody"
+    ]
   },
   {
     "id": "129",
@@ -4292,7 +5625,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Marine",
+      "Musky"
+    ]
   },
   {
     "id": "130",
@@ -4323,7 +5667,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "131",
@@ -4351,7 +5701,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Powdery"
+    ]
   },
   {
     "id": "132",
@@ -4389,7 +5750,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "133",
@@ -4416,7 +5788,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "134",
@@ -4451,7 +5834,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "135",
@@ -4476,7 +5870,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "136",
@@ -4512,7 +5917,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Fruity",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Fruity",
+      "Herbal",
+      "Leather"
+    ]
   },
   {
     "id": "137",
@@ -4537,7 +5953,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Leather",
+      "Powdery"
+    ]
   },
   {
     "id": "138",
@@ -4578,7 +6005,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "139",
@@ -4605,7 +6043,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Leather",
+      "Spicy"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Leather",
+      "Spicy"
+    ]
   },
   {
     "id": "140",
@@ -4631,7 +6080,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Leather"
+    ]
   },
   {
     "id": "141",
@@ -4657,7 +6117,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "142",
@@ -4684,7 +6155,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "143",
@@ -4709,7 +6191,14 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "144",
@@ -4739,7 +6228,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "145",
@@ -4766,7 +6266,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "146",
@@ -4804,7 +6315,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Balsamic",
+      "Fresh",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "147",
@@ -4828,7 +6350,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Powdery",
+      "Smoky",
+      "Woody"
+    ]
   },
   {
     "id": "148",
@@ -4853,7 +6385,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Musky",
+      "Powdery",
+      "Warm"
+    ]
   },
   {
     "id": "149",
@@ -4886,7 +6429,16 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "150",
@@ -4922,7 +6474,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": true
+    "featured": true,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Spicy"
+    ]
   },
   {
     "id": "151",
@@ -4949,7 +6512,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Fruity",
+      "Gourmand"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Sweet",
+      "Woody"
+    ]
   },
   {
     "id": "152",
@@ -4977,7 +6551,7 @@ export const perfumes: Perfume[] = [
       "Monsoon Evenings"
     ],
     "time": "Day / Evening",
-    "sprays": "2-3 sprays Top: Black Currant and Saffron â€¢ Heart: Incense and Alumroot â€¢ Base: Black Rose, Ambrette (Musk Mallow) and Patchouli",
+    "sprays": "2-3 sprays Top: Black Currant and Saffron \u00e2\u20ac\u00a2 Heart: Incense and Alumroot \u00e2\u20ac\u00a2 Base: Black Rose, Ambrette (Musk Mallow) and Patchouli",
     "occasions": [
       "Lunches",
       "Smart Casuals",
@@ -4985,7 +6559,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Musky"
+    ]
   },
   {
     "id": "153",
@@ -5009,7 +6594,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "154",
@@ -5037,7 +6633,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Fruity",
+      "Gourmand"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Fruity",
+      "Spicy"
+    ]
   },
   {
     "id": "155",
@@ -5063,7 +6670,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Powdery"
+    ]
   },
   {
     "id": "156",
@@ -5096,7 +6714,16 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "157",
@@ -5123,7 +6750,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Leather"
+    ],
+    "accords": [
+      "Fresh",
+      "Leather",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "158",
@@ -5147,7 +6785,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Fruity",
+      "Woody"
+    ],
+    "accords": [
+      "Fruity",
+      "Musky",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "159",
@@ -5173,7 +6822,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Green",
+      "Musky"
+    ]
   },
   {
     "id": "160",
@@ -5209,7 +6868,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Herbal"
+    ]
   },
   {
     "id": "161",
@@ -5254,7 +6924,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "162",
@@ -5303,7 +6984,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "163",
@@ -5343,7 +7035,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "164",
@@ -5381,7 +7084,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Woody"
+    ]
   },
   {
     "id": "165",
@@ -5422,7 +7136,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "166",
@@ -5449,7 +7174,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Marine",
+      "Musky"
+    ]
   },
   {
     "id": "167",
@@ -5490,7 +7226,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "168",
@@ -5525,7 +7272,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Woody"
+    ]
   },
   {
     "id": "169",
@@ -5559,7 +7317,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "170",
@@ -5583,7 +7352,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Spicy"
+    ],
+    "accords": [
+      "Herbal",
+      "Musky",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "171",
@@ -5624,7 +7404,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "172",
@@ -5633,7 +7424,7 @@ export const perfumes: Perfume[] = [
     "name": "212 VIP Rose",
     "gender": "for women",
     "topNotes": [
-      "Champagne Rosé",
+      "Champagne Ros\u00e9",
       "Pink Pepper"
     ],
     "heartNotes": [
@@ -5659,7 +7450,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Fruity",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "173",
@@ -5685,7 +7487,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "174",
@@ -5720,7 +7533,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "175",
@@ -5750,7 +7574,13 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "176",
@@ -5784,7 +7614,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "177",
@@ -5830,7 +7671,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Leather"
+    ]
   },
   {
     "id": "178",
@@ -5879,7 +7731,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "179",
@@ -5902,7 +7765,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "180",
@@ -5934,7 +7808,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "181",
@@ -5958,7 +7843,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Leather",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Leather",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "182",
@@ -5996,7 +7891,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Fruity",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "183",
@@ -6019,7 +7925,16 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "184",
@@ -6050,7 +7965,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "185",
@@ -6079,7 +8000,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "186",
@@ -6118,7 +8050,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Musky"
+    ]
   },
   {
     "id": "187",
@@ -6139,7 +8082,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "188",
@@ -6172,7 +8121,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "189",
@@ -6210,7 +8170,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "190",
@@ -6250,7 +8221,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Fresh",
+      "Marine"
+    ]
   },
   {
     "id": "191",
@@ -6282,7 +8264,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "192",
@@ -6305,14 +8298,20 @@ export const perfumes: Perfume[] = [
       "Cool Nights"
     ],
     "time": "Evening",
-    "sprays": "1-2 sprays Top: Not separately listed â€¢ Heart: Not separately listed â€¢ Base: Not separately listed",
+    "sprays": "1-2 sprays Top: Not separately listed \u00e2\u20ac\u00a2 Heart: Not separately listed \u00e2\u20ac\u00a2 Base: Not separately listed",
     "occasions": [
       "Receptions",
       "Winter Weddings",
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "193",
@@ -6345,7 +8344,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "194",
@@ -6378,7 +8388,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "195",
@@ -6409,7 +8430,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "196",
@@ -6448,7 +8480,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "197",
@@ -6488,7 +8531,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "198",
@@ -6528,7 +8582,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Marine"
+    ]
   },
   {
     "id": "199",
@@ -6564,7 +8629,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "200",
@@ -6609,7 +8685,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": true
+    "featured": true,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "201",
@@ -6640,7 +8727,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "202",
@@ -6684,7 +8777,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Spicy"
+    ]
   },
   {
     "id": "203",
@@ -6716,7 +8820,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "204",
@@ -6750,7 +8865,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "205",
@@ -6778,7 +8904,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Warm"
+    ]
   },
   {
     "id": "206",
@@ -6799,7 +8936,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "207",
@@ -6839,7 +8982,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Leather",
+      "Musky"
+    ]
   },
   {
     "id": "208",
@@ -6880,7 +9034,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "209",
@@ -6922,7 +9087,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "210",
@@ -6965,7 +9141,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "211",
@@ -6995,7 +9182,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "212",
@@ -7016,7 +9214,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "213",
@@ -7042,7 +9246,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "214",
@@ -7073,7 +9288,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Green",
+      "Leather"
+    ]
   },
   {
     "id": "215",
@@ -7103,7 +9329,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "216",
@@ -7145,7 +9382,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "217",
@@ -7192,7 +9440,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "218",
@@ -7234,7 +9493,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Woody"
+    ]
   },
   {
     "id": "219",
@@ -7255,7 +9525,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "220",
@@ -7295,7 +9571,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Herbal",
+      "Spicy"
+    ]
   },
   {
     "id": "221",
@@ -7316,7 +9603,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "222",
@@ -7354,7 +9651,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "223",
@@ -7388,7 +9696,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Fresh",
+      "Spicy",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "224",
@@ -7426,7 +9745,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Herbal"
+    ]
   },
   {
     "id": "225",
@@ -7456,7 +9786,13 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "226",
@@ -7488,7 +9824,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "227",
@@ -7509,7 +9851,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "228",
@@ -7540,7 +9888,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "229",
@@ -7561,7 +9920,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "230",
@@ -7600,7 +9970,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Woody"
+    ]
   },
   {
     "id": "231",
@@ -7631,7 +10012,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "232",
@@ -7659,7 +10051,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Musky",
+      "Smoky"
+    ]
   },
   {
     "id": "233",
@@ -7701,7 +10104,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "234",
@@ -7735,7 +10149,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Herbal",
+      "Warm"
+    ]
   },
   {
     "id": "235",
@@ -7764,7 +10189,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "236",
@@ -7796,7 +10232,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "237",
@@ -7817,7 +10264,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Leather"
+    ]
   },
   {
     "id": "238",
@@ -7863,7 +10321,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Musky"
+    ]
   },
   {
     "id": "239",
@@ -7886,7 +10355,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Powdery",
+      "Warm"
+    ]
   },
   {
     "id": "240",
@@ -7923,7 +10403,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Marine",
+      "Musky"
+    ]
   },
   {
     "id": "241",
@@ -7955,7 +10446,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "242",
@@ -7984,7 +10486,7 @@ export const perfumes: Perfume[] = [
       "Monsoon Evenings"
     ],
     "time": "Day / Evening",
-    "sprays": "2-3 sprays Top: Bergamot, Ginger and Mandarin Orange â€¢ Heart: Haitian Vetiver, Sandalwood and Iris â€¢ Base: Musk and Ambergris",
+    "sprays": "2-3 sprays Top: Bergamot, Ginger and Mandarin Orange \u00e2\u20ac\u00a2 Heart: Haitian Vetiver, Sandalwood and Iris \u00e2\u20ac\u00a2 Base: Musk and Ambergris",
     "occasions": [
       "Lunches",
       "Smart Casuals",
@@ -7992,7 +10494,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "243",
@@ -8032,7 +10545,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Musky"
+    ]
   },
   {
     "id": "244",
@@ -8070,7 +10594,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Green",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "245",
@@ -8106,7 +10641,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Woody"
+    ]
   },
   {
     "id": "246",
@@ -8143,7 +10689,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal",
+      "Musky",
+      "Woody"
+    ]
   },
   {
     "id": "247",
@@ -8169,7 +10726,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Green",
+      "Musky",
+      "Woody"
+    ]
   },
   {
     "id": "248",
@@ -8209,7 +10776,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "249",
@@ -8233,7 +10811,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "250",
@@ -8259,7 +10848,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Leather",
+      "Spicy"
+    ]
   },
   {
     "id": "251",
@@ -8303,7 +10903,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "252",
@@ -8342,7 +10953,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "253",
@@ -8363,7 +10985,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "254",
@@ -8384,7 +11012,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "255",
@@ -8418,7 +11052,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Aromatic"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Herbal"
+    ]
   },
   {
     "id": "256",
@@ -8446,7 +11091,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "257",
@@ -8470,7 +11126,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Herbal",
+      "Woody"
+    ]
   },
   {
     "id": "258",
@@ -8501,7 +11168,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "259",
@@ -8541,7 +11214,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "260",
@@ -8577,7 +11261,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Fruity",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "261",
@@ -8598,7 +11293,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "262",
@@ -8631,7 +11332,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Marine"
+    ]
   },
   {
     "id": "263",
@@ -8652,7 +11364,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "264",
@@ -8673,7 +11391,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "265",
@@ -8704,7 +11428,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Leather",
+      "Powdery"
+    ]
   },
   {
     "id": "266",
@@ -8732,7 +11467,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "267",
@@ -8769,7 +11515,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "268",
@@ -8803,7 +11560,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Powdery",
+      "Spicy"
+    ]
   },
   {
     "id": "269",
@@ -8827,7 +11595,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "270",
@@ -8848,7 +11627,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Powdery",
+      "Spicy"
+    ]
   },
   {
     "id": "271",
@@ -8874,7 +11664,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Leather",
+      "Musky"
+    ]
   },
   {
     "id": "272",
@@ -8910,7 +11711,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "273",
@@ -8938,7 +11750,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "274",
@@ -8981,7 +11804,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "275",
@@ -9021,7 +11855,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Herbal"
+    ]
   },
   {
     "id": "276",
@@ -9053,7 +11898,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "277",
@@ -9087,7 +11938,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Spicy"
+    ]
   },
   {
     "id": "278",
@@ -9123,7 +11985,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Green",
+      "Spicy"
+    ]
   },
   {
     "id": "279",
@@ -9160,7 +12033,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "280",
@@ -9201,7 +12085,7 @@ export const perfumes: Perfume[] = [
       "Monsoon"
     ],
     "time": "Day",
-    "sprays": "3-4 sprays; 2-3 indoors Top: Nutmeg Flower, Lavender, Cedar, Mandarin Orange, Chamomile, Hawthorn, Bergamot and Lemon â€¢ Heart: Violet Leaf, Nutmeg, Cedar, Sandalwood, Carnation, Honeysuckle, Jasmine and Lily-of- the-Valley â€¢ Base: Leather, Vetiver, Musk, Amber, Patchouli",
+    "sprays": "3-4 sprays; 2-3 indoors Top: Nutmeg Flower, Lavender, Cedar, Mandarin Orange, Chamomile, Hawthorn, Bergamot and Lemon \u00e2\u20ac\u00a2 Heart: Violet Leaf, Nutmeg, Cedar, Sandalwood, Carnation, Honeysuckle, Jasmine and Lily-of- the-Valley \u00e2\u20ac\u00a2 Base: Leather, Vetiver, Musk, Amber, Patchouli",
     "occasions": [
       "Travel",
       "Casual Daytime Events",
@@ -9209,7 +12093,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "281",
@@ -9235,7 +12130,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Leather",
+      "Powdery"
+    ]
   },
   {
     "id": "282",
@@ -9274,7 +12180,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "283",
@@ -9317,7 +12234,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "284",
@@ -9359,7 +12287,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "285",
@@ -9391,7 +12330,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "286",
@@ -9437,7 +12382,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "287",
@@ -9461,7 +12417,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Marine"
+    ]
   },
   {
     "id": "288",
@@ -9497,7 +12464,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "289",
@@ -9536,7 +12514,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "290",
@@ -9585,7 +12574,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "291",
@@ -9611,7 +12611,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "292",
@@ -9636,7 +12647,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "293",
@@ -9674,7 +12696,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "294",
@@ -9712,7 +12745,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "295",
@@ -9742,7 +12786,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Sweet"
+    ]
   },
   {
     "id": "296",
@@ -9772,7 +12827,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "297",
@@ -9802,7 +12868,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "298",
@@ -9832,7 +12909,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "299",
@@ -9860,7 +12948,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Herbal",
+      "Spicy"
+    ]
   },
   {
     "id": "300",
@@ -9885,7 +12984,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": true
+    "featured": true,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Sweet",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "301",
@@ -9913,7 +13023,15 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "302",
@@ -9937,7 +13055,7 @@ export const perfumes: Perfume[] = [
       "Monsoon Evenings"
     ],
     "time": "Day / Evening",
-    "sprays": "2-3 sprays Top: Not separately listed â€¢ Heart: Not separately listed â€¢ Base: Not separately listed",
+    "sprays": "2-3 sprays Top: Not separately listed \u00e2\u20ac\u00a2 Heart: Not separately listed \u00e2\u20ac\u00a2 Base: Not separately listed",
     "occasions": [
       "Lunches",
       "Smart Casuals",
@@ -9945,7 +13063,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "303",
@@ -9972,7 +13096,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Gourmand"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "304",
@@ -10003,7 +13138,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "305",
@@ -10040,7 +13181,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "306",
@@ -10082,7 +13234,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Leather",
+      "Musky"
+    ]
   },
   {
     "id": "307",
@@ -10103,7 +13266,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "308",
@@ -10134,7 +13303,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "309",
@@ -10155,7 +13330,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "310",
@@ -10189,7 +13370,16 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Fruity",
+      "Woody"
+    ],
+    "accords": [
+      "Fruity",
+      "Green",
+      "Woody"
+    ]
   },
   {
     "id": "311",
@@ -10210,7 +13400,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "312",
@@ -10242,7 +13438,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "313",
@@ -10272,7 +13474,13 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "314",
@@ -10311,7 +13519,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Powdery",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "315",
@@ -10342,7 +13561,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "316",
@@ -10380,7 +13610,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Marine",
+      "Musky"
+    ]
   },
   {
     "id": "317",
@@ -10428,7 +13669,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "318",
@@ -10442,7 +13694,7 @@ export const perfumes: Perfume[] = [
       "Sicilian lemon"
     ],
     "heartNotes": [
-      "Provençal lavender",
+      "Proven\u00e7al lavender",
       "Geranium",
       "Chili",
       "Clary sage"
@@ -10466,7 +13718,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "319",
@@ -10500,7 +13763,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Marine",
+      "Musky",
+      "Warm"
+    ]
   },
   {
     "id": "320",
@@ -10536,7 +13810,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Fruity",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Green",
+      "Musky"
+    ]
   },
   {
     "id": "321",
@@ -10563,7 +13848,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "322",
@@ -10594,7 +13890,17 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "323",
@@ -10624,7 +13930,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "324",
@@ -10651,7 +13968,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "325",
@@ -10691,7 +14019,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "326",
@@ -10727,7 +14066,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Woody"
+    ]
   },
   {
     "id": "327",
@@ -10756,7 +14106,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "328",
@@ -10782,7 +14143,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Leather",
+      "Musky"
+    ]
   },
   {
     "id": "329",
@@ -10807,7 +14179,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Gourmand",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "330",
@@ -10842,7 +14225,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "331",
@@ -10874,7 +14268,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "332",
@@ -10910,7 +14315,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "333",
@@ -10942,7 +14358,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "334",
@@ -10967,7 +14394,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Spicy"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Herbal",
+      "Spicy"
+    ]
   },
   {
     "id": "335",
@@ -11014,7 +14452,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Herbal"
+    ]
   },
   {
     "id": "336",
@@ -11046,7 +14495,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "337",
@@ -11067,7 +14522,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "338",
@@ -11097,7 +14558,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Leather"
+    ]
   },
   {
     "id": "339",
@@ -11139,7 +14611,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Marine",
+      "Musky"
+    ]
   },
   {
     "id": "340",
@@ -11171,7 +14654,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "341",
@@ -11192,7 +14681,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "342",
@@ -11226,7 +14721,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "343",
@@ -11247,7 +14753,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "344",
@@ -11268,7 +14780,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "345",
@@ -11305,7 +14823,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Green",
+      "Musky"
+    ]
   },
   {
     "id": "346",
@@ -11343,7 +14872,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "347",
@@ -11373,7 +14913,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "348",
@@ -11394,7 +14945,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "349",
@@ -11415,7 +14972,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "350",
@@ -11452,7 +15015,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Herbal"
+    ]
   },
   {
     "id": "351",
@@ -11471,7 +15045,7 @@ export const perfumes: Perfume[] = [
       "Georgywood"
     ],
     "baseNotes": [
-      "Ambrofix™",
+      "Ambrofix\u2122",
       "Musk",
       "Akigalawood"
     ],
@@ -11479,7 +15053,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Fruity",
+      "Spicy"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "352",
@@ -11517,7 +15102,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "353",
@@ -11541,7 +15137,16 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "354",
@@ -11576,7 +15181,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "355",
@@ -11607,7 +15223,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "356",
@@ -11636,7 +15263,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "357",
@@ -11657,7 +15295,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "358",
@@ -11687,7 +15331,13 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "359",
@@ -11712,7 +15362,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Spicy"
+    ]
   },
   {
     "id": "360",
@@ -11743,7 +15404,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "361",
@@ -11777,7 +15444,14 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "362",
@@ -11814,7 +15488,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "363",
@@ -11846,7 +15531,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "364",
@@ -11877,7 +15568,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "365",
@@ -11903,7 +15600,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Woody"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Green",
+      "Musky"
+    ]
   },
   {
     "id": "366",
@@ -11931,7 +15638,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "367",
@@ -11967,7 +15685,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "368",
@@ -11988,7 +15717,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "369",
@@ -12013,7 +15748,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Fruity",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Leather"
+    ]
   },
   {
     "id": "370",
@@ -12044,7 +15790,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "371",
@@ -12070,7 +15822,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Marine",
+      "Musky"
+    ]
   },
   {
     "id": "372",
@@ -12106,7 +15869,17 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Woody"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "373",
@@ -12147,7 +15920,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "374",
@@ -12186,7 +15970,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Spicy"
+    ]
   },
   {
     "id": "375",
@@ -12215,7 +16010,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Green",
+      "Herbal"
+    ]
   },
   {
     "id": "376",
@@ -12254,7 +16060,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fruity"
+    ]
   },
   {
     "id": "377",
@@ -12275,7 +16092,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "378",
@@ -12296,7 +16119,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "379",
@@ -12324,7 +16153,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Green",
+      "Herbal"
+    ]
   },
   {
     "id": "380",
@@ -12365,7 +16205,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Leather"
+    ]
   },
   {
     "id": "381",
@@ -12389,7 +16240,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "382",
@@ -12419,7 +16281,13 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "383",
@@ -12440,7 +16308,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "384",
@@ -12478,7 +16352,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "385",
@@ -12521,7 +16406,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Aromatic"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "386",
@@ -12556,7 +16452,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "387",
@@ -12608,7 +16515,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "388",
@@ -12656,7 +16574,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Marine"
+    ]
   },
   {
     "id": "389",
@@ -12686,7 +16615,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Aromatic"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "390",
@@ -12721,7 +16661,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Aromatic"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "391",
@@ -12749,7 +16700,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Marine"
+    ]
   },
   {
     "id": "392",
@@ -12786,7 +16748,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Green",
+      "Leather"
+    ]
   },
   {
     "id": "393",
@@ -12824,7 +16797,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "394",
@@ -12861,7 +16845,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Powdery"
+    ]
   },
   {
     "id": "395",
@@ -12882,7 +16877,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "396",
@@ -12917,7 +16918,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Leather"
+    ],
+    "accords": [
+      "Fresh",
+      "Leather",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "397",
@@ -12953,7 +16965,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Green",
+      "Herbal"
+    ]
   },
   {
     "id": "398",
@@ -12991,7 +17014,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "399",
@@ -13039,7 +17073,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "400",
@@ -13075,7 +17120,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": true
+    "featured": true,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Gourmand"
+    ],
+    "accords": [
+      "Fresh",
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "401",
@@ -13105,7 +17161,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "402",
@@ -13141,7 +17208,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "403",
@@ -13177,7 +17255,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Marine",
+      "Spicy"
+    ]
   },
   {
     "id": "404",
@@ -13198,7 +17287,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "405",
@@ -13234,7 +17329,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Spicy"
+    ]
   },
   {
     "id": "406",
@@ -13260,7 +17366,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "407",
@@ -13290,7 +17407,13 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "408",
@@ -13328,7 +17451,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "409",
@@ -13368,7 +17502,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Spicy"
+    ]
   },
   {
     "id": "410",
@@ -13408,7 +17553,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Spicy"
+    ]
   },
   {
     "id": "411",
@@ -13435,7 +17591,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "412",
@@ -13460,7 +17627,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "413",
@@ -13485,7 +17663,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "414",
@@ -13515,7 +17704,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "415",
@@ -13542,7 +17742,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Herbal",
+      "Sweet"
+    ]
   },
   {
     "id": "416",
@@ -13577,7 +17788,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Gourmand"
+    ],
+    "accords": [
+      "Herbal",
+      "Smoky",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "417",
@@ -13603,7 +17825,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "418",
@@ -13639,7 +17872,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Marine"
+    ]
   },
   {
     "id": "419",
@@ -13671,7 +17915,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "420",
@@ -13703,7 +17958,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "421",
@@ -13750,7 +18016,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Powdery"
+    ]
   },
   {
     "id": "422",
@@ -13795,7 +18072,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Leather"
+    ]
   },
   {
     "id": "423",
@@ -13829,7 +18117,17 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "424",
@@ -13877,7 +18175,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "425",
@@ -13901,7 +18210,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Fruity",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "426",
@@ -13935,7 +18255,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Fruity",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "427",
@@ -13973,7 +18304,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "428",
@@ -14004,7 +18346,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Spicy"
+    ]
   },
   {
     "id": "429",
@@ -14032,7 +18385,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "430",
@@ -14069,7 +18433,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Woody"
+    ]
   },
   {
     "id": "431",
@@ -14100,7 +18475,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "432",
@@ -14132,7 +18513,16 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "433",
@@ -14164,7 +18554,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "434",
@@ -14211,7 +18607,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "435",
@@ -14232,7 +18639,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral"
+    ],
+    "accords": [
+      "Floral"
+    ]
   },
   {
     "id": "436",
@@ -14259,7 +18672,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Gourmand",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "437",
@@ -14285,7 +18709,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "438",
@@ -14325,7 +18760,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "439",
@@ -14352,7 +18798,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "440",
@@ -14379,7 +18836,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "441",
@@ -14406,7 +18874,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Spicy"
+    ]
   },
   {
     "id": "442",
@@ -14432,7 +18911,7 @@ export const perfumes: Perfume[] = [
       "Monsoon Evenings"
     ],
     "time": "Day / Evening",
-    "sprays": "2-3 sprays Top: Leather â€¢ Heart: Cypress and Patchouli â€¢ Base: Woody Notes and Vetiver",
+    "sprays": "2-3 sprays Top: Leather \u00e2\u20ac\u00a2 Heart: Cypress and Patchouli \u00e2\u20ac\u00a2 Base: Woody Notes and Vetiver",
     "occasions": [
       "Lunches",
       "Smart Casuals",
@@ -14440,7 +18919,16 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Leather",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Leather",
+      "Woody"
+    ]
   },
   {
     "id": "443",
@@ -14477,7 +18965,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "444",
@@ -14515,7 +19014,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "445",
@@ -14553,7 +19063,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Powdery"
+    ]
   },
   {
     "id": "446",
@@ -14585,7 +19106,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "447",
@@ -14611,7 +19138,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "448",
@@ -14644,7 +19182,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Herbal"
+    ]
   },
   {
     "id": "449",
@@ -14669,7 +19218,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "450",
@@ -14703,7 +19263,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Fruity",
+      "Leather"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Leather",
+      "Woody"
+    ]
   },
   {
     "id": "451",
@@ -14738,7 +19309,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Leather",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Leather",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "452",
@@ -14786,7 +19368,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "453",
@@ -14827,7 +19420,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "454",
@@ -14857,7 +19461,13 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "455",
@@ -14884,7 +19494,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Powdery",
+      "Spicy"
+    ]
   },
   {
     "id": "456",
@@ -14921,7 +19542,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Gourmand",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "457",
@@ -14948,7 +19580,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "458",
@@ -14989,7 +19632,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "459",
@@ -15033,7 +19687,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Musky",
+      "Smoky"
+    ]
   },
   {
     "id": "460",
@@ -15070,7 +19735,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Leather"
+    ]
   },
   {
     "id": "461",
@@ -15106,7 +19782,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "462",
@@ -15133,7 +19820,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Fresh",
+      "Spicy"
+    ]
   },
   {
     "id": "463",
@@ -15160,7 +19858,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Gourmand",
+      "Spicy"
+    ],
+    "accords": [
+      "Spicy",
+      "Sweet",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "464",
@@ -15187,7 +19896,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "465",
@@ -15208,7 +19928,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "466",
@@ -15241,7 +19967,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "467",
@@ -15270,7 +20007,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Leather"
+    ],
+    "accords": [
+      "Herbal",
+      "Leather",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "468",
@@ -15310,7 +20058,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "469",
@@ -15331,7 +20090,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "470",
@@ -15354,7 +20119,16 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Woody"
+    ]
   },
   {
     "id": "471",
@@ -15381,7 +20155,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "472",
@@ -15421,7 +20206,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Fresh",
+      "Herbal",
+      "Leather"
+    ]
   },
   {
     "id": "473",
@@ -15442,7 +20238,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "474",
@@ -15474,7 +20276,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "475",
@@ -15504,7 +20312,13 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "476",
@@ -15551,7 +20365,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "477",
@@ -15572,7 +20397,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "478",
@@ -15606,7 +20437,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Herbal"
+    ]
   },
   {
     "id": "479",
@@ -15627,7 +20464,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "480",
@@ -15659,7 +20502,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "481",
@@ -15680,7 +20529,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "482",
@@ -15712,7 +20567,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "483",
@@ -15733,7 +20599,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "484",
@@ -15765,7 +20637,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "485",
@@ -15796,7 +20674,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "486",
@@ -15837,7 +20721,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "487",
@@ -15858,7 +20753,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "488",
@@ -15890,7 +20791,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "489",
@@ -15914,7 +20821,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Leather",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Leather",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "490",
@@ -15935,7 +20853,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "491",
@@ -15950,13 +20874,19 @@ export const perfumes: Perfume[] = [
       "Pear"
     ],
     "baseNotes": [
-      "Physcool®"
+      "Physcool\u00ae"
     ],
     "seasons": [],
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Fruity"
+    ],
+    "accords": [
+      "Fruity"
+    ]
   },
   {
     "id": "492",
@@ -15996,7 +20926,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Powdery",
+      "Spicy"
+    ]
   },
   {
     "id": "493",
@@ -16017,7 +20958,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "494",
@@ -16054,7 +21001,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Leather",
+      "Powdery"
+    ]
   },
   {
     "id": "495",
@@ -16075,7 +21033,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "496",
@@ -16106,7 +21070,15 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental"
+    ],
+    "accords": [
+      "Balsamic",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "497",
@@ -16131,7 +21103,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "498",
@@ -16162,7 +21145,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "499",
@@ -16184,7 +21173,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": true
+    "featured": true,
+    "families": [
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "500",
@@ -16216,7 +21211,15 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Fresh",
+      "Spicy"
+    ]
   },
   {
     "id": "501",
@@ -16250,7 +21253,17 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Leather"
+    ]
   },
   {
     "id": "502",
@@ -16286,7 +21299,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Green",
+      "Powdery",
+      "Spicy"
+    ]
   },
   {
     "id": "503",
@@ -16307,7 +21331,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "504",
@@ -16340,7 +21370,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Musky"
+    ]
   },
   {
     "id": "505",
@@ -16361,7 +21397,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "506",
@@ -16392,7 +21434,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "507",
@@ -16415,7 +21463,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Woody"
+    ],
+    "accords": [
+      "Woody"
+    ]
   },
   {
     "id": "508",
@@ -16450,7 +21504,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Marine"
+    ]
   },
   {
     "id": "509",
@@ -16477,7 +21542,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "510",
@@ -16513,7 +21589,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "511",
@@ -16534,7 +21621,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "512",
@@ -16573,7 +21666,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Fruity",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Musky",
+      "Woody"
+    ]
   },
   {
     "id": "513",
@@ -16604,7 +21708,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "514",
@@ -16647,7 +21757,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "515",
@@ -16668,7 +21789,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "516",
@@ -16699,7 +21826,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "517",
@@ -16721,7 +21854,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "518",
@@ -16758,7 +21897,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Musky"
+    ]
   },
   {
     "id": "519",
@@ -16793,7 +21943,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "520",
@@ -16835,7 +21996,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "521",
@@ -16863,7 +22035,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Fruity",
+      "Spicy"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "522",
@@ -16901,7 +22084,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "523",
@@ -16923,7 +22117,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Fruity",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Sweet"
+    ]
   },
   {
     "id": "524",
@@ -16957,7 +22161,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Herbal",
+      "Woody"
+    ]
   },
   {
     "id": "525",
@@ -16978,7 +22193,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "526",
@@ -16999,7 +22220,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "527",
@@ -17024,7 +22251,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "528",
@@ -17045,7 +22283,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "529",
@@ -17066,7 +22310,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "530",
@@ -17097,7 +22347,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "531",
@@ -17121,7 +22377,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Herbal",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "532",
@@ -17147,7 +22414,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Fresh",
+      "Musky",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "533",
@@ -17173,7 +22451,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Herbal",
+      "Spicy"
+    ]
   },
   {
     "id": "534",
@@ -17208,7 +22497,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "535",
@@ -17234,7 +22534,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "536",
@@ -17265,7 +22576,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "537",
@@ -17302,7 +22619,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "538",
@@ -17348,7 +22676,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Marine",
+      "Musky",
+      "Warm"
+    ]
   },
   {
     "id": "539",
@@ -17385,7 +22724,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "540",
@@ -17422,7 +22772,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "541",
@@ -17468,7 +22829,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Marine",
+      "Musky",
+      "Warm"
+    ]
   },
   {
     "id": "542",
@@ -17507,7 +22879,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal",
+      "Marine",
+      "Warm"
+    ]
   },
   {
     "id": "543",
@@ -17538,7 +22921,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "544",
@@ -17579,7 +22973,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "545",
@@ -17618,7 +23023,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "546",
@@ -17650,7 +23066,15 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "547",
@@ -17671,7 +23095,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "548",
@@ -17703,7 +23133,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Fruity",
+      "Gourmand",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fruity",
+      "Sweet",
+      "Woody"
+    ]
   },
   {
     "id": "549",
@@ -17725,7 +23166,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "550",
@@ -17755,7 +23207,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "551",
@@ -17776,7 +23239,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Herbal",
+      "Powdery",
+      "Woody"
+    ]
   },
   {
     "id": "552",
@@ -17811,7 +23285,17 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Gourmand"
+    ],
+    "accords": [
+      "Herbal",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "553",
@@ -17853,7 +23337,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "554",
@@ -17886,7 +23381,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Herbal",
+      "Powdery",
+      "Spicy"
+    ]
   },
   {
     "id": "555",
@@ -17912,7 +23418,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "556",
@@ -17941,7 +23458,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "557",
@@ -17971,7 +23499,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "558",
@@ -18003,7 +23542,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Marine"
+    ]
   },
   {
     "id": "559",
@@ -18030,7 +23580,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "560",
@@ -18064,7 +23625,17 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Musky",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "561",
@@ -18090,7 +23661,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "562",
@@ -18123,7 +23705,17 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "563",
@@ -18150,7 +23742,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "564",
@@ -18184,7 +23787,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Marine"
+    ]
   },
   {
     "id": "565",
@@ -18206,7 +23820,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "566",
@@ -18230,7 +23854,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Fruity",
+      "Leather"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Leather"
+    ]
   },
   {
     "id": "567",
@@ -18276,7 +23910,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Marine"
+    ]
   },
   {
     "id": "568",
@@ -18309,7 +23954,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Powdery"
+    ]
   },
   {
     "id": "569",
@@ -18334,7 +23990,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Fruity"
+    ],
+    "accords": [
+      "Fruity",
+      "Musky",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "570",
@@ -18364,7 +24030,13 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "571",
@@ -18385,7 +24057,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "572",
@@ -18416,7 +24094,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "573",
@@ -18461,7 +24145,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "574",
@@ -18502,7 +24197,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Leather"
+    ]
   },
   {
     "id": "575",
@@ -18529,7 +24235,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "576",
@@ -18571,7 +24288,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "577",
@@ -18615,7 +24343,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "578",
@@ -18646,7 +24385,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "579",
@@ -18674,7 +24419,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "580",
@@ -18702,7 +24458,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "581",
@@ -18734,7 +24501,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "582",
@@ -18772,7 +24550,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Aromatic"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Herbal",
+      "Marine"
+    ]
   },
   {
     "id": "583",
@@ -18811,7 +24600,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "584",
@@ -18832,7 +24632,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Leather",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Leather",
+      "Marine",
+      "Woody"
+    ]
   },
   {
     "id": "585",
@@ -18875,7 +24686,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "586",
@@ -18915,7 +24737,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Aromatic"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "587",
@@ -18948,7 +24781,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "588",
@@ -18980,7 +24824,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "589",
@@ -19001,7 +24851,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "590",
@@ -19032,7 +24888,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "591",
@@ -19057,7 +24919,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Gourmand",
+      "Spicy"
+    ],
+    "accords": [
+      "Spicy",
+      "Sweet",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "592",
@@ -19078,7 +24951,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "593",
@@ -19106,7 +24985,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "594",
@@ -19138,7 +25028,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "595",
@@ -19173,7 +25069,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "596",
@@ -19211,7 +25118,17 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Fruity",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Woody"
+    ]
   },
   {
     "id": "597",
@@ -19232,7 +25149,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "598",
@@ -19270,7 +25193,16 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Gourmand",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Sweet",
+      "Woody"
+    ]
   },
   {
     "id": "599",
@@ -19299,7 +25231,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Leather"
+    ]
   },
   {
     "id": "600",
@@ -19337,7 +25280,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "601",
@@ -19362,7 +25316,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "602",
@@ -19387,7 +25351,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Gourmand",
+      "Spicy"
+    ],
+    "accords": [
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "603",
@@ -19423,7 +25397,17 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Powdery",
+      "Woody"
+    ]
   },
   {
     "id": "604",
@@ -19460,7 +25444,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Fruity",
+      "Spicy"
+    ]
   },
   {
     "id": "605",
@@ -19495,7 +25490,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Musky",
+      "Powdery",
+      "Sweet"
+    ]
   },
   {
     "id": "606",
@@ -19537,7 +25543,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "607",
@@ -19579,7 +25596,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "608",
@@ -19617,7 +25645,17 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "609",
@@ -19638,7 +25676,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "610",
@@ -19657,13 +25701,24 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Bourbon Vanilla",
-      "Orcanox™"
+      "Orcanox\u2122"
     ],
     "seasons": [],
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Fruity",
+      "Spicy"
+    ],
+    "accords": [
+      "Fruity",
+      "Smoky",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "611",
@@ -19682,13 +25737,24 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Bourbon Vanilla",
-      "Orcanox™"
+      "Orcanox\u2122"
     ],
     "seasons": [],
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Fruity",
+      "Spicy"
+    ],
+    "accords": [
+      "Fruity",
+      "Smoky",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "612",
@@ -19715,7 +25781,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "613",
@@ -19742,7 +25819,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "614",
@@ -19779,7 +25866,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Herbal"
+    ]
   },
   {
     "id": "615",
@@ -19819,7 +25917,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "616",
@@ -19855,7 +25964,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "617",
@@ -19883,7 +26003,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "618",
@@ -19921,7 +26052,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Sweet"
+    ]
   },
   {
     "id": "619",
@@ -19966,7 +26108,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Leather"
+    ]
   },
   {
     "id": "620",
@@ -20004,7 +26157,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "621",
@@ -20042,7 +26206,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "622",
@@ -20075,7 +26250,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Green",
+      "Marine",
+      "Woody"
+    ]
   },
   {
     "id": "623",
@@ -20102,7 +26288,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Fruity",
+      "Spicy"
+    ]
   },
   {
     "id": "624",
@@ -20140,7 +26337,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Fresh",
+      "Warm"
+    ]
   },
   {
     "id": "625",
@@ -20180,7 +26388,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Herbal",
+      "Spicy"
+    ]
   },
   {
     "id": "626",
@@ -20224,7 +26443,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "627",
@@ -20251,7 +26481,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "628",
@@ -20278,7 +26519,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "629",
@@ -20305,7 +26557,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "630",
@@ -20335,7 +26598,13 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "631",
@@ -20356,7 +26625,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "632",
@@ -20389,7 +26664,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Leather",
+      "Smoky"
+    ]
   },
   {
     "id": "633",
@@ -20435,7 +26721,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "634",
@@ -20472,7 +26769,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Fruity",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "635",
@@ -20497,7 +26805,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "636",
@@ -20529,7 +26848,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "637",
@@ -20555,7 +26880,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "638",
@@ -20586,7 +26922,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "639",
@@ -20615,7 +26957,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Gourmand"
+    ],
+    "accords": [
+      "Fresh",
+      "Leather",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "640",
@@ -20654,7 +27007,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "641",
@@ -20686,7 +27050,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Fruity",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Leather",
+      "Musky"
+    ]
   },
   {
     "id": "642",
@@ -20714,14 +27089,25 @@ export const perfumes: Perfume[] = [
       "Monsoon Evenings"
     ],
     "time": "Evening",
-    "sprays": "2-3 sprays Top: Pink Pepper and Bergamot â€¢ Heart: Turkish Rose, Bulgarian Rose and Jasmine â€¢ Base: Agarwood (Oud), Amber and Vanilla",
+    "sprays": "2-3 sprays Top: Pink Pepper and Bergamot \u00e2\u20ac\u00a2 Heart: Turkish Rose, Bulgarian Rose and Jasmine \u00e2\u20ac\u00a2 Base: Agarwood (Oud), Amber and Vanilla",
     "occasions": [
       "Celebrations",
       "Receptions",
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "643",
@@ -20747,7 +27133,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Herbal",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "644",
@@ -20784,7 +27181,16 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Gourmand"
+    ],
+    "accords": [
+      "Musky",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "645",
@@ -20819,7 +27225,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Gourmand",
+      "Leather"
+    ],
+    "accords": [
+      "Leather",
+      "Musky",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "646",
@@ -20859,7 +27276,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "647",
@@ -20890,7 +27318,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "648",
@@ -20922,7 +27361,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "649",
@@ -20953,7 +27398,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "650",
@@ -20984,7 +27435,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "651",
@@ -21008,7 +27465,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "652",
@@ -21029,7 +27497,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "653",
@@ -21050,7 +27524,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "654",
@@ -21072,7 +27552,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Smoky",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "655",
@@ -21100,7 +27590,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Musky",
+      "Warm"
+    ]
   },
   {
     "id": "656",
@@ -21121,7 +27622,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "657",
@@ -21142,7 +27649,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "658",
@@ -21163,7 +27676,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "659",
@@ -21184,7 +27703,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "660",
@@ -21220,7 +27745,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Fruity",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "661",
@@ -21252,7 +27788,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "662",
@@ -21284,7 +27826,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "663",
@@ -21324,7 +27872,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Woody"
+    ]
   },
   {
     "id": "664",
@@ -21362,7 +27921,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "665",
@@ -21391,7 +27961,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "666",
@@ -21425,7 +28006,15 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "667",
@@ -21459,7 +28048,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "668",
@@ -21508,7 +28108,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Herbal"
+    ]
   },
   {
     "id": "669",
@@ -21535,7 +28146,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "670",
@@ -21575,7 +28197,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "671",
@@ -21606,7 +28239,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "672",
@@ -21637,7 +28281,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "673",
@@ -21658,7 +28313,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "674",
@@ -21688,7 +28349,13 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "675",
@@ -21726,7 +28393,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Woody"
+    ]
   },
   {
     "id": "676",
@@ -21761,7 +28439,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Spicy"
+    ]
   },
   {
     "id": "677",
@@ -21792,7 +28481,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "678",
@@ -21823,7 +28523,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "679",
@@ -21844,7 +28550,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "680",
@@ -21882,7 +28594,17 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Musky",
+      "Powdery",
+      "Woody"
+    ]
   },
   {
     "id": "681",
@@ -21908,7 +28630,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Marine"
+    ]
   },
   {
     "id": "682",
@@ -21939,7 +28672,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "683",
@@ -21960,7 +28699,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "684",
@@ -21986,7 +28731,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "685",
@@ -22023,7 +28779,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "686",
@@ -22044,7 +28811,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "687",
@@ -22082,7 +28855,17 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "688",
@@ -22110,7 +28893,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Aromatic"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Marine"
+    ]
   },
   {
     "id": "689",
@@ -22144,7 +28938,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Green",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "690",
@@ -22183,7 +28988,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fruity"
+    ]
   },
   {
     "id": "691",
@@ -22210,7 +29026,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "692",
@@ -22245,7 +29072,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Gourmand",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Green",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "693",
@@ -22266,7 +29104,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "694",
@@ -22287,7 +29131,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "695",
@@ -22308,7 +29158,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "696",
@@ -22343,7 +29199,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Spicy"
+    ]
   },
   {
     "id": "697",
@@ -22370,7 +29237,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "698",
@@ -22411,7 +29289,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "699",
@@ -22443,7 +29332,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "700",
@@ -22484,7 +29379,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Green",
+      "Leather"
+    ]
   },
   {
     "id": "701",
@@ -22505,7 +29411,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "702",
@@ -22548,7 +29460,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "703",
@@ -22569,7 +29492,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "704",
@@ -22590,7 +29519,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "705",
@@ -22629,7 +29564,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Leather",
+      "Spicy"
+    ]
   },
   {
     "id": "706",
@@ -22655,7 +29601,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "707",
@@ -22693,7 +29650,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Fresh",
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "708",
@@ -22729,7 +29697,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Herbal",
+      "Spicy"
+    ]
   },
   {
     "id": "709",
@@ -22757,7 +29736,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "710",
@@ -22788,7 +29778,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "711",
@@ -22815,7 +29811,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Powdery",
+      "Spicy"
+    ]
   },
   {
     "id": "712",
@@ -22857,7 +29864,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "713",
@@ -22890,7 +29908,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Aromatic"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "714",
@@ -22921,7 +29950,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Leather"
+    ]
   },
   {
     "id": "715",
@@ -22958,7 +29998,17 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Woody"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "716",
@@ -22994,7 +30044,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "717",
@@ -23035,7 +30096,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "718",
@@ -23078,7 +30150,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fruity"
+    ]
   },
   {
     "id": "719",
@@ -23106,7 +30189,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "720",
@@ -23141,7 +30235,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "721",
@@ -23171,7 +30276,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "722",
@@ -23192,7 +30308,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "723",
@@ -23224,7 +30346,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "724",
@@ -23263,7 +30391,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "725",
@@ -23290,7 +30429,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Fruity"
+    ],
+    "accords": [
+      "Fruity",
+      "Marine",
+      "Musky",
+      "Warm"
+    ]
   },
   {
     "id": "726",
@@ -23330,7 +30480,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "727",
@@ -23367,12 +30528,23 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "728",
     "slug": "premi-re-2013-eau-de-parfum-not-stated",
-    "brand": "Premiã¨Re 2013 Eau De Parfum",
+    "brand": "Premi\u00e3\u00a8Re 2013 Eau De Parfum",
     "name": "Not stated",
     "gender": "Unisex",
     "topNotes": [
@@ -23395,7 +30567,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Fruity",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "729",
@@ -23443,7 +30626,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Green",
+      "Herbal"
+    ]
   },
   {
     "id": "730",
@@ -23475,7 +30669,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "731",
@@ -23496,7 +30696,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "732",
@@ -23535,7 +30741,16 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "733",
@@ -23564,7 +30779,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fruity"
+    ]
   },
   {
     "id": "734",
@@ -23600,7 +30826,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "735",
@@ -23627,7 +30864,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Herbal",
+      "Spicy"
+    ]
   },
   {
     "id": "736",
@@ -23662,7 +30910,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Woody"
+    ]
   },
   {
     "id": "737",
@@ -23700,7 +30959,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Musky"
+    ]
   },
   {
     "id": "738",
@@ -23732,7 +31002,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "739",
@@ -23753,7 +31029,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "740",
@@ -23780,7 +31062,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "741",
@@ -23801,7 +31094,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "742",
@@ -23822,7 +31121,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "743",
@@ -23847,7 +31152,16 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Musky",
+      "Woody"
+    ]
   },
   {
     "id": "744",
@@ -23882,7 +31196,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Woody"
+    ]
   },
   {
     "id": "745",
@@ -23916,7 +31241,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Musky",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "746",
@@ -23951,7 +31287,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "747",
@@ -23972,7 +31319,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "748",
@@ -23993,7 +31346,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "749",
@@ -24014,7 +31373,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "750",
@@ -24046,7 +31411,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "751",
@@ -24067,7 +31438,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "752",
@@ -24097,7 +31474,13 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "753",
@@ -24129,7 +31512,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "754",
@@ -24163,7 +31552,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "755",
@@ -24185,7 +31585,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Woody"
+    ],
+    "accords": [
+      "Woody"
+    ]
   },
   {
     "id": "756",
@@ -24206,7 +31612,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "757",
@@ -24231,7 +31643,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Woody"
+    ]
   },
   {
     "id": "758",
@@ -24262,7 +31684,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "759",
@@ -24292,7 +31720,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "760",
@@ -24313,7 +31752,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "761",
@@ -24340,7 +31790,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Gourmand"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Herbal",
+      "Leather"
+    ]
   },
   {
     "id": "762",
@@ -24365,7 +31826,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Musky",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "763",
@@ -24393,7 +31864,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Balsamic",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "764",
@@ -24425,7 +31907,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "765",
@@ -24460,7 +31948,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Woody"
+    ]
   },
   {
     "id": "766",
@@ -24496,7 +31995,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "767",
@@ -24517,7 +32027,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "768",
@@ -24538,7 +32054,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "769",
@@ -24559,7 +32081,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "770",
@@ -24583,7 +32111,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Musky",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "771",
@@ -24604,7 +32143,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "772",
@@ -24631,7 +32176,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Balsamic",
+      "Fresh",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "773",
@@ -24661,7 +32217,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "774",
@@ -24682,7 +32249,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "775",
@@ -24712,7 +32285,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "776",
@@ -24754,7 +32338,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "777",
@@ -24781,7 +32376,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "778",
@@ -24823,7 +32429,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "779",
@@ -24871,7 +32488,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "780",
@@ -24903,7 +32531,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "781",
@@ -24929,7 +32563,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Gourmand",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Sweet",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "782",
@@ -24959,7 +32604,15 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Warm"
+    ]
   },
   {
     "id": "783",
@@ -24995,7 +32648,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "784",
@@ -25028,7 +32692,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Spicy",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "785",
@@ -25076,7 +32751,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "786",
@@ -25116,7 +32802,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "787",
@@ -25146,7 +32843,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Gourmand"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "788",
@@ -25180,7 +32888,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "789",
@@ -25213,7 +32932,14 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "790",
@@ -25234,7 +32960,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "791",
@@ -25255,7 +32987,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "792",
@@ -25276,7 +33014,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "793",
@@ -25301,7 +33045,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "794",
@@ -25325,7 +33080,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Musky",
+      "Woody"
+    ]
   },
   {
     "id": "795",
@@ -25346,7 +33111,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "796",
@@ -25378,7 +33149,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "797",
@@ -25399,7 +33176,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "798",
@@ -25436,7 +33219,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Gourmand",
+      "Woody"
+    ],
+    "accords": [
+      "Balsamic",
+      "Green",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "799",
@@ -25457,7 +33251,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "800",
@@ -25478,7 +33278,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "801",
@@ -25499,7 +33305,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "802",
@@ -25531,7 +33343,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "803",
@@ -25552,7 +33370,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "804",
@@ -25573,7 +33397,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "805",
@@ -25598,7 +33428,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "806",
@@ -25628,7 +33469,13 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "807",
@@ -25660,7 +33507,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "808",
@@ -25692,7 +33545,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "809",
@@ -25730,7 +33589,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "810",
@@ -25780,7 +33650,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "811",
@@ -25813,7 +33694,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Sweet"
+    ]
   },
   {
     "id": "812",
@@ -25854,7 +33746,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "813",
@@ -25897,7 +33800,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "814",
@@ -25933,7 +33847,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Powdery"
+    ]
   },
   {
     "id": "815",
@@ -25957,7 +33882,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Fruity",
+      "Woody"
+    ],
+    "accords": [
+      "Fruity",
+      "Sweet",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "816",
@@ -25992,7 +33928,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "817",
@@ -26037,7 +33984,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Herbal",
+      "Leather"
+    ]
   },
   {
     "id": "818",
@@ -26066,7 +34024,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Leather",
+      "Spicy"
+    ]
   },
   {
     "id": "819",
@@ -26104,7 +34073,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "820",
@@ -26141,7 +34121,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Marine",
+      "Musky"
+    ]
   },
   {
     "id": "821",
@@ -26162,7 +34153,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "822",
@@ -26191,7 +34188,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Spicy"
+    ]
   },
   {
     "id": "823",
@@ -26219,7 +34227,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Fresh",
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "824",
@@ -26255,7 +34274,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Leather"
+    ]
   },
   {
     "id": "825",
@@ -26301,7 +34331,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "826",
@@ -26337,7 +34378,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "827",
@@ -26368,7 +34420,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Leather",
+      "Musky"
+    ]
   },
   {
     "id": "828",
@@ -26407,7 +34470,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Leather"
+    ]
   },
   {
     "id": "829",
@@ -26433,7 +34507,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Marine",
+      "Musky",
+      "Woody"
+    ]
   },
   {
     "id": "830",
@@ -26464,7 +34549,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "831",
@@ -26492,7 +34583,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Leather",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "832",
@@ -26522,7 +34624,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Fruity",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fruity",
+      "Musky",
+      "Smoky"
+    ]
   },
   {
     "id": "833",
@@ -26559,7 +34672,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "834",
@@ -26605,7 +34729,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "835",
@@ -26629,7 +34764,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "836",
@@ -26666,7 +34812,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Marine",
+      "Powdery"
+    ]
   },
   {
     "id": "837",
@@ -26693,7 +34850,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Marine"
+    ]
   },
   {
     "id": "838",
@@ -26729,7 +34897,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Marine",
+      "Warm"
+    ]
   },
   {
     "id": "839",
@@ -26756,7 +34935,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Marine"
+    ]
   },
   {
     "id": "840",
@@ -26790,7 +34980,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Herbal",
+      "Woody"
+    ]
   },
   {
     "id": "841",
@@ -26827,7 +35028,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "842",
@@ -26864,7 +35076,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Fruity",
+      "Sweet"
+    ]
   },
   {
     "id": "843",
@@ -26889,7 +35112,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Fruity",
+      "Spicy"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Fruity",
+      "Spicy"
+    ]
   },
   {
     "id": "844",
@@ -26918,7 +35152,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Leather",
+      "Spicy"
+    ]
   },
   {
     "id": "845",
@@ -26952,7 +35197,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Marine"
+    ]
   },
   {
     "id": "846",
@@ -26979,7 +35235,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Marine"
+    ]
   },
   {
     "id": "847",
@@ -27016,7 +35283,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Marine"
+    ]
   },
   {
     "id": "848",
@@ -27052,7 +35330,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Marine",
+      "Spicy"
+    ]
   },
   {
     "id": "849",
@@ -27078,7 +35367,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Marine"
+    ]
   },
   {
     "id": "850",
@@ -27105,7 +35405,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "851",
@@ -27131,7 +35442,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Sweet"
+    ]
   },
   {
     "id": "852",
@@ -27159,7 +35481,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "853",
@@ -27187,7 +35520,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "854",
@@ -27227,7 +35571,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Leather",
+      "Spicy"
+    ]
   },
   {
     "id": "855",
@@ -27259,7 +35614,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "856",
@@ -27293,7 +35659,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "857",
@@ -27320,7 +35697,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "858",
@@ -27349,7 +35737,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "859",
@@ -27378,7 +35777,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "860",
@@ -27412,7 +35822,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "861",
@@ -27437,7 +35858,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Herbal",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "862",
@@ -27473,7 +35905,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "863",
@@ -27501,7 +35944,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Gourmand"
+    ],
+    "accords": [
+      "Fresh",
+      "Musky",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "864",
@@ -27523,7 +35977,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "865",
@@ -27547,7 +36012,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Fresh",
+      "Spicy"
+    ]
   },
   {
     "id": "866",
@@ -27575,7 +36051,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "867",
@@ -27617,7 +36104,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "868",
@@ -27653,7 +36151,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "869",
@@ -27695,7 +36204,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "870",
@@ -27729,7 +36249,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "871",
@@ -27762,7 +36293,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Green",
+      "Herbal"
+    ]
   },
   {
     "id": "872",
@@ -27802,7 +36344,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "873",
@@ -27828,7 +36381,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "874",
@@ -27853,7 +36417,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Gourmand"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "875",
@@ -27863,7 +36438,7 @@ export const perfumes: Perfume[] = [
     "gender": "for men",
     "topNotes": [
       "Cinnamon",
-      "Pepperwood™"
+      "Pepperwood\u2122"
     ],
     "heartNotes": [
       "Tobacco Leaf",
@@ -27883,7 +36458,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Musky"
+    ]
   },
   {
     "id": "876",
@@ -27920,7 +36506,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "877",
@@ -27961,7 +36558,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "878",
@@ -28006,7 +36614,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Marine"
+    ]
   },
   {
     "id": "879",
@@ -28053,7 +36672,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "880",
@@ -28089,7 +36719,17 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Musky",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "881",
@@ -28120,7 +36760,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Spicy"
+    ]
   },
   {
     "id": "882",
@@ -28149,7 +36800,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "883",
@@ -28177,7 +36839,16 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "884",
@@ -28208,7 +36879,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "885",
@@ -28239,7 +36921,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Spicy"
+    ]
   },
   {
     "id": "886",
@@ -28266,7 +36959,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Sweet"
+    ]
   },
   {
     "id": "887",
@@ -28298,7 +37002,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "888",
@@ -28335,7 +37050,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "889",
@@ -28361,7 +37087,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Powdery"
+    ]
   },
   {
     "id": "890",
@@ -28391,7 +37128,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "891",
@@ -28424,7 +37172,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "892",
@@ -28443,7 +37202,7 @@ export const perfumes: Perfume[] = [
       "Petalia",
       "Lily-of-the-Valley",
       "Vetiver",
-      "Nympheal™",
+      "Nympheal\u2122",
       "Mahonia"
     ],
     "baseNotes": [
@@ -28458,7 +37217,7 @@ export const perfumes: Perfume[] = [
       "Monsoon"
     ],
     "time": "Day",
-    "sprays": "3-4 sprays; 2-3 indoors Top: Aldehydes, White Peach, Bergamot and Mandarin Orange â€¢ Heart: Orange Blossom, Petalia, Lily-of-the-Valley, Vetiver, Nymphealâ„¢ and Mahonia â€¢ Base: Musk, Ambroxan, Akigalawood and Vanilla",
+    "sprays": "3-4 sprays; 2-3 indoors Top: Aldehydes, White Peach, Bergamot and Mandarin Orange \u00e2\u20ac\u00a2 Heart: Orange Blossom, Petalia, Lily-of-the-Valley, Vetiver, Nympheal\u00e2\u201e\u00a2 and Mahonia \u00e2\u20ac\u00a2 Base: Musk, Ambroxan, Akigalawood and Vanilla",
     "occasions": [
       "Travel",
       "Casual Daytime Events",
@@ -28466,7 +37225,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "893",
@@ -28495,7 +37265,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "894",
@@ -28531,7 +37312,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Powdery",
+      "Sweet"
+    ]
   },
   {
     "id": "895",
@@ -28559,7 +37351,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "896",
@@ -28586,7 +37389,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Warm"
+    ]
   },
   {
     "id": "897",
@@ -28621,7 +37435,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Leather"
+    ]
   },
   {
     "id": "898",
@@ -28656,7 +37481,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "899",
@@ -28684,7 +37520,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Leather"
+    ]
   },
   {
     "id": "900",
@@ -28716,7 +37563,16 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Leather"
+    ],
+    "accords": [
+      "Balsamic",
+      "Leather",
+      "Warm"
+    ]
   },
   {
     "id": "901",
@@ -28743,7 +37599,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "902",
@@ -28764,7 +37631,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "903",
@@ -28789,7 +37662,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "904",
@@ -28816,7 +37700,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Herbal",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "905",
@@ -28837,7 +37732,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "906",
@@ -28869,7 +37770,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "907",
@@ -28890,7 +37797,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "908",
@@ -28913,7 +37826,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Gourmand"
+    ],
+    "accords": [
+      "Musky",
+      "Powdery",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "909",
@@ -28943,7 +37866,13 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "910",
@@ -28983,7 +37912,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "911",
@@ -29010,7 +37950,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "912",
@@ -29041,7 +37992,7 @@ export const perfumes: Perfume[] = [
       "Monsoon"
     ],
     "time": "Day",
-    "sprays": "3-4 sprays; 2-3 indoors Top: African Orange Flower, Neroli, Orange and Mandarin Orange â€¢ Heart: Iris, Galbanum and Mastic or Lentisque â€¢ Base: Incense, Virginia Cedar, Benzoin and Vetiver",
+    "sprays": "3-4 sprays; 2-3 indoors Top: African Orange Flower, Neroli, Orange and Mandarin Orange \u00e2\u20ac\u00a2 Heart: Iris, Galbanum and Mastic or Lentisque \u00e2\u20ac\u00a2 Base: Incense, Virginia Cedar, Benzoin and Vetiver",
     "occasions": [
       "Travel",
       "Casual Daytime Events",
@@ -29049,7 +38000,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "913",
@@ -29072,7 +38034,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Woody"
+    ]
   },
   {
     "id": "914",
@@ -29102,7 +38074,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Powdery"
+    ]
   },
   {
     "id": "915",
@@ -29126,7 +38109,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Leather",
+      "Powdery"
+    ]
   },
   {
     "id": "916",
@@ -29159,7 +38153,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Musky",
+      "Warm"
+    ]
   },
   {
     "id": "917",
@@ -29194,7 +38199,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Musky",
+      "Warm"
+    ]
   },
   {
     "id": "918",
@@ -29221,7 +38237,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Herbal",
+      "Marine"
+    ]
   },
   {
     "id": "919",
@@ -29257,7 +38284,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Sweet"
+    ]
   },
   {
     "id": "920",
@@ -29289,7 +38327,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "921",
@@ -29310,7 +38354,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "922",
@@ -29331,7 +38381,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "923",
@@ -29354,7 +38410,16 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "924",
@@ -29392,7 +38457,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Leather"
+    ]
   },
   {
     "id": "925",
@@ -29421,7 +38497,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Aromatic"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "926",
@@ -29460,7 +38547,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "927",
@@ -29492,7 +38590,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "928",
@@ -29542,7 +38646,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "929",
@@ -29581,7 +38696,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "930",
@@ -29614,7 +38740,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Gourmand",
+      "Leather"
+    ],
+    "accords": [
+      "Leather",
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "931",
@@ -29637,7 +38774,16 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Spicy",
+      "Woody"
+    ]
   },
   {
     "id": "932",
@@ -29675,7 +38821,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Woody"
+    ]
   },
   {
     "id": "933",
@@ -29708,7 +38865,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Leather"
+    ]
   },
   {
     "id": "934",
@@ -29732,7 +38900,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Musky",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "935",
@@ -29769,7 +38948,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "936",
@@ -29796,7 +38986,7 @@ export const perfumes: Perfume[] = [
       "Monsoon"
     ],
     "time": "Day",
-    "sprays": "3-4 sprays; 2-3 indoors Top: Pomegranate and Tangerine â€¢ Heart: Damask Rose, Freesia, Jasmine and Ozonic notes â€¢ Base: Woody Notes",
+    "sprays": "3-4 sprays; 2-3 indoors Top: Pomegranate and Tangerine \u00e2\u20ac\u00a2 Heart: Damask Rose, Freesia, Jasmine and Ozonic notes \u00e2\u20ac\u00a2 Base: Woody Notes",
     "occasions": [
       "Travel",
       "Casual Daytime Events",
@@ -29804,7 +38994,15 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Woody"
+    ]
   },
   {
     "id": "937",
@@ -29853,7 +39051,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "938",
@@ -29896,7 +39105,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "939",
@@ -29943,7 +39163,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "940",
@@ -29988,7 +39219,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "941",
@@ -30024,7 +39266,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "942",
@@ -30063,7 +39316,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "943",
@@ -30102,7 +39366,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "944",
@@ -30145,7 +39420,7 @@ export const perfumes: Perfume[] = [
       "Monsoon Evenings"
     ],
     "time": "Day / Evening",
-    "sprays": "2-3 sprays Top: Bergamot and Grapefruit â€¢ Heart: Banana, Apple, Pear, Black Currant and Rose â€¢ Base: Agarwood (Oud), Leather, Amber, Birch, Rhubarb, Saffron, Patchouli, Gurjan balsam, Musk, Sandalwood, Cardamom, Cashmere Wood, Labdanum, Oakmoss, Amyris,",
+    "sprays": "2-3 sprays Top: Bergamot and Grapefruit \u00e2\u20ac\u00a2 Heart: Banana, Apple, Pear, Black Currant and Rose \u00e2\u20ac\u00a2 Base: Agarwood (Oud), Leather, Amber, Birch, Rhubarb, Saffron, Patchouli, Gurjan balsam, Musk, Sandalwood, Cardamom, Cashmere Wood, Labdanum, Oakmoss, Amyris,",
     "occasions": [
       "Lunches",
       "Smart Casuals",
@@ -30153,7 +39428,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "945",
@@ -30200,7 +39486,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "946",
@@ -30246,7 +39543,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "947",
@@ -30297,7 +39605,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "948",
@@ -30343,7 +39662,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "949",
@@ -30375,7 +39705,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "950",
@@ -30403,7 +39744,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Spicy"
+    ]
   },
   {
     "id": "951",
@@ -30439,7 +39791,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "952",
@@ -30475,7 +39838,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "953",
@@ -30525,7 +39899,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "954",
@@ -30575,7 +39960,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Aromatic"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "955",
@@ -30609,7 +40005,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Leather",
+      "Musky"
+    ]
   },
   {
     "id": "956",
@@ -30658,7 +40065,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "957",
@@ -30707,7 +40125,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "958",
@@ -30746,7 +40175,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "959",
@@ -30782,7 +40222,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "960",
@@ -30807,7 +40258,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Musky",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "961",
@@ -30840,7 +40301,15 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Green",
+      "Musky"
+    ]
   },
   {
     "id": "962",
@@ -30868,7 +40337,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Herbal",
+      "Spicy"
+    ]
   },
   {
     "id": "963",
@@ -30900,7 +40380,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "964",
@@ -30921,7 +40407,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "965",
@@ -30942,7 +40434,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "966",
@@ -30973,7 +40471,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "967",
@@ -30994,7 +40498,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "968",
@@ -31015,7 +40525,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "969",
@@ -31036,7 +40552,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "970",
@@ -31057,7 +40579,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "971",
@@ -31078,7 +40606,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "972",
@@ -31102,7 +40636,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Gourmand",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Sweet",
+      "Woody"
+    ]
   },
   {
     "id": "973",
@@ -31123,7 +40668,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "974",
@@ -31144,7 +40695,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "975",
@@ -31165,7 +40722,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "976",
@@ -31197,7 +40760,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "977",
@@ -31231,7 +40800,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "978",
@@ -31283,7 +40863,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "979",
@@ -31315,7 +40906,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "980",
@@ -31346,7 +40943,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "981",
@@ -31376,7 +40979,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "982",
@@ -31425,7 +41039,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "983",
@@ -31454,7 +41079,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "984",
@@ -31499,7 +41135,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "985",
@@ -31520,7 +41167,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "986",
@@ -31541,7 +41194,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "987",
@@ -31583,7 +41242,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Herbal",
+      "Smoky"
+    ]
   },
   {
     "id": "988",
@@ -31621,7 +41291,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "989",
@@ -31658,7 +41339,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Herbal",
+      "Leather"
+    ]
   },
   {
     "id": "990",
@@ -31698,7 +41390,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "991",
@@ -31741,7 +41444,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Leather",
+      "Musky"
+    ]
   },
   {
     "id": "992",
@@ -31775,7 +41489,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal",
+      "Musky",
+      "Warm"
+    ]
   },
   {
     "id": "993",
@@ -31810,7 +41535,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "994",
@@ -31838,7 +41574,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "995",
@@ -31869,7 +41616,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "996",
@@ -31901,7 +41659,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Leather"
+    ]
   },
   {
     "id": "997",
@@ -31931,7 +41700,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "998",
@@ -31964,7 +41744,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "999",
@@ -31995,7 +41786,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "1000",
@@ -32034,7 +41836,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Warm"
+    ]
   },
   {
     "id": "1001",
@@ -32064,7 +41877,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Warm"
+    ]
   },
   {
     "id": "1002",
@@ -32102,7 +41926,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "1003",
@@ -32141,7 +41976,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Leather",
+      "Spicy"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Leather",
+      "Spicy"
+    ]
   },
   {
     "id": "1004",
@@ -32187,7 +42033,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Green",
+      "Musky"
+    ]
   },
   {
     "id": "1005",
@@ -32208,7 +42065,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1006",
@@ -32229,7 +42092,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1007",
@@ -32250,7 +42119,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1008",
@@ -32281,7 +42156,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1009",
@@ -32308,7 +42189,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Herbal",
+      "Warm"
+    ]
   },
   {
     "id": "1010",
@@ -32353,7 +42245,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "1011",
@@ -32391,7 +42294,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "1012",
@@ -32429,7 +42343,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "1013",
@@ -32453,7 +42378,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Powdery",
+      "Woody"
+    ]
   },
   {
     "id": "1014",
@@ -32484,7 +42420,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1015",
@@ -32512,7 +42454,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Spicy"
+    ]
   },
   {
     "id": "1016",
@@ -32522,7 +42475,7 @@ export const perfumes: Perfume[] = [
     "gender": "for women and men",
     "topNotes": [
       "Cognac",
-      "Dyer’s Greenweed",
+      "Dyer\u2019s Greenweed",
       "Bergamot"
     ],
     "heartNotes": [
@@ -32541,7 +42494,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Powdery"
+    ]
   },
   {
     "id": "1017",
@@ -32568,7 +42532,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Fruity",
+      "Leather"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Leather",
+      "Smoky"
+    ]
   },
   {
     "id": "1018",
@@ -32604,7 +42579,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Aromatic"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "1019",
@@ -32643,7 +42629,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Leather",
+      "Powdery"
+    ]
   },
   {
     "id": "1020",
@@ -32678,7 +42675,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Fruity",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "1021",
@@ -32707,7 +42715,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Gourmand"
+    ],
+    "accords": [
+      "Herbal",
+      "Leather",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "1022",
@@ -32744,7 +42763,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Herbal",
+      "Spicy"
+    ]
   },
   {
     "id": "1023",
@@ -32775,7 +42805,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1024",
@@ -32812,7 +42848,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Powdery"
+    ]
   },
   {
     "id": "1025",
@@ -32857,7 +42904,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Leather"
+    ]
   },
   {
     "id": "1026",
@@ -32901,7 +42959,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Spicy"
+    ]
   },
   {
     "id": "1027",
@@ -32940,7 +43009,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "1029",
@@ -32968,7 +43048,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "1030",
@@ -32999,7 +43090,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1031",
@@ -33034,7 +43131,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Fresh",
+      "Musky",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "1032",
@@ -33076,7 +43184,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "1033",
@@ -33118,7 +43237,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "1034",
@@ -33144,7 +43274,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "1035",
@@ -33185,7 +43326,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "1036",
@@ -33225,7 +43377,7 @@ export const perfumes: Perfume[] = [
       "Monsoon Evenings"
     ],
     "time": "Day / Evening",
-    "sprays": "2-3 sprays Top: Violet, Pink Pepper, Caraway, Bergamot and Verbena â€¢ Heart: Tuscan Iris, Bulgarian Rose, Black Pepper, Nutmeg, Geranium and Clary Sage â€¢ Base: Indonesian Patchouli Leaf, Amber, Vanilla, Civet, Leather, Opoponax, Benzoin, Vetiver and",
+    "sprays": "2-3 sprays Top: Violet, Pink Pepper, Caraway, Bergamot and Verbena \u00e2\u20ac\u00a2 Heart: Tuscan Iris, Bulgarian Rose, Black Pepper, Nutmeg, Geranium and Clary Sage \u00e2\u20ac\u00a2 Base: Indonesian Patchouli Leaf, Amber, Vanilla, Civet, Leather, Opoponax, Benzoin, Vetiver and",
     "occasions": [
       "Lunches",
       "Smart Casuals",
@@ -33233,7 +43385,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "1037",
@@ -33258,7 +43421,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Leather",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Leather",
+      "Powdery",
+      "Woody"
+    ]
   },
   {
     "id": "1038",
@@ -33283,7 +43457,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Leather",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Leather",
+      "Powdery",
+      "Woody"
+    ]
   },
   {
     "id": "1039",
@@ -33322,7 +43507,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Spicy"
+    ]
   },
   {
     "id": "1040",
@@ -33352,7 +43548,13 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1041",
@@ -33373,7 +43575,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1042",
@@ -33394,7 +43602,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1043",
@@ -33415,7 +43629,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1044",
@@ -33436,7 +43656,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1045",
@@ -33457,7 +43683,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1046",
@@ -33487,7 +43719,13 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1047",
@@ -33529,7 +43767,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Fruity",
+      "Spicy"
+    ],
+    "accords": [
+      "Fruity",
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "1048",
@@ -33565,7 +43814,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "1049",
@@ -33599,7 +43859,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "1050",
@@ -33643,7 +43914,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Fresh",
+      "Spicy"
+    ]
   },
   {
     "id": "1051",
@@ -33674,7 +43956,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Musky",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "1052",
@@ -33715,7 +44008,15 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "1053",
@@ -33744,7 +44045,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Spicy"
+    ]
   },
   {
     "id": "1054",
@@ -33772,7 +44084,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "1055",
@@ -33802,7 +44125,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "1056",
@@ -33828,7 +44162,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Gourmand",
+      "Woody"
+    ],
+    "accords": [
+      "Sweet",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "1057",
@@ -33854,7 +44198,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Gourmand",
+      "Woody"
+    ],
+    "accords": [
+      "Sweet",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "1058",
@@ -33881,7 +44235,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Herbal",
+      "Leather"
+    ]
   },
   {
     "id": "1059",
@@ -33898,7 +44263,7 @@ export const perfumes: Perfume[] = [
     ],
     "baseNotes": [
       "Vanilla Absolute",
-      "Ultravanil™",
+      "Ultravanil\u2122",
       "Tonka Bean",
       "Sandalwood"
     ],
@@ -33906,7 +44271,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Sweet",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "1060",
@@ -33945,7 +44321,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "1061",
@@ -33982,7 +44369,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Leather",
+      "Sweet"
+    ]
   },
   {
     "id": "1062",
@@ -34009,7 +44407,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Spicy"
+    ]
   },
   {
     "id": "1063",
@@ -34047,7 +44456,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "1064",
@@ -34091,7 +44511,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Herbal"
+    ]
   },
   {
     "id": "1065",
@@ -34112,7 +44543,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1066",
@@ -34140,7 +44577,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "1067",
@@ -34171,7 +44619,16 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "1068",
@@ -34208,7 +44665,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "1069",
@@ -34243,7 +44711,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Gourmand",
+      "Leather"
+    ],
+    "accords": [
+      "Fresh",
+      "Leather",
+      "Sweet",
+      "Woody"
+    ]
   },
   {
     "id": "1070",
@@ -34289,7 +44768,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Sweet"
+    ]
   },
   {
     "id": "1071",
@@ -34329,7 +44819,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "1072",
@@ -34381,7 +44882,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "1073",
@@ -34430,7 +44942,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Herbal"
+    ]
   },
   {
     "id": "1074",
@@ -34470,7 +44993,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "1075",
@@ -34508,7 +45042,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "1076",
@@ -34548,7 +45093,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "1077",
@@ -34566,7 +45122,7 @@ export const perfumes: Perfume[] = [
     "heartNotes": [
       "Geranium",
       "Rose",
-      "Pepperwood™"
+      "Pepperwood\u2122"
     ],
     "baseNotes": [
       "Vanilla",
@@ -34591,7 +45147,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "1078",
@@ -34633,7 +45200,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "1079",
@@ -34660,7 +45238,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Leather",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Leather",
+      "Spicy"
+    ]
   },
   {
     "id": "1080",
@@ -34699,7 +45288,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Leather",
+      "Powdery"
+    ]
   },
   {
     "id": "1081",
@@ -34736,7 +45336,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Herbal",
+      "Powdery",
+      "Warm"
+    ]
   },
   {
     "id": "1082",
@@ -34778,7 +45389,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Floral",
+      "Fruity",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "1083",
@@ -34816,7 +45438,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "1084",
@@ -34857,7 +45490,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "1085",
@@ -34889,7 +45533,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1086",
@@ -34920,7 +45570,15 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Warm"
+    ]
   },
   {
     "id": "1087",
@@ -34943,7 +45601,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Floral",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "1088",
@@ -34984,7 +45652,7 @@ export const perfumes: Perfume[] = [
       "Monsoon Evenings"
     ],
     "time": "Day / Evening",
-    "sprays": "2-3 sprays Top: Guatemalan Cardamom, Mint, Bergamot, Grapefruit and Mandarin Orange â€¢ Heart: Lavender, Cinnamon, Nutmeg, Jasmine, Orange Blossom, Violet, African Geranium and Freesia â€¢ Base: Incense, Vanilla, Sandalwood, Amber, Leather, Iris, Patchouli,",
+    "sprays": "2-3 sprays Top: Guatemalan Cardamom, Mint, Bergamot, Grapefruit and Mandarin Orange \u00e2\u20ac\u00a2 Heart: Lavender, Cinnamon, Nutmeg, Jasmine, Orange Blossom, Violet, African Geranium and Freesia \u00e2\u20ac\u00a2 Base: Incense, Vanilla, Sandalwood, Amber, Leather, Iris, Patchouli,",
     "occasions": [
       "Lunches",
       "Smart Casuals",
@@ -34992,7 +45660,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "1089",
@@ -35021,7 +45700,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "1090",
@@ -35059,7 +45749,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Leather",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Leather",
+      "Spicy"
+    ]
   },
   {
     "id": "1091",
@@ -35080,7 +45781,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1092",
@@ -35107,7 +45814,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Leather",
+      "Musky"
+    ]
   },
   {
     "id": "1093",
@@ -35136,7 +45854,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "1094",
@@ -35167,7 +45896,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1095",
@@ -35197,7 +45932,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "1096",
@@ -35227,7 +45973,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Herbal",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "1097",
@@ -35264,7 +46021,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Woody"
+    ],
+    "accords": [
+      "Floral",
+      "Sweet",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "1098",
@@ -35296,7 +46064,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Musky"
+    ]
   },
   {
     "id": "1099",
@@ -35325,7 +46099,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Spicy",
+      "Woody"
+    ],
+    "accords": [
+      "Musky",
+      "Spicy",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "1100",
@@ -35364,7 +46149,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "1101",
@@ -35401,7 +46197,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aquatic",
+      "Aromatic"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "1102",
@@ -35442,7 +46249,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Powdery"
+    ]
   },
   {
     "id": "1103",
@@ -35474,7 +46292,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Fresh",
+      "Fruity",
+      "Green",
+      "Musky"
+    ]
   },
   {
     "id": "1104",
@@ -35499,7 +46328,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Musky",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "1105",
@@ -35537,7 +46376,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "1106",
@@ -35573,7 +46423,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Gourmand"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "1107",
@@ -35599,7 +46460,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Gourmand",
+      "Spicy"
+    ],
+    "accords": [
+      "Musky",
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "1108",
@@ -35629,7 +46501,13 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1109",
@@ -35669,7 +46547,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Leather",
+      "Spicy"
+    ]
   },
   {
     "id": "1110",
@@ -35695,14 +46584,24 @@ export const perfumes: Perfume[] = [
       "Cool Nights"
     ],
     "time": "Evening",
-    "sprays": "1-2 sprays Top: Green Notes â€¢ Heart: Cedar and Patchouli â€¢ Base: Tobacco, Musk and Vanilla",
+    "sprays": "1-2 sprays Top: Green Notes \u00e2\u20ac\u00a2 Heart: Cedar and Patchouli \u00e2\u20ac\u00a2 Base: Tobacco, Musk and Vanilla",
     "occasions": [
       "Receptions",
       "Winter Weddings",
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Green",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "1111",
@@ -35729,7 +46628,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "1112",
@@ -35768,7 +46678,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "1113",
@@ -35789,7 +46710,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1114",
@@ -35810,7 +46737,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Spicy"
+    ]
   },
   {
     "id": "1115",
@@ -35840,7 +46778,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Green"
+    ]
   },
   {
     "id": "1116",
@@ -35879,7 +46828,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Leather",
+      "Musky"
+    ]
   },
   {
     "id": "1117",
@@ -35909,7 +46869,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "1118",
@@ -35941,7 +46912,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "1119",
@@ -35969,7 +46951,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "1120",
@@ -35998,7 +46991,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Leather"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Leather"
+    ]
   },
   {
     "id": "1121",
@@ -36030,7 +47034,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "1122",
@@ -36064,7 +47079,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Gourmand"
+    ],
+    "accords": [
+      "Fresh",
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "1123",
@@ -36106,7 +47132,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Leather"
+    ]
   },
   {
     "id": "1124",
@@ -36144,7 +47181,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Musky"
+    ]
   },
   {
     "id": "1125",
@@ -36170,7 +47218,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Fresh",
+      "Herbal",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "1126",
@@ -36211,7 +47270,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "1127",
@@ -36236,7 +47306,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Gourmand"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "1128",
@@ -36265,7 +47346,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "1129",
@@ -36305,7 +47397,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "1130",
@@ -36343,7 +47446,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "1131",
@@ -36371,7 +47485,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Leather",
+      "Spicy"
+    ],
+    "accords": [
+      "Leather",
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "1132",
@@ -36400,7 +47525,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "1133",
@@ -36441,7 +47577,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "1134",
@@ -36473,7 +47620,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Woody"
+    ],
+    "accords": [
+      "Balsamic",
+      "Herbal",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "1135",
@@ -36499,7 +47657,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Fresh",
+      "Musky",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "1136",
@@ -36527,7 +47696,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "1137",
@@ -36568,7 +47748,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Marine"
+    ]
   },
   {
     "id": "1138",
@@ -36600,7 +47791,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1139",
@@ -36635,7 +47832,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "1140",
@@ -36669,7 +47877,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Herbal",
+      "Spicy"
+    ]
   },
   {
     "id": "1141",
@@ -36708,7 +47927,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Fresh",
+      "Musky",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "1142",
@@ -36743,7 +47973,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Sweet"
+    ]
   },
   {
     "id": "1143",
@@ -36776,7 +48017,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Herbal",
+      "Powdery"
+    ]
   },
   {
     "id": "1144",
@@ -36816,7 +48068,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "1145",
@@ -36841,7 +48104,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Herbal"
+    ]
   },
   {
     "id": "1146",
@@ -36864,7 +48138,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Warm",
+      "Woody"
+    ]
   },
   {
     "id": "1147",
@@ -36910,7 +48195,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aquatic",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "1148",
@@ -36942,7 +48238,16 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Woody"
+    ]
   },
   {
     "id": "1149",
@@ -36981,7 +48286,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "1150",
@@ -37012,7 +48328,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Green",
+      "Musky"
+    ]
   },
   {
     "id": "1151",
@@ -37061,7 +48388,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "1152",
@@ -37088,7 +48426,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "1153",
@@ -37122,7 +48471,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Spicy",
+      "Warm"
+    ]
   },
   {
     "id": "1154",
@@ -37159,7 +48519,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "1155",
@@ -37191,7 +48562,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Earthy",
+      "Floral",
+      "Fresh",
+      "Fruity"
+    ]
   },
   {
     "id": "1156",
@@ -37224,7 +48606,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "1157",
@@ -37250,7 +48643,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Spicy"
+    ],
+    "accords": [
+      "Floral",
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "1158",
@@ -37271,7 +48675,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1159",
@@ -37299,7 +48709,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Musky"
+    ]
   },
   {
     "id": "1160",
@@ -37335,7 +48756,17 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Fruity",
+      "Gourmand"
+    ],
+    "accords": [
+      "Fruity",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "1161",
@@ -37356,7 +48787,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fruity",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "1162",
@@ -37377,7 +48819,15 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus"
+    ],
+    "accords": [
+      "Fresh",
+      "Warm"
+    ]
   },
   {
     "id": "1163",
@@ -37398,7 +48848,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Gourmand"
+    ],
+    "accords": [
+      "Fresh",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "1164",
@@ -37421,7 +48881,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Aromatic",
+      "Citrus"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Herbal",
+      "Sweet"
+    ]
   },
   {
     "id": "1165",
@@ -37453,7 +48924,13 @@ export const perfumes: Perfume[] = [
       "Office",
       "Pujas"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1166",
@@ -37484,7 +48961,16 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Woody"
+    ]
   },
   {
     "id": "1167",
@@ -37510,7 +48996,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Musky",
+      "Spicy"
+    ]
   },
   {
     "id": "1168",
@@ -37531,7 +49028,13 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Aromatic"
+    ],
+    "accords": [
+      "Fresh"
+    ]
   },
   {
     "id": "1169",
@@ -37552,13 +49055,21 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Warm"
+    ]
   },
   {
     "id": "1170",
     "slug": "archive-top-rose-heart-amber-base-vanila",
     "brand": "Archive",
-    "name": "Top: Rose  â€¢  Heart: Amber  â€¢  Base: Vanila",
+    "name": "Top: Rose  \u00e2\u20ac\u00a2  Heart: Amber  \u00e2\u20ac\u00a2  Base: Vanila",
     "gender": "for men",
     "topNotes": [
       "Lemon",
@@ -37584,7 +49095,18 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Leather",
+      "Woody"
+    ],
+    "accords": [
+      "Earthy",
+      "Fresh",
+      "Leather",
+      "Woody"
+    ]
   },
   {
     "id": "1171",
@@ -37614,7 +49136,16 @@ export const perfumes: Perfume[] = [
       "Dinner Dates",
       "Formal Events"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Spicy"
+    ],
+    "accords": [
+      "Spicy",
+      "Sweet",
+      "Warm"
+    ]
   },
   {
     "id": "1172",
@@ -37658,7 +49189,18 @@ export const perfumes: Perfume[] = [
       "Office",
       "Brunch"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "1173",
@@ -37689,7 +49231,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Fruity",
+      "Leather"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "1174",
@@ -37720,7 +49273,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Spicy"
+    ],
+    "accords": [
+      "Fresh",
+      "Musky",
+      "Spicy",
+      "Sweet"
+    ]
   },
   {
     "id": "1175",
@@ -37756,7 +49320,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Earthy",
+      "Floral",
+      "Fresh"
+    ]
   },
   {
     "id": "1176",
@@ -37796,7 +49371,18 @@ export const perfumes: Perfume[] = [
       "Festive Evenings",
       "Formal Dinners"
     ],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Citrus",
+      "Floral",
+      "Fruity"
+    ],
+    "accords": [
+      "Floral",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   },
   {
     "id": "1177",
@@ -37835,7 +49421,18 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Floral"
+    ],
+    "accords": [
+      "Balsamic",
+      "Floral",
+      "Fresh",
+      "Musky"
+    ]
   },
   {
     "id": "1178",
@@ -37871,6 +49468,17 @@ export const perfumes: Perfume[] = [
     "time": "",
     "sprays": "",
     "occasions": [],
-    "featured": false
+    "featured": false,
+    "families": [
+      "Amber/Oriental",
+      "Citrus",
+      "Fruity"
+    ],
+    "accords": [
+      "Balsamic",
+      "Fresh",
+      "Fruity",
+      "Green"
+    ]
   }
 ];

@@ -21,6 +21,8 @@ export default function Catalog() {
   const [activeBrand, setActiveBrand] = useState('all');
   const [activeTime, setActiveTime] = useState('all');
   const [activeOccasion, setActiveOccasion] = useState('all');
+  const [activeFamily, setActiveFamily] = useState('all');
+  const [activeAccord, setActiveAccord] = useState('all');
   
   // UI State
   const [viewMode, setViewMode] = useState<ViewMode>('grid');
@@ -30,7 +32,7 @@ export default function Catalog() {
   
   // Accordion State (all open by default)
   const [openSections, setOpenSections] = useState<Record<string, boolean>>({
-    GENDER: true, TIME: true, OCCASION: true, BRAND: true
+    FAMILY: true, ACCORD: true, GENDER: false, TIME: false, OCCASION: false, BRAND: false
   });
 
   const toggleSection = (sec: string) => setOpenSections(prev => ({ ...prev, [sec]: !prev[sec] }));
@@ -42,13 +44,22 @@ export default function Catalog() {
   const times = ['all', ...Array.from(new Set(perfumes.map(p => p.time))).filter(Boolean)];
   const occasionsRaw = Array.from(new Set(perfumes.flatMap(p => p.occasions)));
   const occasions = ['all', ...occasionsRaw];
+  const familiesRaw = Array.from(new Set(perfumes.flatMap(p => p.families || [])));
+  const families = ['all', ...familiesRaw.sort()];
+  const accordsRaw = Array.from(new Set(perfumes.flatMap(p => p.accords || [])));
+  const accords = ['all', ...accordsRaw.sort()];
 
   const filteredBrands = brands.filter(b => b === 'all' || b.toLowerCase().includes(brandSearch.toLowerCase()));
 
-  // Sync URL Season
+  // Sync URL Params
   useEffect(() => {
     const seasonQuery = queryParams.get('season') || 'all';
+    const familyQuery = queryParams.get('family') || 'all';
+    const accordQuery = queryParams.get('accord') || 'all';
+    
     if (seasonQuery !== activeSeason) setActiveSeason(seasonQuery);
+    if (familyQuery !== activeFamily) setActiveFamily(familyQuery);
+    if (accordQuery !== activeAccord) setActiveAccord(accordQuery);
   }, [location.search]);
 
   const handleSeasonChange = (season: string) => {
@@ -64,9 +75,11 @@ export default function Catalog() {
       const matchBrand = activeBrand === 'all' || p.brand === activeBrand;
       const matchTime = activeTime === 'all' || p.time === activeTime;
       const matchOccasion = activeOccasion === 'all' || p.occasions.includes(activeOccasion);
-      return matchSeason && matchGender && matchBrand && matchTime && matchOccasion;
+      const matchFamily = activeFamily === 'all' || (p.families && p.families.some(f => f.toLowerCase() === activeFamily.toLowerCase()));
+      const matchAccord = activeAccord === 'all' || (p.accords && p.accords.some(a => a.toLowerCase() === activeAccord.toLowerCase()));
+      return matchSeason && matchGender && matchBrand && matchTime && matchOccasion && matchFamily && matchAccord;
     }),
-    [activeSeason, activeGender, activeBrand, activeTime, activeOccasion]
+    [activeSeason, activeGender, activeBrand, activeTime, activeOccasion, activeFamily, activeAccord]
   );
 
   // Reset pagination & animate on filter change
@@ -82,16 +95,20 @@ export default function Catalog() {
     setActiveBrand('all');
     setActiveTime('all');
     setActiveOccasion('all');
+    setActiveFamily('all');
+    setActiveAccord('all');
     setBrandSearch('');
     handleSeasonChange('all');
   }, []);
 
-  const hasFilters = activeGender !== 'all' || activeBrand !== 'all' || activeTime !== 'all' || activeOccasion !== 'all';
+  const hasFilters = activeGender !== 'all' || activeBrand !== 'all' || activeTime !== 'all' || activeOccasion !== 'all' || activeFamily !== 'all' || activeAccord !== 'all';
 
   // --- REUSABLE FILTER PANEL COMPONENT ---
   const FilterContent = () => (
     <div className="flex flex-col gap-10">
       {[
+        { label: 'OLFACTORY FAMILY', values: families, active: activeFamily, set: setActiveFamily },
+        { label: 'MAIN ACCORDS', values: accords, active: activeAccord, set: setActiveAccord },
         { label: 'GENDER', values: genders, active: activeGender, set: setActiveGender },
         { label: 'TIME', values: times, active: activeTime, set: setActiveTime },
         { label: 'OCCASION', values: occasions, active: activeOccasion, set: setActiveOccasion },

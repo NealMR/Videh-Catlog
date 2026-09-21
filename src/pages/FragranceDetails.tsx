@@ -103,7 +103,15 @@ export default function FragranceDetails() {
        }
     });
 
-    // 4. Environmental Affinity (+2 point per shared season)
+    // 4. Olfactory Family & Accords (+6 per family, +3 per accord)
+    p.families?.forEach(f => {
+      if (perfume?.families?.includes(f)) score += 6;
+    });
+    p.accords?.forEach(a => {
+      if (perfume?.accords?.includes(a)) score += 3;
+    });
+
+    // 5. Environmental Affinity (+2 point per shared season)
     if (p.seasons.some(s => perfume?.seasons.includes(s))) score += 2;
     
     // 5. Time of Day (+1 point)
@@ -179,8 +187,37 @@ export default function FragranceDetails() {
             </div>
           </div>
 
-          {/* Olfactory Architecture */}
+          {/* Olfactory Classification */}
           <div className="detail-reveal">
+            <p className="text-xs uppercase tracking-[0.5em] text-[#AAAAAA] mb-8">Olfactory Classification</p>
+            
+            <div className="flex flex-col gap-8">
+              <div>
+                <p className="text-[10px] uppercase tracking-[0.3em] text-[#AAAAAA] mb-3">Families</p>
+                <div className="flex flex-wrap gap-2">
+                  {perfume.families?.map(f => (
+                    <Link key={f} to={`/catalog?family=${f.toLowerCase()}`} className="text-xs uppercase tracking-widest bg-[#111111] text-white px-5 py-2 hover:bg-[#C8102E] transition-colors">
+                      {f}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+              
+              <div>
+                <p className="text-[10px] uppercase tracking-[0.3em] text-[#AAAAAA] mb-3">Main Accords</p>
+                <div className="flex flex-wrap gap-2">
+                  {perfume.accords?.map(a => (
+                    <Link key={a} to={`/catalog?accord=${a.toLowerCase()}`} className="text-xs uppercase tracking-widest border border-[#EBEBEB] text-[#555555] px-4 py-2 hover:border-[#111111] hover:text-[#111111] transition-colors">
+                      {a}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Olfactory Architecture */}
+          <div className="pt-12 border-t border-[#EBEBEB] detail-reveal">
             <p className="text-xs uppercase tracking-[0.5em] text-[#AAAAAA] mb-12">Olfactory Architecture</p>
             
             <div className="flex flex-col gap-16">
